@@ -1,0 +1,120 @@
+.theme_color {
+    color: $origen-red !important;
+}
+
+.theme-btn {
+    cursor: pointer;
+
+    @media only screen and (max-width: 767px) {
+        display: block;
+        text-align: center;
+    }
+    
+    &.btn-style-one,
+    &.btn-style-two,
+    &.btn-style-five {
+        background: $origen-red;
+        border: 2px solid $origen-red;
+
+        &:hover {
+            background-color: transparent;
+            color: $origen-red;
+        }
+    }
+
+    &.btn-style-three {
+        &:hover {
+            border-color: $origen-red;
+            background: $origen-red;
+        }
+    }
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+    .page-breadcrumb {
+        li {
+            color: $origen-red;
+
+            a {
+                color: $white;
+
+                &:hover {
+                    color: $origen-red;
+                }
+            }
+        }
+    }
+
+    section {
+        .sec-title,
+        .title-box {
+            h2 {
+                color: $origen-grey !important;
+            }
+            .title-text {
+                color: $origen-grey-lighter;
+            }
+        }
+
+        .owl-carousel.owl-theme {
+            .owl-dots {
+                .owl-dot {
+                    &:hover, 
+                    &.active {
+                        background-color: $origen-red;
+                    }
+                }
+            }
+        }
+    }
+
+    .modal {
+        &-dialog {
+
+        }
+
+        &-content {
+            border: none;
+        }
+
+        &-header,
+        &-body,
+        &-footer {
+            &:empty {
+                display: none;
+            }
+        }
+
+        &-title {
+            position: relative;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.8em;
+            margin: 0;
+            color: $origen-grey;
+        }
+
+        button.close {
+            color: $origen-red;
+        }
+    }
+
+    .lowercase {
+        text-transform: lowercase !important;
+    }
+}
+
+.scroll-to-top {
+    bottom: 0;
+    background: $origen-red;
+
+    &:hover {
+        background: $origen-red-darker;
+    }
+}

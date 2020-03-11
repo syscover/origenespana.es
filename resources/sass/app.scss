@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Merriweather:300,300i,400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// Theme
+@import 'theme/bootstrap';
+@import 'theme/font-awesome';
+@import 'theme/flaticon';
+@import 'theme/animate';
+@import 'theme/owl';
+@import 'theme/jquery-ui';
+@import 'theme/jquery.fancybox.min';
+@import 'theme/jquery.mCustomScrollbar.min';
+@import 'theme/style';
+@import 'theme/slick';
+@import 'theme/responsive';
+
+// Shared
+@import 'shared/colors';
+@import 'shared/general';
+@import 'shared/header';
+@import 'shared/footer';
+
+// Pages
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/seals';
+@import 'pages/relations';
+@import 'pages/partners';
+@import 'pages/blog';
+@import 'pages/contact';

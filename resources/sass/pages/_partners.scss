@@ -1,0 +1,171 @@
+.portfolio-page-section {
+    @media only screen and (max-width: 767px) {
+        padding: 60px 0
+    }
+
+    .filters {
+        .filter-tabs {
+            @media only screen and (max-width: 767px) {
+                margin: 0 0 40px
+            }
+            .filter {
+                .dots {
+                    &:before,
+                    &:after {
+                        background-color: $origen-grey;
+                    }
+
+                    @media only screen and (max-width: 767px) {
+                        display: none;
+                    }
+                }
+
+                &:before {
+                    background-color: $origen-grey;
+
+                    @media only screen and (max-width: 767px) {
+                        display: none;
+                    }
+                }
+
+                &:hover,
+                &.active {
+                    color: $origen-red;
+                }
+            }
+        }
+    }
+}
+
+.gallery-block-two {
+    .inner-box {
+        .image-box {
+            .image {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .image--normal {
+                display: block;
+            }
+            .image--hover {
+                display: none;
+            }
+
+            &:hover {
+                .image--normal {
+                    display: none;
+                }
+                .image--hover {
+                    display: block;
+                }
+            }
+
+            .overlay-box {
+                &:before {
+                    background-color: rgba($origen-red, 0.66);
+                }
+            }    
+        }
+    }
+    
+    .text-box {
+        h3 {
+            position: relative;
+            color: $origen-grey;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.8em;
+            margin: 8px 0 2px;
+            transition: all 0.3s ease-out 0s;
+        }
+
+        p {
+            position: relative;
+            color: #555555;
+            font-size: 16px;
+            line-height: 1.6em;
+        }
+    }
+
+    &:hover {
+        .text-box h3 {
+            color: $origen-red;
+        }
+    }
+}
+
+.portfolio-single-section {
+    .content-column {
+        h2 {
+            color: $origen-grey;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            color: $origen-red;
+        }
+
+        .porfolio-info {
+            li {
+                color: $origen-grey;
+
+                span:first-child {
+                    color: $origen-red;
+                }
+    
+                a,
+                span:not(:first-child) {
+                    position: relative;
+                    color: $origen-grey;
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 1em;
+                    display: inline-block;
+                    padding: 0;
+                    margin: 0 0 10px;
+                    text-transform: capitalize;
+                    border-right: none;
+
+                    & + a,
+                    & + span {
+                        padding-left: 10px;
+                        margin-left: 10px;
+                        border-left: 1px solid $origen-grey;
+                    }
+                }
+            }
+        }
+        
+        .feature-block-two.style-two .inner-box h3 {
+            color: $origen-grey;
+    
+            :before {
+                color: $origen-red;
+            }
+        }    
+    }
+
+
+    .new-posts {
+        .prev-post,
+        .next-post {
+            color: $origen-grey;
+
+            &:hover {
+                color: $origen-red;
+            }
+        }
+    }
+}
+
+#fileModal {
+    iframe {
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+.call-to-action-two {
+    padding: 80px 0;
+}

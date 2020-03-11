@@ -1,0 +1,174 @@
+.main-slider {
+    .slide {
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba($black, 0.3);
+            z-index: 1;
+        }
+        .auto-container {
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
+
+.services-title-box {
+    padding: 80px 0;
+}
+
+.testimonial-section {
+    padding: 50px 0 80px;
+
+    @media only screen and (max-width: 767px) {
+        &:before {
+            display: none;
+        }
+
+        .testimonial-block-two {
+            .inner-box {
+                .image-column {
+                    .inner-column {
+                        .image {
+                            display: block;
+                            margin: 0 0 20px;
+                        }
+                    }
+                }
+                .content-column {
+                    .inner-column {
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+.news-section {
+    padding: 50px 0 80px;
+
+    @media only screen and (max-width: 767px) {
+        &:before {
+            display: none;
+        }
+    }
+
+    .blocks-column {
+        margin: 0 0 30px;
+
+        .news-block {
+            .inner-box {
+                .post-info {
+                    li {
+                        color: $origen-grey;
+        
+                        &:first-child {
+                            color: $origen-red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .image-column {
+        margin: 0;
+    }
+}
+
+.case-section {
+    padding: 50px 0 80px;
+
+    .case-block {
+        .inner-box {
+            .image {
+                .overlay-box {
+                    &:before {
+                        background-color: $origen-red;
+                    }
+                }
+            }
+    
+            .lower-box {
+                h3 a {
+                    &:hover {
+                        color: $origen-red;
+                    }
+                }
+                .category {
+                    color: $origen-grey;
+                }
+            }
+    
+            &:hover {
+                .lower-box {
+                    .category {
+                        color: $origen-red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.expert-section {
+    padding: 80px 0 20px;
+
+    .blocks-column {
+
+        .inner-column {
+            margin: 0;
+
+            .expert-block {
+                .inner-box {
+                    .image {
+
+                        &::before {
+                            display: none;
+                        }
+
+                        img {
+                            width: auto;
+                            height: auto;
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .lower-content {
+                        h3 {
+                            a {
+                                color: $origen-grey;
+
+                                &:hover {
+                                    color: $origen-red;
+                                }
+                            }
+                        }
+
+                        .designation {
+                            color: $origen-red;
+                        }
+                    }
+                }
+            }
+    
+            .owl-dots {
+                .owl-dot {
+                    &:hover,
+                    &.active {
+                        background-color: $origen-red;
+                    }
+                }
+            }
+        }
+    }
+}

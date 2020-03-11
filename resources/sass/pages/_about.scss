@@ -1,0 +1,97 @@
+.feature-block-four {
+    .inner-box {
+        .icon-box {
+            color: $origen-red;
+        }
+
+        &:hover {
+            .icon-box {
+                color: $origen-red;
+            }
+        }
+    }
+}
+
+.services-section-four {
+    padding-top: 0;
+
+    .inner-box {
+        &:before,
+        &:after  {
+            background-color: $origen-grey;
+        }
+
+        .icon-box {
+            color: $origen-red;
+        }
+
+        h3 {
+            a {
+                &:hover {
+                    color: $origen-grey;
+                }
+            }
+        }
+    }
+}
+
+ .fact-counter .column .inner {
+    .count-outer {
+        color: $origen-grey;
+        .count-text {
+            color: $origen-grey;
+        }
+
+        &.alternate {
+            color: $origen-red;
+            .count-text {
+                color: $origen-red;
+            }
+        }
+    }
+}
+
+.fluid-section-three {
+    padding: 80px 0;
+
+    .left-column {
+        width: 100%;
+        float: none;
+
+        .inner-column {
+            float: none;
+            max-width: none;
+            padding: 0 0 0 80px;
+
+            @media only screen and (max-width: 767px) {
+                padding: 0;
+            }
+
+            .feature-block-two {
+                h3 {
+                    margin-bottom: 4px;
+                    color: $origen-grey;
+
+                    a {
+                        color: $origen-grey;
+
+                        &:hover {
+                            color: $origen-red;
+                        }
+                    }
+                }
+                .children {
+                    padding: 20px 0 0 40px;
+
+                    @media only screen and (max-width: 767px) {
+                        padding: 20px 0 0 20px;
+                    }        
+
+                    .inner-box {
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.offer-section.offer-section--relations {
+    padding: 40px 0 20px;
+
+    .offer-block {
+        .inner-box {
+            .image img {
+                display: block;
+                padding: 0;
+                margin: 0 auto;
+            }
+
+            .lower-content {
+                h3,
+                .text {
+                    text-align: center;
+                }
+
+                .read-more {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.services-title-box.services-title-box--left {
+    padding: 80px 0 40px;
+
+    .title-box {
+        text-align: left;
+
+        .text {
+            max-width: none;
+        }
+    }
+}

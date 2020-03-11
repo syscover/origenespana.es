@@ -1,0 +1,28 @@
+.main-footer.custom-footer {
+    padding: 0;
+    background: $origen-grey;
+
+    .widgets-section {
+        padding: 8px;
+    }
+
+    .footer-bottom {
+        padding: 40px 0;
+        background: $origen-grey-darker;
+
+        .copyright {
+            color: $white;
+        }
+
+        .footer-nav {
+            margin: 0 0 8px;
+
+            & > li {
+                border-right-color: $white;
+                & > a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
