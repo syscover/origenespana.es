@@ -122,8 +122,8 @@
                 <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                         </figure>
                     </div>
                     <div class="text-box">
@@ -138,8 +138,8 @@
                 <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                         </figure>
                     </div>
                     <div class="text-box">
@@ -154,8 +154,8 @@
                 <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                         </figure>
                     </div>
                     <div class="text-box">

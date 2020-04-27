@@ -40,8 +40,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -56,8 +56,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -72,8 +72,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -88,8 +88,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -104,8 +104,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -120,8 +120,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -136,8 +136,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -152,8 +152,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -168,8 +168,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="http://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="http://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
+                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -193,7 +193,7 @@
 <!--End Portfolio Page Section-->
 
 <!--Call To Action Section-->
-<section class="call-to-action-two" style="background-image: url(http://placehold.it/1920x1080)">
+<section class="call-to-action-two" style="background-image: url(https://placehold.it/1920x1080)">
     <div class="auto-container">
         <h2>¿Quieres formar parte de Origen España?</h2>
         <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero praesentium, quibusdam, repudiandae provident molestiae nam dolores impedit quam, sequi ipsum perspiciatis vitae facere dignissimos voluptatem ipsam voluptatum repellendus velit.</div>

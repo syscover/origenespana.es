@@ -139,7 +139,7 @@
                     <!--Video Box-->
                     <div class="video-box">
                         <figure class="image">
-                            <img src="http://placehold.it/700x450" alt="">
+                            <img src="https://placehold.it/700x450" alt="">
                         </figure>
                         <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
                     </div>

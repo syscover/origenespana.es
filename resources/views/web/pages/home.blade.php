@@ -407,7 +407,7 @@
 <!--End News Section-->
 
 <!--Call To Action Section-->
-<section class="call-to-action-two" style="background-image: url(http://placehold.it/1920x1080)">
+<section class="call-to-action-two" style="background-image: url(https://placehold.it/1920x1080)">
     <div class="auto-container">
         <h2>¿Quieres conocer productos con DOP o IGP?</h2>
         {{-- <div class="text">Visita la web de "Historias en tu mesa"</div> --}}
@@ -495,7 +495,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">David Smith</a></h3>
@@ -508,7 +508,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Salina White</a></h3>
@@ -521,7 +521,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Kane Bruce</a></h3>
@@ -534,7 +534,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">David Smith</a></h3>
@@ -547,7 +547,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Salina White</a></h3>
@@ -560,7 +560,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Kane Bruce</a></h3>
@@ -573,7 +573,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">David Smith</a></h3>
@@ -586,7 +586,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Salina White</a></h3>
@@ -599,7 +599,7 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="http://placehold.it/120" alt="" />
+                                    <img src="https://placehold.it/120" alt="" />
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Kane Bruce</a></h3>
