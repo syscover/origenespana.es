@@ -411,7 +411,7 @@
     <div class="auto-container">
         <h2>¿Quieres conocer productos con DOP o IGP?</h2>
         {{-- <div class="text">Visita la web de "Historias en tu mesa"</div> --}}
-        <a href="https://www.historiasentumesa.es/" target="_blank" class="theme-btn btn-style-five">Visitar "Historias en tu mesa"</a>
+        <a href="https://www.historiasentumesa.es/" target="_blank" class="theme-btn btn-style-five">Visita "Historias en tu mesa"</a>
     </div>
 </section>
 <!--End Call To Action Section-->

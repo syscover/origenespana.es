@@ -8,8 +8,8 @@
                 <!--Top Left-->
                 <div class="top-left">
                     <ul class="header-info-list">
-                        <li><a href="mailto:contact@origenespana.es"><span class="icon fa fa-envelope"></span><strong>Email:</strong>contact@origenespana.es</a></li>
-                        <li><a href="tel:+34 000 000 000"><span class="icon fa fa-phone"></span><strong>Teléfono:</strong>+34 000 000 000</a></li>
+                        <li><a href="mailto:info@origenespana.es"><span class="icon fa fa-envelope"></span><strong>Email:</strong>info@origenespana.es</a></li>
+                        <li><a href="tel:663075268"><span class="icon fa fa-phone"></span><strong>Teléfono:</strong>663 075 268</a></li>
                     </ul>
                 </div>
                 <!--Top Right-->
@@ -38,7 +38,7 @@
                 <div class="pull-left logo-box">
                     <div class="logo">
                         <a href="{{ route('web.home') }}">
-                            <img src="{{ asset('/images/origen-logo-desc.png') }}" alt="" title="">
+                            <img src="{{ asset('/images/logo-origen-header.svg') }}" alt="" title="">
                         </a>
                     </div>
                 </div>

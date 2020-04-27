@@ -17327,8 +17327,8 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\sites\origenespana.local\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\sites\origenespana.local\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/josecarlos.rodriguez/Documents/projects/origenespana.local/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/josecarlos.rodriguez/Documents/projects/origenespana.local/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -37,4 +37,5 @@ mix.js('resources/js/app.js', 'public/js')
     ], 'public/js/all.js')
     .options({
         processCssUrls: false
-    });
+    })
+    .version();
