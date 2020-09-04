@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset('images/bgs/news/noticias.jpg') }}); background-position: 50% 65%;">
     <div class="auto-container">
         <h1>Noticias</h1>
         <ul class="page-breadcrumb">

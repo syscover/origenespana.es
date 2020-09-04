@@ -3,7 +3,7 @@
 @section('content')
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title page-title--contact" style="background-image:url({{ asset('images/bgs/contact/contacto.jpg') }}); background-position: 50% 30%;">
     <div class="auto-container">
         <h1>Contacto</h1>
         <ul class="page-breadcrumb">
@@ -23,19 +23,19 @@
             <div class="info-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="content-box">
-                        <h2>Do you want to reach at the next level of Business Success?</h2>
-                        <div class="title">Book a Complimentary Consultation by visiting or calling us!</div>
+                        <h2>Información de contacto</h2>
+                        <div class="title"></div><br>
                         <ul class="list-style-three">
-                            <li><span class="icon fa fa-map-marker"></span>58 BalSouth Lane, Harward Street <br> Newyork 33025</li>
-                            <li><span class="icon fa fa-phone"></span>1-800-369-8527</li>
-                            <li><span class="icon fa fa-envelope"></span>support@zemenconsult.net</li>
-                            <li><span class="icon fa fa-clock-o"></span>Monday to Friday 9 am - 6 pm</li>
+                            <li><span class="icon fa fa-map-marker"></span>Domicilio social de ORIGEN ESPAÑA:<br>C/ Agustín de Betancourt, 17, 4ª planta,<br>28003 Madrid</li>
+                            <li><span class="icon fa fa-phone"></span>+34.663.07.52.68</li>
+                            <li><span class="icon fa fa-envelope"></span>info@origenespana.es</li>
+                            {{-- <li><span class="icon fa fa-clock-o"></span>Monday to Friday 9 am - 6 pm</li> --}}
                         </ul>
                         <!--Social Boxed-->
                         <ul class="social-boxed">
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                            <li><a href="https://www.facebook.com/origenespana" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="https://twitter.com/origenespana" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="https://www.pinterest.com/origenespana/" target="_blank"><span class="fa fa-pinterest"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,41 +44,39 @@
             <!--Form Column-->
             <div class="form-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
-                    <h2>Send a Message</h2>
-                    <div class="title">We are working with thousands of business companies around the globe & delivering ideas for their business success.</div>
+                    <h2>Envíenos un mensaje</h2>
+                    <div class="title">Por favor, escríbenos y nos pondremos en contacto contigo a la mayor brevedad posible.</div>
                     <!-- Contact Form -->
                     <div class="contact-form ">
-                        <!--Comment Form-->
-                        <form method="post" action="sendemail.php" id="contact-form">
+                        <form method="post" id="contact-form">
                             
                             <div class="form-group">
-                                <input type="text" name="username" placeholder="Your Name" required>
+                                <input type="text" name="name" placeholder="Nombre completo" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="email" name="email" placeholder="Email address" required>
+                                <input type="email" name="email" placeholder="Correo electrónico" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="text" name="phone" placeholder="Phone" required>
+                                <input type="text" name="phone" placeholder="Número de teléfono" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="text" name="subject" placeholder="Subject" required>
+                                <input type="text" name="subject" placeholder="Asunto" required>
                             </div>
 
                             <div class="form-group">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Mensaje" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <button class="theme-btn message-btn" type="submit" name="submit-form">send message</button>
+                                <button class="theme-btn message-btn" type="submit" name="submit-form">Enviar mensaje</button>
                             </div>
 
                         </form>
-
                     </div>
-                    <!--End Comment Form -->
+                    <!--End Contact Form -->
                 </div>
             </div>
             

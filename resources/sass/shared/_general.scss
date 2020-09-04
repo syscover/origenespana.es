@@ -51,6 +51,12 @@ main {
         }
     }
 
+    .page-title {
+        &::before {
+            background-color: rgba($origen-grey, 0.4);
+        }
+    }
+
     section {
         .sec-title,
         .title-box {
@@ -73,41 +79,81 @@ main {
             }
         }
     }
+}
 
-    .modal {
-        &-dialog {
+.contact-form {
+    input,
+    select,
+    textarea {
+        color: $origen-grey;
 
-        }
-
-        &-content {
-            border: none;
-        }
-
-        &-header,
-        &-body,
-        &-footer {
-            &:empty {
-                display: none;
-            }
-        }
-
-        &-title {
-            position: relative;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.8em;
-            margin: 0;
-            color: $origen-grey;
-        }
-
-        button.close {
-            color: $origen-red;
+        &:focus {
+            border-color: $origen-red;
         }
     }
 
-    .lowercase {
-        text-transform: lowercase !important;
+    .message-btn {
+        background-color: $origen-red;
+        border-color: $origen-red;
+
+        &:hover {
+            background-color: $origen-red-darker;
+            border-color: $origen-red-darker;
+        }
     }
+}
+
+.modal {
+    &-dialog {
+        background-color: #FFF;
+    }
+
+    &-content {
+        border: none;
+    }
+
+    &-header,
+    &-body,
+    &-footer {
+        position: relative;
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    &-title {
+        position: relative;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.8em;
+        margin: 0;
+        color: $origen-grey;
+    }
+
+    button.close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: $origen-red;
+    }
+}
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .scroll-to-top {

@@ -38,7 +38,7 @@
                 <div class="pull-left logo-box">
                     <div class="logo">
                         <a href="{{ route('web.home') }}">
-                            <img src="{{ asset('/images/logo-origen-header.svg') }}" alt="" title="">
+                            <img src="{{ asset('/images/origen-logo-desc.png') }}" alt="" title="">
                         </a>
                     </div>
                 </div>
@@ -57,22 +57,40 @@
 
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="{{ route('web.home') }}">Inicio</a></li>
-                                <li class="dropdown">
+                                <li class="@if(strpos(request()->route()->getName(), 'web.home') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.home') }}">Inicio</a>
+                                </li>
+                                <li class="dropdown @if(strpos(request()->route()->getName(), 'web.about') !== false){{ 'current' }}@endif">
                                     <a>Nosotros</a>
                                     <ul>
-                                        <li><a href="{{ route('web.about.general') }}">Qué es Origen España</a></li>
-                                        <li><a href="{{ route('web.about.objectives') }}">Objetivos</a></li>
-                                        <li><a href="{{ route('web.about.organisation') }}">Órganos de representación</a></li>
+                                        <li class="@if(strpos(request()->route()->getName(), 'web.about.general') !== false){{ 'current' }}@endif">
+                                            <a href="{{ route('web.about.general') }}">Quiénes somos</a>
+                                        </li>
+                                        <li class="@if(strpos(request()->route()->getName(), 'web.about.objectives') !== false){{ 'current' }}@endif">
+                                            <a href="{{ route('web.about.objectives') }}">Objetivos</a>
+                                        </li>
+                                        <li class="@if(strpos(request()->route()->getName(), 'web.about.organisation') !== false){{ 'current' }}@endif">
+                                            <a href="{{ route('web.about.organisation') }}">Órganos de representación</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                <li class=""><a href="{{ route('web.seals') }}">Sellos DOP e IGP</a></li>
-                                <li class=""><a href="{{ route('web.relations') }}">Relaciones institucionales</a></li>
-                                <li class=""><a href="{{ route('web.partners.list') }}">Socios</a></li>
-                                <li class=""><a href="{{ route('web.blog.list') }}">Noticias</a></li>
-                                <li class=""><a href="{{ route('web.contact') }}">Contacto</a></li>
+                                <li class="@if(strpos(request()->route()->getName(), 'web.seals') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.seals') }}">Sellos DOP e IGP</a>
+                                </li>
+                                <li class="@if(strpos(request()->route()->getName(), 'web.relations') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.relations') }}">Relaciones institucionales</a>
+                                </li>
+                                <li class="@if(strpos(request()->route()->getName(), 'web.partners') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.partners.list') }}">Socios</a>
+                                </li>
+                                <li class="@if(strpos(request()->route()->getName(), 'web.blog') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.blog.list') }}">Noticias</a>
+                                </li>
+                                <li class="@if(strpos(request()->route()->getName(), 'web.contact') !== false){{ 'current' }}@endif">
+                                    <a href="{{ route('web.contact') }}">Contacto</a>
+                                </li>
                             </ul>
-                            <a href="#" class="theme-btn btn-style-two">hazte socio</a>
+                            <a class="theme-btn btn-style-two" data-toggle="modal" data-target="#partnerModal">hazte socio</a>
                         </div>
                     </nav>
 
@@ -89,7 +107,7 @@
             <!--Logo-->
             <div class="logo pull-left">
                 <a href="{{ route('web.home') }}">
-                    <img src="{{ asset('/images/origen-logo.png') }}" alt="" title="">
+                    <img src="{{ asset('/images/origen-logo-desc.png') }}" alt="" title="">
                 </a>
             </div>
             
@@ -105,22 +123,40 @@
                     
                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                         <ul class="navigation clearfix">
-                            <li class="current"><a href="{{ route('web.home') }}">Inicio</a></li>
-                            <li class="dropdown">
+                            <li class="@if(strpos(request()->route()->getName(), 'web.home') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.home') }}">Inicio</a>
+                            </li>
+                            <li class="dropdown @if(strpos(request()->route()->getName(), 'web.about') !== false){{ 'current' }}@endif">
                                 <a>Nosotros</a>
                                 <ul>
-                                    <li><a href="{{ route('web.about.general') }}">Qué es Origen España</a></li>
-                                    <li><a href="{{ route('web.about.objectives') }}">Objetivos</a></li>
-                                    <li><a href="{{ route('web.about.organisation') }}">Órganos de representación</a></li>
+                                    <li class="@if(strpos(request()->route()->getName(), 'web.about.general') !== false){{ 'current' }}@endif">
+                                        <a href="{{ route('web.about.general') }}">Quiénes somos</a>
+                                    </li>
+                                    <li class="@if(strpos(request()->route()->getName(), 'web.about.objectives') !== false){{ 'current' }}@endif">
+                                        <a href="{{ route('web.about.objectives') }}">Objetivos</a>
+                                    </li>
+                                    <li class="@if(strpos(request()->route()->getName(), 'web.about.organisation') !== false){{ 'current' }}@endif">
+                                        <a href="{{ route('web.about.organisation') }}">Órganos de representación</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class=""><a href="{{ route('web.seals') }}">Sellos DOP e IGP</a></li>
-                            <li class=""><a href="{{ route('web.relations') }}">Relaciones institucionales</a></li>
-                            <li class=""><a href="{{ route('web.partners.list') }}">Socios</a></li>
-                            <li class=""><a href="{{ route('web.blog.list') }}">Noticias</a></li>
-                            <li class=""><a href="{{ route('web.contact') }}">Contacto</a></li>
+                            <li class="@if(strpos(request()->route()->getName(), 'web.seals') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.seals') }}">Sellos DOP e IGP</a>
+                            </li>
+                            <li class="@if(strpos(request()->route()->getName(), 'web.relations') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.relations') }}">Relaciones institucionales</a>
+                            </li>
+                            <li class="@if(strpos(request()->route()->getName(), 'web.partners') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.partners.list') }}">Socios</a>
+                            </li>
+                            <li class="@if(strpos(request()->route()->getName(), 'web.blog') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.blog.list') }}">Noticias</a>
+                            </li>
+                            <li class="@if(strpos(request()->route()->getName(), 'web.contact') !== false){{ 'current' }}@endif">
+                                <a href="{{ route('web.contact') }}">Contacto</a>
+                            </li>
                         </ul>
-                        <a href="#" class="theme-btn btn-style-two">hazte socio</a>
+                        <a class="theme-btn btn-style-two" data-toggle="modal" data-target="#partnerModal">hazte socio</a>
                     </div>
                 </nav><!-- Main Menu End-->
             </div>
@@ -131,3 +167,78 @@
 
 </header>
 <!--End Main Header -->
+
+<!--Start Hazte Socio Modal -->
+<div class="modal fade partner-modal" id="partnerModal" tabindex="-1" role="dialog" aria-labelledby="partnerModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="container">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-8 col-sm-7 col-12">
+                            <p class="modal-title">
+                                Hazte <span class="theme_color">Socio</span>
+                            </p>
+                            <p class="text">
+                                Somos la voz de la calidad diferenciada agroalimentaria española por lo que estamos deseando dar la bienvenida a todas las DOP e IGP nacionales, para que formen parte de ORIGEN ESPAÑA como asociadas.
+                            </p>
+                            <p class="text">
+                                ¡Sumándote, el sector de la calidad diferenciada será aún más fuerte!
+                            </p>
+                            <p class="text">
+                                Por favor, escríbenos y nos pondremos en contacto contigo a la mayor brevedad posible.
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-5 hidden-xs-down">
+                            <img src="{{ asset('images/bgs/home/partner-modal.jpg') }}" alt="Grow Together" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Contact Form -->
+                            <div class="contact-form ">
+                                <form method="post" id="contact-form">
+                                    
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Nombre completo" required>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Correo electrónico" required>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <input type="text" name="phone" placeholder="Número de teléfono" required>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <input type="text" name="subject" placeholder="Asunto" required>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Mensaje" required></textarea>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <button class="theme-btn message-btn" type="submit" name="submit-form">Enviar mensaje</button>
+                                    </div>
+    
+                                </form>
+                            </div>
+                            <!--End Contact Form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--End Hazte Socio Modal -->
+

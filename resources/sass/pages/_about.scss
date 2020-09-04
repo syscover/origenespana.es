@@ -16,6 +16,8 @@
     padding-top: 0;
 
     .inner-box {
+        height: 100%;
+        
         &:before,
         &:after  {
             background-color: $origen-grey;
@@ -35,21 +37,29 @@
     }
 }
 
- .fact-counter .column .inner {
-    .count-outer {
-        color: $origen-grey;
-        .count-text {
+ .fact-counter {
+    .column .inner {
+        .count-outer {
             color: $origen-grey;
-        }
-
-        &.alternate {
-            color: $origen-red;
             .count-text {
+                color: $origen-grey;
+            }
+    
+            &.alternate {
                 color: $origen-red;
+                .count-text {
+                    color: $origen-red;
+                }
+            }
+        }
+        .counter-title {
+            @media only screen and (min-width: 1200px) {
+                max-width: 200px;
+                min-width: 120px
             }
         }
     }
-}
+ } 
 
 .fluid-section-three {
     padding: 80px 0;

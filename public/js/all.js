@@ -33653,13 +33653,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
 			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-			loop:true,
-			margin:0,
+    	animateIn: 'fadeIn',
+			loop: true,
+			margin: 0,
 			nav:true,
 			autoHeight: true,
 			smartSpeed: 500,
-			autoplay: 6000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
 			responsive:{
 				0:{
@@ -33689,7 +33691,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 			margin:0,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 5000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -33721,7 +33725,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 			nav:true,
 			autoHeight: true,
 			smartSpeed: 500,
-			autoplay: 5000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -33753,7 +33759,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 			nav:true,
 			autoHeight: true,
 			smartSpeed: 500,
-			autoplay: 5000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -33783,7 +33791,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 			margin:0,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 5000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -33813,7 +33823,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 			// margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 5000,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -33889,7 +33901,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {
-				username: {
+				name: {
 					required: true
 				},
 				email: {
@@ -33904,6 +33916,24 @@ Object.defineProperty(exports, '__esModule', { value: true });
 				},
 				message: {
 					required: true
+				}
+			},
+			messages: {
+				name: {
+					required: 'Por favor introduzca su nombre.'
+				},
+				email: {
+					required: 'Por favor introduzca su correo electrónico.',
+					email: 'Por favor introduzca un correo electrónico válido.'
+				},
+				phone: {
+					required: 'Por favor introduzca su número de teléfono.'
+				},
+				subject: {
+					required: 'Por favor introduzca un asunto.'
+				},
+				message: {
+					required: 'Por favor escriba un mensaje.'
 				}
 			}
 		});

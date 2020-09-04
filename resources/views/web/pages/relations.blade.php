@@ -3,7 +3,7 @@
 @section('content')
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset('images/bgs/relations/relaciones.jpg') }}); background-position: 50% 50%;">
     <div class="auto-container">
         <h1>Relaciones Institucionales</h1>
         <ul class="page-breadcrumb">
@@ -19,9 +19,9 @@
     <div class="auto-container">
         <!--Title Box-->
         <div class="title-box">
-            <div class="title">Automate & Simplify The Whole Process</div>
-            <h2>We Offer Solutions to <br> Develop Better <span class="theme_color">Strategies</span></h2>
-            <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            <div class="title">&nbsp;</div>
+            <h2><span class="theme_color">Convenios</span></h2>
+            {{-- <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div> --}}
         </div>
     </div>
 </section>
@@ -37,12 +37,14 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/ministerio.png') }}" alt="Ministerio de Agricultura, Pesca y Alimentación"/>
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Ministerio de Agricultura, Pesca y Alimentación</h3>
+                        <div class="text">
+                            Fomentar la promoción alimentaria y ser órgano de consulta para temas de política sectorial.
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -51,12 +53,14 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/patentes.png') }}" alt="Oficina Española de Patentes y Marcas" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Oficina Española de Patentes y Marcas</h3>
+                        <div class="text">
+                            Facilitar, impulsar y estimular el conocimiento y la utilización de los derechos de Propiedad Industrial dentro del sector de las DOP e IGP agroalimentarias. Defensa del término “ORIGEN”.
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -65,12 +69,14 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/gc.jpg') }}" alt="Guardia Civil" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Guardia Civil</h3>
+                        <div class="text">
+                            Promover la colaboración para mejorar la investigación de actividades ilícitas en el ámbito de la producción y tráfico de alimentos, así como su adulteración o falsificación.
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -79,12 +85,14 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/aces.png') }}" alt="Asociación de Cadenas Españolas de Supermercados" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Asociación de Cadenas Españolas de Supermercados</h3>
+                        <div class="text">
+                            Cooperación en materia de protección de las figuras de calidad alimentaria DOP e IGP en los supermercados nacionales. 
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -93,12 +101,14 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/tequila.png') }}" alt="Consejo Regulador del Tequila" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Consejo Regulador del Tequila</h3>
+                        <div class="text">
+                            Potenciar la calidad diferenciada e impulsar la protección de las denominaciones de origen en Méjico y España.
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -107,31 +117,18 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/basque.jpg') }}" alt="Basque Culinary Center" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Basque Culinary Center</h3>
+                        <div class="text">
+                            Trabajar en actuaciones orientadas a destacar las DOP e IGP en la gastronomía.
+                        </div>
+                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
             </div>
-            
-            <!--Offer Block-->
-            <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
-                    </div>
-                </div>
-            </div>
-            
-            
+                        
         </div>
         
     </div>
@@ -143,9 +140,9 @@
     <div class="auto-container">
         <!--Title Box-->
         <div class="title-box">
-            <div class="title">Automate & Simplify The Whole Process</div>
-            <h2>We Offer Solutions to <br> Develop Better <span class="theme_color">Strategies</span></h2>
-            <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            <div class="title">&nbsp;</div>
+            <h2>Formamos <span class="theme_color">parte de</span></h2>
+            {{-- <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div> --}}
         </div>
     </div>
 </section>
@@ -161,12 +158,12 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/origin.png') }}" alt="Organization for an International Geographical Indications Network" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Organization for an International Geographical Indications Network</h3>
+                        {{-- <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div> --}}
+                        <a class="read-more" href="https://www.origin-gi.com/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -175,12 +172,12 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/aec.png') }}" alt="Asociación Española para la Calidad" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Asociación Española para la Calidad</h3>
+                        {{-- <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div> --}}
+                        <a class="read-more" href="https://www.aec.es/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -189,12 +186,12 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/enac.png') }}" alt="Entidad Nacional de Acreditación" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Entidad Nacional de Acreditación</h3>
+                        {{-- <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div> --}}
+                        <a class="read-more" href="https://www.enac.es/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -203,12 +200,12 @@
             <div class="offer-block col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a><img src="{{ asset('images/theme/resource/offer-1.jpg') }}" alt="" /></a>
+                        <img src="{{ asset('images/conv/originals/aippi.png') }}" alt="Asociación Internacional para la Protección de la Propiedad Intelectual" />
                     </div>
                     <div class="lower-content">
-                        <h3><a href="">Financial Analysis</a></h3>
-                        <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div>
-                        {{-- <a class="read-more" href=""><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <h3>Asociación Internacional para la Protección de la Propiedad Intelectual</h3>
+                        {{-- <div class="text">Acepteur sintas haecate sed ipsums cupidates nondui proident sunlt culpa qui tempore officia sed ipsum tempor eserunt.</div> --}}
+                        <a class="read-more" href="https://aippi.org/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>

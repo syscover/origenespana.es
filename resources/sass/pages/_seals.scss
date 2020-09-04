@@ -49,16 +49,29 @@
         .services-block {
             margin: 0 0 60px;
 
-            &:hover {
-                .inner-box {
-                    &::before {
-                        background-color: $origen-grey;
-                    }
-                }
-            }
-
             .inner-box {
+                background-color: #FFF;
+
+                .icon-box {
+                    color: $origen-red;
+                }
+
+                .read-more {
+                    color: $origen-red;
+                }
+
+                &::before {
+                    background-color: rgba($origen-grey, 0);
+                }
+
                 &:hover {
+                    background-color: #FFF;
+                    box-shadow: none;
+
+                    &::before {
+                        background-color: rgba($origen-grey, 0.4);
+                    }
+
                     .text,
                     h3 a {
                         color: $white;
@@ -68,15 +81,10 @@
                         color: $origen-red;
                     }
                 }
-
-                .icon-box {
-                    color: $origen-red;
-                }
-
-                .read-more {
-                    color: $origen-red;
-                }
             }
         }
     }
+}
+.video-box .overlay-box:hover {
+    background-color: rgba($origen-red, 0.2);
 }

@@ -1,12 +1,28 @@
-.offer-section.offer-section--relations {
-    padding: 40px 0 20px;
+.offer-section {
+    &.offer-section--relations {
+        padding: 40px 0 20px;
+    }
 
     .offer-block {
         .inner-box {
-            .image img {
-                display: block;
-                padding: 0;
-                margin: 0 auto;
+            .image {
+                display: flex;
+                width: 100%;
+                height: 200px;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                
+                img {
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                    width: auto;
+                    height: auto;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
             }
 
             .lower-content {
@@ -16,7 +32,10 @@
                 }
 
                 .read-more {
-                    display: none;
+                    color: $origen-red;
+                    .fa {
+                        color: $origen-red;
+                    }
                 }
             }
         }

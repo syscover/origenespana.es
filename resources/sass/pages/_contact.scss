@@ -1,6 +1,9 @@
+.page-title--contact {
+    padding-bottom: 160px;
+}
+
+
 .contact-section {
-
-
     .info-column {
         .inner-column {
             .content-box {
@@ -27,28 +30,6 @@
 
                 &::before {
                     background-color: $origen-red;
-                }
-            }
-
-            .contact-form {
-                input,
-                select,
-                textarea {
-                    color: $origen-grey;
-
-                    &:focus {
-                        border-color: $origen-red;
-                    }
-                }
-
-                .message-btn {
-                    background-color: $origen-red;
-                    border-color: $origen-red;
-
-                    &:hover {
-                        background-color: $origen-red-darker;
-                        border-color: $origen-red-darker;
-                    }
                 }
             }
         }

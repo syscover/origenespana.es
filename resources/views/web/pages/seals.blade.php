@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset('images/bgs/seals/igp.jpg') }}); background-position: 50% 35%;">
     <div class="auto-container">
         <h1>Sellos DOP <span class="lowercase">e</span> IGP</h1>
         <ul class="page-breadcrumb">
@@ -14,7 +14,7 @@
 <!--End Page Title-->
 
 <!--Services Title Box-->
-<section class="services-title-box">
+{{-- <section class="services-title-box">
     <div class="auto-container">
         <!--Title Box-->
         <div class="title-box">
@@ -23,7 +23,7 @@
             <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--End Services Title Box-->
 
 <!--Offer Section-->
@@ -36,11 +36,13 @@
             <div class="offer-block col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="image">
-                        <a><img src="{{ asset('images/dop.png') }}" alt=""></a>
+                        <img src="{{ asset('images/dop.png') }}" alt="">
                     </div>
                     <div class="lower-content">
-                        <h3><a>Denominación de Origen Protegida (D.O.P.)</a></h3>
-                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere eligendi amet maiores voluptatem provident tenetur possimus, quas consectetur eveniet dolore autem iure nulla, libero voluptate quasi voluptates at rem.</div>
+                        <h3>Denominación de Origen Protegida (D.O.P.)</h3>
+                        <div class="text">
+                            Este sello identifica un producto originario de un lugar determinado y su relación con el área geográfica es esencial para la calidad o las características del producto. Además, todas las fases de producción se realizan en esa área concreta.
+                        </div>
                         {{-- <a class="read-more" href="financial-investment.html"><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
@@ -50,11 +52,12 @@
             <div class="offer-block col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
                     <div class="image">
-                        <a><img src="{{ asset('images/igp.png') }}" alt=""></a>
+                        <img src="{{ asset('images/igp.png') }}" alt="">
                     </div>
                     <div class="lower-content">
-                        <h3><a>Indicación Geográfica Protegida (I.G.P.)</a></h3>
-                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam, voluptatem provident laboriosam inventore doloribus voluptas, incidunt dolor excepturi explicabo delectus nulla cum? Quidem facilis amet illo molestiae? Odio, quam.</div>
+                        <h3>Indicación Geográfica Protegida (I.G.P.)</h3>
+                        <div class="text">
+                            Este sello identifica un producto originario de un lugar determinado y su relación con el área geográfica es esencial para una cualidad determinada, reputación u otras característica del producto. Al menos una fase de producción se realiza en esa área concreta.                        </div>
                         {{-- <a class="read-more" href="financial-investment.html"><span class="fa fa-angle-right"></span> Read more</a> --}}
                     </div>
                 </div>
@@ -78,9 +81,13 @@
                         <div class="icon-box">
                             <span class="icon flaticon-analysis"></span>
                         </div>
-                        <h3><a href="">Advanced Business <br> Solutions</a></h3>
-                        <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div>
-                        <div class="more-link"><a class="read-more" href=""><span class="arrow fa fa-angle-right"></span> Read more</a></div>
+                        <h3>Política de calidad diferenciada de la Unión Europea</h3>
+                        {{-- <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div> --}}
+                        <div class="more-link">
+                            <a class="read-more" href="https://ec.europa.eu/info/food-farming-fisheries/food-safety-and-quality/certification/quality-labels" target="_blank">
+                                <span class="arrow fa fa-angle-right"></span> Más información
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -90,9 +97,13 @@
                         <div class="icon-box">
                             <span class="icon flaticon-sports-and-competition"></span>
                         </div>
-                        <h3><a href="">Increase Your Online <br> Presence</a></h3>
-                        <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div>
-                        <div class="more-link"><a class="read-more" href=""><span class="arrow fa fa-angle-right"></span> Read more</a></div>
+                        <h3>Base de datos de Indicaciones Geográficas de la UE - <span class="nowrap">e-Ambrosia</span></h3>
+                        {{-- <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div> --}}
+                        <div class="more-link">
+                            <a class="read-more" href="https://ec.europa.eu/info/food-farming-fisheries/food-safety-and-quality/certification/quality-labels/geographical-indications-register/" target="_blank">
+                                <span class="arrow fa fa-angle-right"></span> Read more
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -102,9 +113,13 @@
                         <div class="icon-box">
                             <span class="icon flaticon-graph"></span>
                         </div>
-                        <h3><a href="">Become Successful <br> & Superior</a></h3>
-                        <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div>
-                        <div class="more-link"><a class="read-more" href=""><span class="arrow fa fa-angle-right"></span> Read more</a></div>
+                        <h3>DOP e IGP – Ministerio de Agricultura, Pesca y Alimentación</h3>
+                        {{-- <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div> --}}
+                        <div class="more-link">
+                            <a class="read-more" href="https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/dop-igp/" target="_blank">
+                                <span class="arrow fa fa-angle-right"></span> Read more
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -124,11 +139,13 @@
                 <div class="inner-column">
                     <!--Sec Title-->
                     <div class="sec-title">
-                        <h2>About zemen</h2>
-                        <div class="title-text">Automate & Simplify The Whole Process</div>
+                        {{-- <h2>Lorem ipsum dolor sit</h2> --}}
+                        <div class="title-text">&nbsp;</div>
                     </div>
-                    <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essle cillum dolore eu fugiat nulla pariatur. Excepteur sint ocaec at cupdatat proident suntin culpa qui officia deserunt mol anim id esa laborum perspiciatis omnis.</div>
-                    <a href="#" class="theme-btn btn-style-five">Who We Are</a>
+                    <div class="text">
+                        Los productos que pueden presumir de tener el sello de Denominación de Origen no son como los demás. Ese sello es la demostración de que cada uno de ellos tiene una historia en la que la tradición, el origen y la calidad se mezclan para que cuando lleguen a tu mesa, la descubras al paladearlos.
+                    </div>
+                    {{-- <a href="#" class="theme-btn btn-style-five">Who We Are</a> --}}
                 </div>
             </div>
             
@@ -139,9 +156,9 @@
                     <!--Video Box-->
                     <div class="video-box">
                         <figure class="image">
-                            <img src="https://placehold.it/700x450" alt="">
+                            <img src="{{ asset('images/historias-mesa.jpg') }}" alt="Historias en tu mesa">
                         </figure>
-                        <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
+                        <a href="https://www.youtube.com/watch?v=zoZNf0XXOJg" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
                     </div>
                     
                 </div>

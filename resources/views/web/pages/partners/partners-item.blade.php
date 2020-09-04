@@ -22,7 +22,7 @@
             <!--Content Column-->
             <div class="content-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
-                    <h2>Nombre del socio</h2>
+                     <h2 {{-- data-toggle="modal" data-target="#fileModal" --}} >Nombre del socio</h2>
                     <div class="title">Categoria-1 Categoria-2</div>
                     <div class="text">
                         <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eudys sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolr minim veniam, quis nostrud exercitation ullamco laboris.</p>

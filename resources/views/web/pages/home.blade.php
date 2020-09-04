@@ -6,28 +6,53 @@
                 
     <div class="main-slider-carousel owl-carousel owl-theme">
         
-        <div class="slide" style="background-image:url({{ asset('https://loremflickr.com/1920/960/food') }})">
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide1.jpg') }})">
             <div class="auto-container">
                 <div class="content">
-                    <h3>Get The Success You Need</h3>
-                    <h2>Business Growth</h2>
-                    <div class="text">We are working with thousands of business companies around <br> the world & delivering ideas for your business</div>
+                    <h3>Denominación de Origen Protegida</h3>
+                    <h2>
+                        <img src="{{ asset('images/dop.png') }}" alt="DOP">
+                    </h2>
+                    <div class="text">
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.    
+                    </div>
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-two">learn more</a>
+                        <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide2.jpg') }})">
+            <div class="auto-container">
+                <div class="content">
+                    <h3>Indicación Geográfica Protegida</h3>
+                    <h2>
+                        <img src="{{ asset('images/igp.png') }}" alt="IGP">
+                    </h2>
+                    <div class="text">
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.    
+                    </div>
+                    <div class="link-box">
+                        <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="slide" style="background-image:url({{ asset('/images/theme/main-slider/image-2.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide3.jpg') }})">
             <div class="auto-container">
                 <div class="content">
-                    <h3 class="style-two">Get The Success You Need</h3>
-                    <h2>We Accomplish</h2>
-                    <div class="text">We are working with thousands of business companies around <br> the world & delivering ideas for your business</div>
+                    <h3 class="style-two">¿Tienes una DOP o IGP?</h3>
+                    <h2>Hazte socio</h2>
+                    <div class="text">
+                        <br>
+                        Puedes saber más sobre nuestros socios y sus beneficios pinchando en "Más información"
+                        <br>
+                        <br>
+                    </div>
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-two">learn more</a>
-                        <a href="#" class="theme-btn btn-style-three">Our Servics</a>
+                        <a href="{{ route('web.partners.list') }}" class="theme-btn btn-style-two">Más informacion</a>
                     </div>
                 </div>
             </div>
@@ -42,10 +67,12 @@
     <div class="auto-container">
         <!--Title Box-->
         <div class="title-box">
-            <div class="title">Asociación Española de Denominación de Origen</div>
+            <div class="title">Asociación Española de Denominaciones de Origen</div>
             <h2>Bienvenido a <span class="theme_color">Origen España</span></h2>
             <div class="text">
-                Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                Nos pusimos en marcha en marzo de 2008 por la inquietud común de un grupo de productores de productos agroalimentarios por fomentar el reconocimiento del papel esencial de las Denominaciones de Origen Protegidas (DOP) e Indicaciones Geográficas Protegidas (IGP) españolas, más conocidas globalmente en España como “denominaciones de origen”.
+                <br><br>
+                Origen España aúna las voces de las DOP e IGP en un interlocutor único, impulsando la protección de estas figuras de calidad diferenciada, defendiendo y protegiendo el esfuerzo de quienes día a día trabajan por conseguir productos agroalimentarios de calidad, con tradición, prestigio y reputación únicas.
             </div>
         </div>
     </div>
@@ -57,8 +84,8 @@
     <div class="auto-container">
         <!--Sec Title-->
         <div class="sec-title">
-            <h2>Últimos socios</h2>
-            <div class="title-text">Asociación Española de Denominación de Origen</div>
+            <h2>Últimas asambleas</h2>
+            <div class="title-text">Asambleas y Jornadas Técnicas de Origen España.</div>
         </div>
         <div class="single-item-carousel owl-carousel owl-theme">
             
@@ -154,6 +181,10 @@
                 </div>
             </div>
             
+        </div>
+        <div>
+            <br>
+            <a href="{{ route('web.about.organisation') }}" class="theme-btn btn-style-two">Ver todas las asambleas</a>
         </div>
     </div>
 </section>
@@ -407,9 +438,9 @@
 <!--End News Section-->
 
 <!--Call To Action Section-->
-<section class="call-to-action-two" style="background-image: url(https://placehold.it/1920x1080)">
+<section class="call-to-action-two" style="background-image: url({{ asset('images/historias-mesa.jpg') }})">
     <div class="auto-container">
-        <h2>¿Quieres conocer productos con DOP o IGP?</h2>
+        <h2>Campañas de promoción sobre<br>productos con DOP e IGP</h2>
         {{-- <div class="text">Visita la web de "Historias en tu mesa"</div> --}}
         <a href="https://www.historiasentumesa.es/" target="_blank" class="theme-btn btn-style-five">Visita "Historias en tu mesa"</a>
     </div>
@@ -420,9 +451,9 @@
 <section class="expert-section">
     <div class="auto-container">
         <!--Sec Title-->
-        {{-- <div class="sec-title">
-            <h2>Our Expert <br> Consultants</h2>
-        </div> --}}
+        <div class="sec-title">
+            <h2>Convenios firmados</h2>
+        </div>
 
         <div class="row clearfix">
             
@@ -494,12 +525,90 @@
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
+                                <div class="image" data-tooltip="Fomentar la promoción alimentaria y ser órgano de consulta para temas de política sectorial.">
+                                    <img src="{{ asset('images/conv/originals/ministerio.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="#">David Smith</a></h3>
-                                    <div class="designation">Founder</div>
+                                    <h3><a >Ministerio de Agricultura, Pesca y Alimentacion</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image" data-tooltip="Facilitar, impulsar y estimular el conocimiento y la utilización de los derechos de Propiedad Industrial dentro del sector de las DOP e IGP agroalimentarias. Defensa del término “ORIGEN”.">
+                                    <img src="{{ asset('images/conv/originals/patentes.png') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a >Oficina de Patentes y Marcas</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image" data-tooltip="Promover la colaboración para mejorar la investigación de actividades ilícitas en el ámbito de la producción y tráfico de alimentos, así como su adulteración o falsificación.">
+                                    <img src="{{ asset('images/conv/originals/gc.jpg') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a >Guardia Civil</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image" data-tooltip="Cooperación en materia de protección de las figuras de calidad alimentaria DOP e IGP en los supermercados nacionales.">
+                                    <img src="{{ asset('images/conv/originals/aces.png') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a >Asociación de Cadenas Españolas de Supermercados</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image" data-tooltip="Potenciar la calidad diferenciada e impulsar la protección de las denominaciones de origen en Méjico y España.">
+                                    <img src="{{ asset('images/conv/originals/tequila.png') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a >Consejo Regulador del Tequila</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image" data-tooltip="Trabajar en actuaciones orientadas a destacar las DOP e IGP en la gastronomía.">
+                                    <img src="{{ asset('images/conv/originals/basque.jpg') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a >Basque Culinary Center</a></h3>
+                                    <div class="designation">Convenio</div>
+                                </div>
+                            </div>
+                        </div>
+                                                
+                        <!--Expert Block-->
+                        <div class="expert-block">
+                            <div class="inner-box">
+                                <div class="image">
+                                    <img src="{{ asset('images/conv/originals/origin.png') }}" alt="" />
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a href="https://www.origin-gi.com/" target="_blank">Organization for an International Geographical Indications Network</a></h3>
+                                    <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
                         </div>
@@ -508,11 +617,11 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
+                                    <img src="{{ asset('images/conv/originals/aec.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="#">Salina White</a></h3>
-                                    <div class="designation">Consultant</div>
+                                    <h3><a href="https://www.aec.es/" target="_blank">Asociación Española para la Calidad</a></h3>
+                                    <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
                         </div>
@@ -521,11 +630,11 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
+                                    <img src="{{ asset('images/conv/originals/enac.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="#">Kane Bruce</a></h3>
-                                    <div class="designation">Marketing</div>
+                                    <h3><a href="https://www.enac.es/" target="_blank">Entidad Nacional de Acreditación</a></h3>
+                                    <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
                         </div>
@@ -534,76 +643,11 @@
                         <div class="expert-block">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
+                                    <img src="{{ asset('images/conv/originals/aippi.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="#">David Smith</a></h3>
-                                    <div class="designation">Founder</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--Expert Block-->
-                        <div class="expert-block">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
-                                </div>
-                                <div class="lower-content">
-                                    <h3><a href="#">Salina White</a></h3>
-                                    <div class="designation">Consultant</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--Expert Block-->
-                        <div class="expert-block">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
-                                </div>
-                                <div class="lower-content">
-                                    <h3><a href="#">Kane Bruce</a></h3>
-                                    <div class="designation">Marketing</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--Expert Block-->
-                        <div class="expert-block">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
-                                </div>
-                                <div class="lower-content">
-                                    <h3><a href="#">David Smith</a></h3>
-                                    <div class="designation">Founder</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--Expert Block-->
-                        <div class="expert-block">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
-                                </div>
-                                <div class="lower-content">
-                                    <h3><a href="#">Salina White</a></h3>
-                                    <div class="designation">Consultant</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--Expert Block-->
-                        <div class="expert-block">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="https://placehold.it/120" alt="" />
-                                </div>
-                                <div class="lower-content">
-                                    <h3><a href="#">Kane Bruce</a></h3>
-                                    <div class="designation">Marketing</div>
+                                    <h3><a href="https://aippi.org/" target="_blank">Asociación Internacional para la Protección de la Propiedad Intelectual</a></h3>
+                                    <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
                         </div>
