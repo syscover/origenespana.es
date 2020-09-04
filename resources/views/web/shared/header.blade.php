@@ -198,7 +198,7 @@
                             <img src="{{ asset('images/bgs/home/partner-modal.jpg') }}" alt="Grow Together" class="img-fluid">
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row sec-lower">
                         <div class="col-12">
                             <!-- Contact Form -->
                             <div class="contact-form ">

@@ -30314,6 +30314,7 @@ main section .owl-carousel.owl-theme .owl-dots .owl-dot:hover, main section .owl
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.4);
   color: #3E402C;
 }
 .contact-form input:focus,
@@ -30638,7 +30639,7 @@ main section .owl-carousel.owl-theme .owl-dots .owl-dot:hover, main section .owl
 }
 
 .partner-modal .modal-body {
-  padding: 40px 16px;
+  padding: 40px 15px;
 }
 .partner-modal .modal-title {
   font-family: "Poppins", sans-serif;
@@ -30647,6 +30648,37 @@ main section .owl-carousel.owl-theme .owl-dots .owl-dot:hover, main section .owl
   line-height: 56px;
   margin: 0 0 32px;
   color: #3E402C;
+}
+.partner-modal .sec-lower {
+  position: relative;
+}
+.partner-modal .sec-lower > * {
+  position: relative;
+  z-index: 2;
+}
+.partner-modal .sec-lower::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -15px;
+  right: -15px;
+  bottom: -40px;
+  background-color: rgba(62, 64, 44, 0.1);
+}
+.partner-modal .sec-lower .contact-form {
+  padding: 40px 0 0;
+}
+.partner-modal .sec-lower .contact-form input,
+.partner-modal .sec-lower .contact-form select,
+.partner-modal .sec-lower .contact-form textarea {
+  color: #3E402C;
+  border-color: rgba(62, 64, 44, 0.5);
+}
+.partner-modal .sec-lower .contact-form input:focus,
+.partner-modal .sec-lower .contact-form select:focus,
+.partner-modal .sec-lower .contact-form textarea:focus {
+  border-color: #9A151A;
 }
 
 .main-footer.custom-footer {
