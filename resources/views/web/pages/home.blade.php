@@ -97,7 +97,7 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img class="img-fluid" src="http://placehold.it/400x300" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2019.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img class="img-fluid" src="http://placehold.it/400x300" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2018.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img class="img-fluid" src="http://placehold.it/400x300" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2017.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img class="img-fluid" src="http://placehold.it/400x300" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2016.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
