@@ -30948,6 +30948,10 @@ main section .owl-carousel.owl-theme .owl-dots .owl-dot:hover, main section .owl
   margin: 0 0 20px;
 }
 
+.testimonials .testimonial-block-two {
+  margin: 0 0 32px;
+}
+
 .offer-block .inner-box .image img {
   padding: 0 20%;
 }
