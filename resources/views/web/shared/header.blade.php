@@ -205,7 +205,11 @@
                                 <form method="post" id="contact-form">
                                     
                                     <div class="form-group">
-                                        <input type="text" name="name" placeholder="Nombre completo" required>
+                                        <input type="text" name="dopigp" placeholder="Nombre de la DOP / IGP" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Persona de contacto" required>
                                     </div>
     
                                     <div class="form-group">
@@ -217,11 +221,7 @@
                                     </div>
     
                                     <div class="form-group">
-                                        <input type="text" name="subject" placeholder="Asunto" required>
-                                    </div>
-    
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder="Mensaje" required></textarea>
+                                        <textarea name="message" placeholder="Mensaje" required onfocus="this.innerHTML = ''">Por favor, contactad con nosotros para asociarnos. Gracias.</textarea>
                                     </div>
     
                                     <div class="form-group">
