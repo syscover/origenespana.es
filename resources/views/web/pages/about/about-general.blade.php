@@ -83,54 +83,16 @@
     </div>
 </section>
 
-<!--About Section-->
-{{-- <section class="about-section">
-    <div class="auto-container">
-        <div class="row clearfix">
-            
-            <!--Title Column-->
-            <div class="title-column col-lg-5 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <!--Sec Title-->
-                    <div class="sec-title">
-                        <h2>Future Leaders</h2>
-                        <div class="title-text">Automate & Simplify The Whole Process</div>
-                    </div>
-                    <div class="text">Duis aute irure dolor reprehenderit in voluptate velit essle cillum dolore eu fugiat nulla pariatur. Excepteur sint ocaec at cupdatat proident suntin culpa qui officia deserunt mol anim id esa laborum perspiciatis omnis.</div>
-                    <a href="#" class="theme-btn btn-style-five">Who We Are</a>
-                </div>
-            </div>
-            
-            <!--Video Column-->
-            <div class="video-column col-lg-7 col-md-12 col-sm-12">
-                <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    
-                    <!--Video Box-->
-                    <div class="video-box">
-                        <figure class="image">
-                            <img src="{{ asset('images/theme/resource/video-img.jpg') }}" alt="">
-                        </figure>
-                        <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section> --}}
-<!--End About Section-->
-
 <!--Counter Section-->
 <section class="counter-section-two">
     <div class="auto-container">
         <div class="inner-section">
 
             <div class="fact-counter">
-                <div class="row flex-lg-nowrap clearfix">
+                <div class="row clearfix">
 
                     <!--Column-->
-                    <div class="column counter-column col-lg col-md-4 col-sm-12">
+                    <div class="column counter-column col-md-4 col-sm-12">
                         <div class="inner">
                             <div class="content">
                                 <div class="count-outer count-box">
@@ -142,7 +104,7 @@
                     </div>
 
                     <!--Column-->
-                    <div class="column counter-column col-lg col-md-4 col-sm-12">
+                    <div class="column counter-column col-md-4 col-sm-12">
                         <div class="inner">
                             <div class="content">
                                 <div class="count-outer count-box alternate">
@@ -154,7 +116,21 @@
                     </div>
 
                     <!--Column-->
-                    <div class="column counter-column col-lg col-md-4 col-sm-12">
+                    <div class="column counter-column col-md-4 col-sm-12">
+                        <div class="inner">
+                            <div class="content">
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="3500" data-stop="3455">0</span>
+                                </div>
+                                <h4 class="counter-title">Industrias adscritas a las DO en España</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <!--Column-->
+                    <div class="column counter-column col-md-6 col-sm-12">
                         <div class="inner">
                             <div class="content">
                                 <div class="count-outer count-box">
@@ -166,25 +142,13 @@
                     </div>
                     
                     <!--Column-->
-                    <div class="column counter-column col-lg col-md-4 col-sm-12">
+                    <div class="column counter-column col-md-6 col-sm-12">
                         <div class="inner">
                             <div class="content">
                                 <div class="count-outer count-box alternate">
                                     <span class="count-text" data-speed="3250" data-stop="195155">0</span>
                                 </div>
                                 <h4 class="counter-title">Operadores primarios vinculados a las DO en España</h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="column counter-column col-lg col-md-4 col-sm-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3500" data-stop="3455">0</span>
-                                </div>
-                                <h4 class="counter-title">Industrias adscritas a las DO en España</h4>
                             </div>
                         </div>
                     </div>

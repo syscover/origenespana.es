@@ -43,11 +43,11 @@
         <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide3.jpg') }})">
             <div class="auto-container">
                 <div class="content">
-                    <h3 class="style-two">¿Tienes una DOP o IGP?</h3>
-                    <h2>Hazte socio</h2>
+                    <h3 class="style-two">Somos ORIGEN, CALIDAD, TRADICIÓN Y GARANTÍA</h3>
+                    <h2>Productos únicos de orígenes únicos</h2>
                     <div class="text">
                         <br>
-                        Puedes saber más sobre nuestros socios y sus beneficios pinchando en "Más información"
+                        Puedes saber más sobre productos agroalimentarios españoles con DOP e IGP pinchando en “Más información”
                         <br>
                         <br>
                     </div>
@@ -97,15 +97,18 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img src="{{ asset('/images/theme/resource/author-1.jpg') }}" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2019.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
                         <!--Content Column-->
                         <div class="content-column col-lg-7 col-md-7 col-sm-12">
                             <div class="inner-column">
-                                <div class="text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comod duis aute irure dolor reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur eaxcepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</div>
-                                <div class="author">Camron White</div>
+                                <p class="title">Asamblea 2019 <small>(5 al 7 de junio)</small></p>
+                                <div class="text">
+                                    Jerez de la Frontera se convirtió en la capital española de las DOP e IGP del 5 al 7 de junio de 2019. Allí celebró la asociación la undécima edición de las jornadas técnicas y asamblea general anual, organizadas por la <strong>DOP Vinagre de Jerez</strong> como parte de los actos conmemorativos del 25 aniversario de su creación.     
+                                </div>
+                                {{-- <div class="author">Camron White</div> --}}
                             </div>
                         </div>
                     </div>
@@ -120,15 +123,44 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img src="{{ asset('/images/theme/resource/author-1.jpg') }}" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2018.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
                         <!--Content Column-->
                         <div class="content-column col-lg-7 col-md-7 col-sm-12">
                             <div class="inner-column">
-                                <div class="text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comod duis aute irure dolor reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur eaxcepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</div>
-                                <div class="author">Camron White</div>
+                                <p class="title">Asamblea 2018 <small>(13 al 15 de junio)</small></p>
+                                <div class="text">
+                                    Del 13 al 15 de junio de 2018 celebramos el 10º aniversario de ORIGEN ESPAÑA en Zamora. En esta edición, las jornadas técnicas y la asamblea general estuvieron organizadas por la <strong>DOP Queso Zamorano</strong>, que celebraba su aniversario al cumplir 25 años de reconocimiento como DOP.
+                                </div>
+                                {{-- <div class="author">Camron White</div> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Testimonial Block Two-->
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="row flex-sm-row-reverse clearfix">
+                        <!--Image Column-->
+                        <div class="image-column col-lg-5 col-md-5 col-sm-12">
+                            <div class="inner-column">
+                                <div class="image">
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2017.jpg') }}" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <!--Content Column-->
+                        <div class="content-column col-lg-7 col-md-7 col-sm-12">
+                            <div class="inner-column">
+                                <p class="title">Asamblea 2017 <small>(8 al 10 de noviembre)</small></p>
+                                <div class="text">
+                                    ORIGEN ESPAÑA celebró su 9ª edición de jornadas técnicas y asamblea general del 8 al 10 de noviembre de 2017. El anfitrión, en esta ocasión, fue la <strong>DOP Jabugo</strong>, quien nos acogió en su sede ubicada en el emblemático Edificio El Tiro, en el municipio de Jabugo.
+                                </div>
+                                {{-- <div class="author">Camron White</div> --}}
                             </div>
                         </div>
                     </div>
@@ -143,38 +175,18 @@
                         <div class="image-column col-lg-5 col-md-5 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img src="{{ asset('/images/theme/resource/author-1.jpg') }}" alt="" />
+                                    <img class="img-fluid" src="{{ asset('/images/asambleas/asamblea-2016.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
                         <!--Content Column-->
                         <div class="content-column col-lg-7 col-md-7 col-sm-12">
                             <div class="inner-column">
-                                <div class="text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comod duis aute irure dolor reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur eaxcepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</div>
-                                <div class="author">Camron White</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!--Testimonial Block Two-->
-            <div class="testimonial-block-two">
-                <div class="inner-box">
-                    <div class="row flex-sm-row-reverse clearfix">
-                        <!--Image Column-->
-                        <div class="image-column col-lg-5 col-md-5 col-sm-12">
-                            <div class="inner-column">
-                                <div class="image">
-                                    <img src="{{ asset('/images/theme/resource/author-1.jpg') }}" alt="" />
+                                <p class="title">Asamblea 2016 <small>(17 al 18 de noviembre)</small></p>
+                                <div class="text">
+                                    La 8ª edición de las jornadas técnicas y asamblea general se celebraron en San Sebastián del 17 al 18 de noviembre de 2016, organizadas por la <strong>DOP Idiazabal</strong>. En esa edición ORIGEN ESPAÑA comunicó a los asociados que la Comisión Europea aprobaba nuestro proyecto de promoción “Historias en tu mesa”.
                                 </div>
-                            </div>
-                        </div>
-                        <!--Content Column-->
-                        <div class="content-column col-lg-7 col-md-7 col-sm-12">
-                            <div class="inner-column">
-                                <div class="text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comod duis aute irure dolor reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur eaxcepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</div>
-                                <div class="author">Camron White</div>
+                                {{-- <div class="author">Camron White</div> --}}
                             </div>
                         </div>
                     </div>
@@ -452,71 +464,11 @@
     <div class="auto-container">
         <!--Sec Title-->
         <div class="sec-title">
-            <h2>Convenios firmados</h2>
+            <h2>Relaciones institucionales</h2>
         </div>
 
         <div class="row clearfix">
-            
-            <!--Counter Column-->
-            {{-- <div class="counter-column col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="text">Voluptate velit essle duis irurey dolor reprehenderit cillum dolorete fugiat nulla pariatur excpteur sinton capdatat proident suntin culpa officia.</div>
-                    <div class="fact-counter">
-                        <div class="row clearfix">
-
-                            <!--Column-->
-                            <div class="column counter-column col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="count-outer count-box alternate">
-                                            <span class="count-text" data-speed="2500" data-stop="260">0</span>+
-                                        </div>
-                                        <h4 class="counter-title">Expert Consultants</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Column-->
-                            <div class="column counter-column col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="count-outer count-box alternate">
-                                            <span class="count-text" data-speed="3000" data-stop="975">0</span>+
-                                        </div>
-                                        <h4 class="counter-title">Orders in queue</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Column-->
-                            <div class="column counter-column col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="318">0</span>+
-                                        </div>
-                                        <h4 class="counter-title">activated clients</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Column-->
-                            <div class="column counter-column col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="650">0</span>+
-                                        </div>
-                                        <h4 class="counter-title">projects done</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
-            
+                        
             <!--Blocks Column-->
             <div class="blocks-column col-md-12 col-sm-12">
                 <div class="inner-column">
@@ -529,7 +481,7 @@
                                     <img src="{{ asset('images/conv/originals/ministerio.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Ministerio de Agricultura, Pesca y Alimentacion</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Ministerio de Agricultura, Pesca y Alimentacion</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -542,7 +494,7 @@
                                     <img src="{{ asset('images/conv/originals/patentes.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Oficina de Patentes y Marcas</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Oficina de Patentes y Marcas</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -555,7 +507,7 @@
                                     <img src="{{ asset('images/conv/originals/gc.jpg') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Guardia Civil</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Guardia Civil</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -568,7 +520,7 @@
                                     <img src="{{ asset('images/conv/originals/aces.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Asociación de Cadenas Españolas de Supermercados</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Asociación de Cadenas Españolas de Supermercados</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -581,7 +533,7 @@
                                     <img src="{{ asset('images/conv/originals/tequila.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Consejo Regulador del Tequila</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Consejo Regulador del Tequila</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -594,7 +546,7 @@
                                     <img src="{{ asset('images/conv/originals/basque.jpg') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a >Basque Culinary Center</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Basque Culinary Center</a></h3>
                                     <div class="designation">Convenio</div>
                                 </div>
                             </div>
@@ -607,7 +559,7 @@
                                     <img src="{{ asset('images/conv/originals/origin.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="https://www.origin-gi.com/" target="_blank">Organization for an International Geographical Indications Network</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Organization for an International Geographical Indications Network</a></h3>
                                     <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
@@ -620,7 +572,7 @@
                                     <img src="{{ asset('images/conv/originals/aec.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="https://www.aec.es/" target="_blank">Asociación Española para la Calidad</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Asociación Española para la Calidad</a></h3>
                                     <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
@@ -633,7 +585,7 @@
                                     <img src="{{ asset('images/conv/originals/enac.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="https://www.enac.es/" target="_blank">Entidad Nacional de Acreditación</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Entidad Nacional de Acreditación</a></h3>
                                     <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>
@@ -646,7 +598,7 @@
                                     <img src="{{ asset('images/conv/originals/aippi.png') }}" alt="" />
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="https://aippi.org/" target="_blank">Asociación Internacional para la Protección de la Propiedad Intelectual</a></h3>
+                                    <h3><a href="{{ route('web.relations') }}">Asociación Internacional para la Protección de la Propiedad Intelectual</a></h3>
                                     <div class="designation">Formamos parte de</div>
                                 </div>
                             </div>

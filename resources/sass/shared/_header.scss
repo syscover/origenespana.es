@@ -286,7 +286,7 @@
 
 .partner-modal {
     .modal-body {
-        padding: 40px 16px;
+        padding: 40px 15px;
     }
     .modal-title {
         font-family: "Poppins", sans-serif;
@@ -295,5 +295,39 @@
         line-height: 56px;
         margin: 0 0 32px;
         color: $origen-grey;
+    }
+    .sec-lower {
+        position: relative;
+        & > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: -15px;
+            right: -15px;
+            bottom: -40px;
+            background-color: rgba($origen-grey, 0.1);
+        }
+
+        .contact-form {
+            padding: 40px 0 0;
+
+            input,
+            select,
+            textarea {
+                color: $origen-grey;
+                border-color: rgba($origen-grey, 0.5);
+
+                &:focus {
+                    border-color: $origen-red;
+                }
+            }        
+        }
+        
     }
 }

@@ -42,9 +42,9 @@
                     <div class="lower-content">
                         <h3>Ministerio de Agricultura, Pesca y Alimentación</h3>
                         <div class="text">
-                            Fomentar la promoción alimentaria y ser órgano de consulta para temas de política sectorial.
+                            <span class="theme_color">Finalidad convenio firmado:</span> Fomentar la promoción alimentaria y ser órgano de consulta para temas de política sectorial.
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="https://www.mapa.gob.es/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -58,9 +58,9 @@
                     <div class="lower-content">
                         <h3>Oficina Española de Patentes y Marcas</h3>
                         <div class="text">
-                            Facilitar, impulsar y estimular el conocimiento y la utilización de los derechos de Propiedad Industrial dentro del sector de las DOP e IGP agroalimentarias. Defensa del término “ORIGEN”.
+                            <span class="theme_color">Finalidad convenio firmado:</span> Facilitar, impulsar y estimular el conocimiento y la utilización de los derechos de Propiedad Industrial dentro del sector de las DOP e IGP agroalimentarias. Defensa del término “ORIGEN”.
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="https://www.oepm.es/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -74,9 +74,9 @@
                     <div class="lower-content">
                         <h3>Guardia Civil</h3>
                         <div class="text">
-                            Promover la colaboración para mejorar la investigación de actividades ilícitas en el ámbito de la producción y tráfico de alimentos, así como su adulteración o falsificación.
+                            <span class="theme_color">Finalidad convenio firmado:</span> Promover la colaboración para mejorar la investigación de actividades ilícitas en el ámbito de la producción y tráfico de alimentos, así como su adulteración o falsificación.
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="https://www.guardiacivil.es/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -90,9 +90,9 @@
                     <div class="lower-content">
                         <h3>Asociación de Cadenas Españolas de Supermercados</h3>
                         <div class="text">
-                            Cooperación en materia de protección de las figuras de calidad alimentaria DOP e IGP en los supermercados nacionales. 
+                            <span class="theme_color">Finalidad convenio firmado:</span> Cooperación en materia de protección de las figuras de calidad alimentaria DOP e IGP en los supermercados nacionales. 
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="http://www.asociacionsupermercados.com/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -106,9 +106,9 @@
                     <div class="lower-content">
                         <h3>Consejo Regulador del Tequila</h3>
                         <div class="text">
-                            Potenciar la calidad diferenciada e impulsar la protección de las denominaciones de origen en Méjico y España.
+                            <span class="theme_color">Finalidad convenio firmado:</span> Potenciar la calidad diferenciada e impulsar la protección de las denominaciones de origen en Méjico y España.
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="https://www.crt.org.mx/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>
@@ -122,9 +122,9 @@
                     <div class="lower-content">
                         <h3>Basque Culinary Center</h3>
                         <div class="text">
-                            Trabajar en actuaciones orientadas a destacar las DOP e IGP en la gastronomía.
+                            <span class="theme_color">Finalidad convenio firmado:</span> Trabajar en actuaciones orientadas a destacar las DOP e IGP en la gastronomía.
                         </div>
-                        {{-- <a class="read-more" ><span class="fa fa-angle-right"></span> Read more</a> --}}
+                        <a class="read-more" href="https://www.bculinary.com/" target="_blank"><span class="fa fa-angle-right"></span> Más información</a>
                     </div>
                 </div>
             </div>

@@ -117,10 +117,10 @@
             <div class="row flex-md-row-reverse clearfix">
                 <div class="column col-md-6 col-sm-12 col-xs-12">
                     <ul class="footer-nav">
-                        <li><a href="#">Hazte socio</a></li>
-                        <li><a href="#">Convocatorias</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Aviso legal</a></li>
+                        <li><a data-toggle="modal" data-target="#partnerModal">Hazte socio</a></li>
+                        <li><a href="{{ route('web.relations') }}">Convocatorias</a></li>
+                        <li><a href="{{ route('web.contact') }}">Contacto</a></li>
+                        <li><a href="">Aviso legal</a></li>
                     </ul>
                 </div>
                 <div class="column col-md-6 col-sm-12 col-xs-12">

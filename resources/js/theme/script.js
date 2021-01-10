@@ -118,10 +118,10 @@
 					duration: r,
 					easing: "linear",
 					step: function() {
-						$t.find(".count-text").text(Math.floor(this.countNum));
+						$t.find(".count-text").text(Math.floor(this.countNum).toLocaleString('es-ES', {style: 'decimal'}));
 					},
 					complete: function() {
-						$t.find(".count-text").text(this.countNum);
+						$t.find(".count-text").text(this.countNum.toLocaleString('es-ES', {style: 'decimal'}));
 					}
 				});
 			}
@@ -382,6 +382,9 @@
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {
+				dopigp: {
+					required: true
+				},
 				name: {
 					required: true
 				},
@@ -400,15 +403,18 @@
 				}
 			},
 			messages: {
+				dopigp: {
+					required: 'Por favor introduzca una DOP / IGP.'
+				},
 				name: {
-					required: 'Por favor introduzca su nombre.'
+					required: 'Por favor introduzca un nombre.'
 				},
 				email: {
-					required: 'Por favor introduzca su correo electrónico.',
+					required: 'Por favor introduzca un correo electrónico.',
 					email: 'Por favor introduzca un correo electrónico válido.'
 				},
 				phone: {
-					required: 'Por favor introduzca su número de teléfono.'
+					required: 'Por favor introduzca un número de teléfono.'
 				},
 				subject: {
 					required: 'Por favor introduzca un asunto.'

@@ -39,6 +39,12 @@
 
  .fact-counter {
     .column .inner {
+        padding: 0;
+        
+        .content {
+            text-align: center;
+        }
+
         .count-outer {
             color: $origen-grey;
             .count-text {
@@ -52,11 +58,12 @@
                 }
             }
         }
+        
         .counter-title {
-            @media only screen and (min-width: 1200px) {
-                max-width: 200px;
-                min-width: 120px
-            }
+            // @media only screen and (min-width: 1200px) {
+            //     max-width: 200px;
+            //     min-width: 120px
+            // }
         }
     }
  } 
@@ -103,5 +110,11 @@
                 }
             }
         }
+    }
+}
+
+.testimonials {
+    .testimonial-block-two {
+        margin: 0 0 32px;
     }
 }

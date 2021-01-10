@@ -101,7 +101,7 @@
                         {{-- <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div> --}}
                         <div class="more-link">
                             <a class="read-more" href="https://ec.europa.eu/info/food-farming-fisheries/food-safety-and-quality/certification/quality-labels/geographical-indications-register/" target="_blank">
-                                <span class="arrow fa fa-angle-right"></span> Read more
+                                <span class="arrow fa fa-angle-right"></span> Más información
                             </a>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                         {{-- <div class="text">Acepteur sintas haecat sed cupidatat non dui proident sunt culpa qui officia sed ipsum tempor eserunt.</div> --}}
                         <div class="more-link">
                             <a class="read-more" href="https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/dop-igp/" target="_blank">
-                                <span class="arrow fa fa-angle-right"></span> Read more
+                                <span class="arrow fa fa-angle-right"></span> Más información
                             </a>
                         </div>
                     </div>

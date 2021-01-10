@@ -32,7 +32,16 @@
                 }
 
                 .read-more {
+                    display: block;
+                    text-align: center;
                     color: $origen-red;
+                    padding: 0;
+                    margin: 16px 0 0;
+                    
+                    &::before {
+                        display: none;
+                    }
+
                     .fa {
                         color: $origen-red;
                     }

@@ -85,6 +85,7 @@ main {
     input,
     select,
     textarea {
+        background-color: rgba(#FFF, 0.4);
         color: $origen-grey;
 
         &:focus {
