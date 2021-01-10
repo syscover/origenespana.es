@@ -1,7 +1,7 @@
 @extends('web.layout.default')
 
 @section('content')
-	
+
 <!--Page Title-->
 <section class="page-title" style="background-image:url({{ asset('images/bgs/partners/socios.jpg') }}); background-position: 50% 65%;">
     <div class="auto-container">
@@ -19,40 +19,43 @@
     <div class="auto-container">
         <!--MixitUp Galery-->
         <div class="mixitup-gallery">
-            
+
             <!--Filter-->
             <div class="filters text-center clearfix">
-                
+
                 <ul class="filter-tabs filter-btns clearfix">
                     <li class="active filter" data-role="button" data-filter="all">Todos <span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".category-1">Categoria 1 <span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".category-2">Categoria 2 <span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".ganaderia">Ganadería <span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".category-2">Agricultura<span class="dots"></span></li>
                     <li class="filter" data-role="button" data-filter=".category-3">Categoria 3 <span class="dots"></span></li>
                     <li class="filter" data-role="button" data-filter=".category-4">Categoria 4 <span class="dots"></span></li>
                 </ul>
-                
+
             </div>
-            
+
             <div class="filter-list row clearfix">
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-4 category-2 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
+
+                @foreach($partners as $partner)
+                <div class="gallery-block-two mix all col-lg-4 col-md-6 col-sm-12 {{ implode(' ', $partner->categories) }}">
+                    <a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                                @foreach($partner->listImages as $image)
+                                    <img src="{{ $image }}" alt="" class="image image--normal">
+                                    <img src="{{ $image }}" alt="" class="image image--hover">
+                                @endforeach
                             </figure>
                         </div>
                         <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-2 Categoria-4</p>
+                            <h3>{{ $partner->name }}</h3>
+                            <p>{{ $partner->position }}</p>
                         </div>
                     </a>
-                </div>               
-                
+                </div>
+                @endforeach
+
                 <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-1 category-2 col-lg-4 col-md-6 col-sm-12">
+                <div class="gallery-block-two mix all ganaderia category-2 col-lg-4 col-md-6 col-sm-12">
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
@@ -84,7 +87,7 @@
                 </div>
                 
                 <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-1 col-lg-4 col-md-6 col-sm-12">
+                <div class="gallery-block-two mix all ganaderia col-lg-4 col-md-6 col-sm-12">
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
@@ -100,7 +103,7 @@
                 </div>
                 
                 <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-1 category-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="gallery-block-two mix all ganaderia category-4 col-lg-4 col-md-6 col-sm-12">
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
@@ -116,7 +119,7 @@
                 </div>
                 
                 <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-1 col-lg-4 col-md-6 col-sm-12">
+                <div class="gallery-block-two mix all ganaderia col-lg-4 col-md-6 col-sm-12">
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
                         <div class="inner-box">
                             <figure class="image-box">
@@ -162,7 +165,7 @@
                         </div>
                     </a>
                 </div>
-                
+
                 <!--Gallery Block Two-->
                 <div class="gallery-block-two mix all category-3 col-lg-4 col-md-6 col-sm-12">
                     <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
@@ -178,16 +181,16 @@
                         </div>
                     </a>
                 </div>
-                
+
             </div>
-            
+
             <!--Button Box-->
             <div class="button-box text-center">
                 <a href="#" class="theme-btn btn-style-five">Load More</a>
             </div>
-            
+
         </div>
-        
+
     </div>
 </section>
 <!--End Portfolio Page Section-->

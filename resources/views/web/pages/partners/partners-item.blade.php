@@ -4,11 +4,11 @@
 
 <section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
     <div class="auto-container">
-        <h1>Nombre del Socio</h1>
+        <h1>{{ $partner->name }}</h1>
         <ul class="page-breadcrumb">
             <li><a href="{{ route('web.home') }}">Inicio</a></li>
             <li><a href="{{ route('web.partners.list') }}">Socios</a></li>
-            <li>Nombre del Socio</li>
+            <li>{{ $partner->name }}</li>
         </ul>
     </div>
 </section>
@@ -18,58 +18,61 @@
 <section class="portfolio-single-section">
     <div class="auto-container">
         <div class="row flex-md-row-reverse clearfix">
-        
+
             <!--Content Column-->
             <div class="content-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
-                     <h2 {{-- data-toggle="modal" data-target="#fileModal" --}} >Nombre del socio</h2>
-                    <div class="title">Categoria-1 Categoria-2</div>
+                     <h2 {{-- data-toggle="modal" data-target="#fileModal" --}} >{{ $partner->name }}</h2>
+                    <div class="title">{{ $partner->position }}</div>
                     <div class="text">
-                        <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eudys sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolr minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <p>Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehende um dolore eu fugiat nulla pariatur excepteur sint occaecat cupidata lorem ip sum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid sidunt ut labore et dolore magna aliqua. </p>
-                        <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi utmas aliquip ex ea duis aute irure dolor in reprehenderit.</p>
-                        <!--Featured Block Two-->
-                        <div class="feature-block-two style-two">
+                        {!! $partner->description !!}
+
+                        <!-- <div class="feature-block-two style-two">
                             <div class="inner-box">
                                 <h3>The Leadership Ideas</h3>
                                 <div class="text">Excepteur sint ocaec at cupdatat proide eserunt mol anim.</div>
                             </div>
                         </div>
 
-                        <!--Featured Block Two-->
                         <div class="feature-block-two style-two">
                             <div class="inner-box">
                                 <h3>Transform Yourself</h3>
                                 <div class="text">Excepteur sint ocaec at cupdatat proide eserunta laborum.</div>
                             </div>
-                        </div>
-                        <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eudys sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim consectetur adipisicing elit sed do eiusmod tempor.</p>
+                        </div> -->
                     </div>
+
                     <ul class="porfolio-info">
                         <li>
                             <span>Direccion:</span><br/>
-                            Consejo Regulador de las IGP de Carne de Vacuno de Galicia<br/>
-                            Recinto Ferial, Amio S/N<br/>
-                            15891 Santiago de Compostela (A Coruña)
+                            {{ $partner->recipient }}<br/>
+                            {{ $partner->address }}<br/>
+                            {{ $partner->zip }} {{ $partner->locality }} ({{ $partner->province }})
                         </li>
                         <li>
                             <span>Teléfonos:</span><br/>
-                            <a href="tel:981 57 57 86" target="_blank">Fijo: 981 57 57 86</a>
-                            <a href="tel:981 57 48 95" target="_blank">Fax: 981 57 48 95</a>
+                            <a href="tel:{{ $partner->phone }}" target="_blank">Fijo: {{ $partner->phone }}</a>
+                            <a href="tel:{{ $partner->fax }}" target="_blank">Fax: {{ $partner->fax }}</a>
                         </li>
                         <li>
                             <span>Email:</span><br/>
-                            <a href="mailto:consello@vacundegalicia.com" target="_blank" class="lowercase">consello@vacundegalicia.com</a>
+                            <a href="mailto:{{ $partner->email }}" target="_blank" class="lowercase">{{ $partner->email }}</a>
                         </li>
                         <li>
                             <span>Web:</span><br/>
-                            <a href="https://google.com" target="_blank" class="lowercase">google.com</a>
+                            <a href="{{ $partner->webUrl }}" target="_blank" class="lowercase">{{ $partner->web }}</a>
                         </li>
                         <li>
                             <span>Redes sociales:</span><br/>
-                            <a href="https://google.com" target="_blank" class="lowercase"><i class="fa fa-facebook"></i></a>
-                            <a href="https://google.com" target="_blank" class="lowercase"><i class="fa fa-twitter"></i></a>
-                            <a href="https://google.com" target="_blank" class="lowercase"><i class="fa fa-pinterest"></i></a>
+                            @if($partner->social->facebook)
+                            <a href="{{ $partner->social->facebook }}" target="_blank" class="lowercase"><i class="fa fa-facebook"></i></a>
+                            @endif
+                            @if($partner->social->twitter)
+                            <a href="{{ $partner->social->twitter }}" target="_blank" class="lowercase"><i class="fa fa-twitter"></i></a>
+                            @endif
+                            @if($partner->social->instagram)
+                            <a href="{{ $partner->social->instagram }}" target="_blank" class="lowercase"><i class="fa fa-instagram"></i></a>
+                            @endif
                         </li>
                     </ul>
                     {{-- <ul class="portfolio-share">
@@ -78,30 +81,26 @@
                     </ul> --}}
                 </div>
             </div>
-            
+
             <!--Image Column-->
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
+                    @foreach($partner->detailImages as $image)
                     <div class="image">
-                        <img src="{{ asset('images/theme/gallery/26.jpg') }}" alt="" />
+                        <img src="{{ $image }}" alt="" />
                     </div>
-                    <div class="image">
-                        <img src="{{ asset('images/theme/gallery/27.jpg') }}" alt="" />
-                    </div>
-                    <div class="image">
-                        <img src="{{ asset('images/theme/gallery/28.jpg') }}" alt="" />
-                    </div>
+                    @endforeach
                 </div>
             </div>
-            
+
         </div>
-        
-        <!--New Posts-->
+
+        <!-- others partners -->
         <div class="new-posts clearfix">
-            <a href="#" class="prev-post"><span class="icon fa fa-caret-left"></span> Socio anterior</a>
-            <a href="#" class="next-post">Socio siguiente <span class="icon fa fa-caret-right"></span></a>
+            <a href="{{ route('web.partners.item', ['slug' => $previousSlug]) }}" class="prev-post"><span class="icon fa fa-caret-left"></span> Socio anterior</a>
+            <a href="{{ route('web.partners.item', ['slug' => $nextSlug]) }}" class="next-post">Socio siguiente <span class="icon fa fa-caret-right"></span></a>
         </div>
-        
+
     </div>
 </section>
 <!--End Portfolio Single Section-->

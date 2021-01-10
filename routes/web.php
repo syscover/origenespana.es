@@ -21,8 +21,8 @@ Route::get('/sellos-dop-e-igp',                     function () { return view('w
 
 Route::get('/relaciones-institucionales',           function () { return view('web.pages.relations');                     })->name('web.relations');
 
-Route::get('/socios',                               function () { return view('web.pages.partners.partners-list');        })->name('web.partners.list');
-Route::get('/socios/{slug}',                        function () { return view('web.pages.partners.partners-item');        })->name('web.partners.item');
+Route::get('/socios',                               '\App\Http\Controllers\PartnerController@partners')->name('web.partners.list');
+Route::get('/socios/{slug}',                        '\App\Http\Controllers\PartnerController@partner')->name('web.partners.item');
 
 Route::get('/noticias',                             function () { return view('web.pages.blog.blog-list');                })->name('web.blog.list');
 Route::get('/noticias/{slug}',                      function () { return view('web.pages.blog.blog-post');                })->name('web.blog.post');
