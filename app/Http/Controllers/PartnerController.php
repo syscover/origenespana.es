@@ -9,7 +9,7 @@ class PartnerController extends Controller
 
     public function partner($slug)
     {
-        $partners       = config('partners.partners');
+        $partners       = collect(config('partners.partners'));
         $partner        = null;
         $previousSlug   = null;
         $nextSlug       = null;
@@ -26,10 +26,17 @@ class PartnerController extends Controller
 
         if (!$partner) abort(404);
 
+        $partnersRelated = $partners->filter(function($value, $key) use ($partner) {
+                return $value->slug !== $partner->slug;
+            })
+            ->shuffle()
+            ->take(3);
+
         return view('web.pages.partners.partners-item', [
-            'partner'       => $partner,
-            'previousSlug'  => $previousSlug,
-            'nextSlug'      => $nextSlug,
+            'partner'           => $partner,
+            'previousSlug'      => $previousSlug,
+            'nextSlug'          => $nextSlug,
+            'partnersRelated'   => $partnersRelated
         ]);
     }
 }

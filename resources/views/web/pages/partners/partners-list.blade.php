@@ -40,10 +40,8 @@
                     <a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">
                         <div class="inner-box">
                             <figure class="image-box">
-                                @foreach($partner->listImages as $image)
-                                    <img src="{{ $image }}" alt="" class="image image--normal">
-                                    <img src="{{ $image }}" alt="" class="image image--hover">
-                                @endforeach
+                                <img src="{{ $partner->listImage }}" alt="" class="image image--normal">
+                                <img src="{{ $partner->listImage }}" alt="" class="image image--hover">
                             </figure>
                         </div>
                         <div class="text-box">
@@ -54,140 +52,12 @@
                 </div>
                 @endforeach
 
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all ganaderia category-2 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-1 Categoria-2</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-3 category-4 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-3 Categoria-4</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all ganaderia col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-1</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all ganaderia category-4 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-1 Categoria-4</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all ganaderia col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-1</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-2 category-4 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-2 Categoria-4</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-4 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-4</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!--Gallery Block Two-->
-                <div class="gallery-block-two mix all category-3 col-lg-4 col-md-6 col-sm-12">
-                    <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                                <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                            </figure>
-                        </div>
-                        <div class="text-box">
-                            <h3>Nombre del socio</h3>
-                            <p>Categoria-3</p>
-                        </div>
-                    </a>
-                </div>
-
             </div>
 
             <!--Button Box-->
-            <div class="button-box text-center">
+            <!-- <div class="button-box text-center">
                 <a href="#" class="theme-btn btn-style-five">Load More</a>
-            </div>
+            </div> -->
 
         </div>
 

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset($partner->headerImage) }})">
     <div class="auto-container">
         <h1>{{ $partner->name }}</h1>
         <ul class="page-breadcrumb">
@@ -49,11 +49,17 @@
                             {{ $partner->address }}<br/>
                             {{ $partner->zip }} {{ $partner->locality }} ({{ $partner->province }})
                         </li>
+                        @if(isset($partner->phone) || isset($partner->fax))
                         <li>
                             <span>Teléfonos:</span><br/>
+                            @isset($partner->phone)
                             <a href="tel:{{ $partner->phone }}" target="_blank">Fijo: {{ $partner->phone }}</a>
+                            @endIsset
+                            @isset($partner->fax)
                             <a href="tel:{{ $partner->fax }}" target="_blank">Fax: {{ $partner->fax }}</a>
+                            @endIsset
                         </li>
+                        @endIf
                         <li>
                             <span>Email:</span><br/>
                             <a href="mailto:{{ $partner->email }}" target="_blank" class="lowercase">{{ $partner->email }}</a>
@@ -64,15 +70,18 @@
                         </li>
                         <li>
                             <span>Redes sociales:</span><br/>
-                            @if($partner->social->facebook)
+                            @isset($partner->social->facebook)
                             <a href="{{ $partner->social->facebook }}" target="_blank" class="lowercase"><i class="fa fa-facebook"></i></a>
-                            @endif
-                            @if($partner->social->twitter)
+                            @endIsset
+                            @isset($partner->social->twitter)
                             <a href="{{ $partner->social->twitter }}" target="_blank" class="lowercase"><i class="fa fa-twitter"></i></a>
-                            @endif
-                            @if($partner->social->instagram)
+                            @endIsset
+                            @isset($partner->social->instagram)
                             <a href="{{ $partner->social->instagram }}" target="_blank" class="lowercase"><i class="fa fa-instagram"></i></a>
-                            @endif
+                            @endIsset
+                            @isset($partner->social->youtube)
+                            <a href="{{ $partner->social->youtube }}" target="_blank" class="lowercase"><i class="fa fa-youtube"></i></a>
+                            @endIsset
                         </li>
                     </ul>
                     {{-- <ul class="portfolio-share">
@@ -87,7 +96,7 @@
                 <div class="inner-column">
                     @foreach($partner->detailImages as $image)
                     <div class="image">
-                        <img src="{{ $image }}" alt="" />
+                        <img src="{{ asset($image) }}" alt="" />
                     </div>
                     @endforeach
                 </div>
@@ -108,62 +117,32 @@
 <!--Related Projects-->
 <section class="related-posts">
     <div class="auto-container">
-        
+
         <!--Sec Title-->
         <div class="sec-title centered">
-            <h2>Socios relacionados</h2>
+            <h2>Otros socios</h2>
             <div class="title-text">Automate & Simplify The Whole Process</div>
         </div>
         <div class="row clearfix">
-           
+
+            @foreach($partnersRelated as $partner)
             <!--Gallery Block-->
             <div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-                <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
+                <a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
+                            <img src="{{ $partner->listImage }}" alt="" class="image image--normal">
+                            <img src="{{ $partner->listImage }}" alt="" class="image image--hover">
                         </figure>
                     </div>
                     <div class="text-box">
-                        <h3>Nombre del socio</h3>
-                        <p>Categoria-2</p>
+                        <h3>{{ $partner->name }}</h3>
+                        <p>{{ $partner->position }}</p>
                     </div>
                 </a>
             </div>
-            
-            <!--Gallery Block-->
-            <div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-                <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                        </figure>
-                    </div>
-                    <div class="text-box">
-                        <h3>Nombre del socio</h3>
-                        <p>Categoria-2</p>
-                    </div>
-                </a>
-            </div>
-            
-            <!--Gallery Block-->
-            <div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-                <a href="{{ route('web.partners.item', ['slug' => 'nombre-socio']) }}">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="https://placehold.it/555x400?text=Image1" alt="" class="image image--normal">
-                            <img src="https://placehold.it/555x400?text=Image2" alt="" class="image image--hover">
-                        </figure>
-                    </div>
-                    <div class="text-box">
-                        <h3>Nombre del socio</h3>
-                        <p>Categoria-2</p>
-                    </div>
-                </a>
-            </div>
-            
+            @endforeach
+
         </div>
     </div>
 </section>
