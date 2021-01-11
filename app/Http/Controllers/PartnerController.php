@@ -39,4 +39,9 @@ class PartnerController extends Controller
             'partnersRelated'   => $partnersRelated
         ]);
     }
+
+    public function highlightsPartner()
+    {
+        $partners = collect(config('partners.partners'));
+    }
 }

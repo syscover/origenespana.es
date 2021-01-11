@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',                                     function () { return view('web.pages.home');                          })->name('web.home');
+Route::get('/',                                     '\App\Http\Controllers\WebController@home')->name('web.home');
 
 Route::get('/nosotros/origen-espana',               function () { return view('web.pages.about.about-general');           })->name('web.about.general');
 Route::get('/nosotros/objetivos',                   function () { return view('web.pages.about.about-objectives');        })->name('web.about.objectives');

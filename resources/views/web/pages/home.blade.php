@@ -3,9 +3,9 @@
 @section('content')
 <!--Main Slider-->
 <section class="main-slider">
-                
+
     <div class="main-slider-carousel owl-carousel owl-theme">
-        
+
         <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide1.jpg') }})">
             <div class="auto-container">
                 <div class="content">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide3.jpg') }})">
             <div class="auto-container">
                 <div class="content">
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </section>
 <!--End Main Slider-->
@@ -79,6 +79,17 @@
 </section>
 <!--End Services Title Box-->
 
+<!--Call To Action Section-->
+<section class="call-to-action-two" style="background-image: url({{ asset('images/historias-mesa.jpg') }})">
+    <div class="auto-container">
+        <h2>Campañas de promoción sobre<br>productos con DOP e IGP</h2>
+        {{-- <div class="text">Visita la web de "Historias en tu mesa"</div> --}}
+        <a href="https://abrelosojosydisfruta.es/" target="_blank" class="theme-btn btn-style-five">Visita "Abre los ojos y disfruta"</a>
+        <a href="https://www.historiasentumesa.es/" target="_blank" class="theme-btn btn-style-five ml-5">Visita "Historias en tu mesa"</a>
+    </div>
+</section>
+<!--End Call To Action Section-->
+
 <!--Testimonial Section-->
 <section class="testimonial-section">
     <div class="auto-container">
@@ -88,7 +99,7 @@
             <div class="title-text">Asambleas y Jornadas Técnicas de Origen España.</div>
         </div>
         <div class="single-item-carousel owl-carousel owl-theme">
-            
+
             <!--Testimonial Block Two-->
             <div class="testimonial-block-two">
                 <div class="inner-box">
@@ -114,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Testimonial Block Two-->
             <div class="testimonial-block-two">
                 <div class="inner-box">
@@ -166,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Testimonial Block Two-->
             <div class="testimonial-block-two">
                 <div class="inner-box">
@@ -192,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div>
             <br>
@@ -212,175 +223,32 @@
         </div>
     </div>
     <div class="four-item-carousel owl-carousel owl-theme">
-    
+
+        @foreach($highlightsPartners as $partner)
         <!--Case Block-->
         <div class="case-block">
             <div class="inner-box">
                 <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-1.jpg') }}" alt="" />
+                    <img src="{{ asset('https://placehold.it/555x400') }}" alt="" />
                     <div class="overlay-box">
                         <div class="overlay-inner">
                             <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
+                                <div class="text">
+                                {{ strlen(strip_tags($partner->description)) > 200 ? substr(strip_tags($partner->description), 0, 200) . '...' : strip_tags($partner->description)  }}
+                                </div>
+                                <a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}" class="read-more"><span class="fa fa-angle-right"></span> Más detalles</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="lower-box">
                     <div class="category">case study - strategies</div>
-                    <h3><a href="global-coach.html">Global Business Managment Tracking Apps</a></h3>
+                    <h3><a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">{{ $partner->name }}</a></h3>
                 </div>
             </div>
         </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-2.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - managment</div>
-                    <h3><a href="global-coach.html">Business & Planning With Task Completion</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-3.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - corporate</div>
-                    <h3><a href="global-coach.html">Business & Planning With Task Completion</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-4.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - financial</div>
-                    <h3><a href="global-coach.html">Full Training & Workshop Inventory System</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-1.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - strategies</div>
-                    <h3><a href="global-coach.html">Global Business Managment Tracking Apps</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-2.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - managment</div>
-                    <h3><a href="global-coach.html">Business & Planning With Task Completion</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-3.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - corporate</div>
-                    <h3><a href="global-coach.html">Business & Planning With Task Completion</a></h3>
-                </div>
-            </div>
-        </div>
-        
-        <!--Case Block-->
-        <div class="case-block">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/images/theme/resource/case-4.jpg') }}" alt="" />
-                    <div class="overlay-box">
-                        <div class="overlay-inner">
-                            <div class="content">
-                                <div class="text">Lorem ipsum dolor sit amet adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Utna enim ad minim veniam quis nostrud exercitation ulamco laboris nisi aliquip exea comm ayodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
-                                <a href="global-coach.html" class="read-more"><span class="fa fa-angle-right"></span> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lower-box">
-                    <div class="category">case study - financial</div>
-                    <h3><a href="global-coach.html">Full Training & Workshop Inventory System</a></h3>
-                </div>
-            </div>
-        </div>
-        
+        @endforeach
+
     </div>
 </section>
 <!--End Case Section-->
@@ -394,11 +262,11 @@
             <div class="title-text">Asociación Española de Denominación de Origen</div>
         </div>
         <div class="row clearfix">
-            
+
             <!--Blocks Column-->
             <div class="blocks-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
-                
+
                     <!--News Block-->
                     <div class="news-block">
                         <div class="inner-box">
@@ -409,7 +277,7 @@
                             <h3><a href="blog-single.html">Consecter elit duied aiusmod tempor didunt labore dolory</a></h3>
                         </div>
                     </div>
-                    
+
                     <!--News Block-->
                     <div class="news-block">
                         <div class="inner-box">
@@ -420,7 +288,7 @@
                             <h3><a href="blog-single.html">Ipsum dolor sit amet adipisicing elit, dolore magns aliqua enim </a></h3>
                         </div>
                     </div>
-                    
+
                     <!--News Block-->
                     <div class="news-block">
                         <div class="inner-box">
@@ -431,10 +299,10 @@
                             <h3><a href="blog-single.html">Sunt in culpa qui officia deserunt mollit animed kyest laborum</a></h3>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
-            
+
             <!--Image Column-->
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -443,21 +311,11 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
 <!--End News Section-->
-
-<!--Call To Action Section-->
-<section class="call-to-action-two" style="background-image: url({{ asset('images/historias-mesa.jpg') }})">
-    <div class="auto-container">
-        <h2>Campañas de promoción sobre<br>productos con DOP e IGP</h2>
-        {{-- <div class="text">Visita la web de "Historias en tu mesa"</div> --}}
-        <a href="https://www.historiasentumesa.es/" target="_blank" class="theme-btn btn-style-five">Visita "Historias en tu mesa"</a>
-    </div>
-</section>
-<!--End Call To Action Section-->
 
 <!--Expert Section-->
 <section class="expert-section">
@@ -468,12 +326,12 @@
         </div>
 
         <div class="row clearfix">
-                        
+
             <!--Blocks Column-->
             <div class="blocks-column col-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="experts-carousel owl-carousel owl-theme">
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -486,7 +344,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -525,7 +383,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -538,7 +396,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -551,7 +409,7 @@
                                 </div>
                             </div>
                         </div>
-                                                
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -564,7 +422,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -577,7 +435,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -590,7 +448,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!--Expert Block-->
                         <div class="expert-block">
                             <div class="inner-box">
@@ -603,11 +461,11 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
