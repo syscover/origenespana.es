@@ -24,7 +24,7 @@ Route::get('/relaciones-institucionales',           function () { return view('w
 Route::get('/socios',                               '\App\Http\Controllers\PartnerController@partners')->name('web.partners.list');
 Route::get('/socios/{slug}',                        '\App\Http\Controllers\PartnerController@partner')->name('web.partners.item');
 
-Route::get('/noticias',                             function () { return view('web.pages.blog.blog-list');                })->name('web.blog.list');
-Route::get('/noticias/{slug}',                      function () { return view('web.pages.blog.blog-post');                })->name('web.blog.post');
+Route::get('/noticias',                             '\App\Http\Controllers\WebController@news')->name('web.blog.list');
+Route::get('/noticias/{slug}',                      '\App\Http\Controllers\WebController@newsItem')->name('web.blog.post');
 
 Route::get('/contacto',                             function () { return view('web.pages.contact');                       })->name('web.contact');

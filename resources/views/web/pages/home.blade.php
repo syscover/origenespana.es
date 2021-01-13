@@ -6,7 +6,7 @@
 
     <div class="main-slider-carousel owl-carousel owl-theme">
 
-        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide1.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-1.jpg') }})">
             <div class="auto-container">
                 <div class="content">
                     <h3>Denominación de Origen Protegida</h3>
@@ -14,7 +14,7 @@
                         <img src="{{ asset('images/dop.png') }}" alt="DOP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.    
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide2.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-2.jpg') }})">
             <div class="auto-container">
                 <div class="content">
                     <h3>Indicación Geográfica Protegida</h3>
@@ -31,7 +31,7 @@
                         <img src="{{ asset('images/igp.png') }}" alt="IGP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.    
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-slide3.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('images/bgs/home/home-3.jpg') }})">
             <div class="auto-container">
                 <div class="content">
                     <h3 class="style-two">Somos ORIGEN, CALIDAD, TRADICIÓN Y GARANTÍA</h3>
@@ -267,38 +267,18 @@
             <div class="blocks-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
 
+                    @foreach($news as $newsItem)
                     <!--News Block-->
                     <div class="news-block">
                         <div class="inner-box">
                             <ul class="post-info">
-                                <li>SEPtember 23, 2018</li>
-                                <li>Consultant</li>
+                                <li>{{ $newsItem->date }}</li>
+                                <!-- <li>Consultant</li> -->
                             </ul>
-                            <h3><a href="blog-single.html">Consecter elit duied aiusmod tempor didunt labore dolory</a></h3>
+                            <h3><a href="{{ route('web.blog.post', ['slug' => $newsItem->slug]) }}">{{ $newsItem->excerpt }}</a></h3>
                         </div>
                     </div>
-
-                    <!--News Block-->
-                    <div class="news-block">
-                        <div class="inner-box">
-                            <ul class="post-info">
-                                <li>august 25, 2018</li>
-                                <li>finance</li>
-                            </ul>
-                            <h3><a href="blog-single.html">Ipsum dolor sit amet adipisicing elit, dolore magns aliqua enim </a></h3>
-                        </div>
-                    </div>
-
-                    <!--News Block-->
-                    <div class="news-block">
-                        <div class="inner-box">
-                            <ul class="post-info">
-                                <li>SEPtember 23, 2018</li>
-                                <li>business</li>
-                            </ul>
-                            <h3><a href="blog-single.html">Sunt in culpa qui officia deserunt mollit animed kyest laborum</a></h3>
-                        </div>
-                    </div>
+                    @endforeach
 
                 </div>
             </div>

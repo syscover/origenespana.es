@@ -4,11 +4,11 @@
 <!--Page Title-->
 <section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
     <div class="auto-container">
-        <h1>Nombre del post</h1>
+        <h1>{{ $newsItem->title }}</h1>
         <ul class="page-breadcrumb">
             <li><a href="{{ route('web.home') }}">Inicio</a></li>
             <li><a href="{{ route('web.blog.list') }}">Noticias</a></li>
-            <li>Nombre del post</li>
+            <li>{{ $newsItem->title }}</li>
         </ul>
     </div>
 </section>
@@ -18,7 +18,7 @@
 <section class="sidebar-page-container">
     <div class="auto-container">
         <div class="row clearfix">
-                        
+
             <!--Content Side-->
             <div class="content-side col-md-12 col-sm-12">
                 <div class="blog-single">
@@ -30,8 +30,8 @@
                             <div class="clearfix">
                                 <div class="pull-left">
                                     <ul class="post-meta clearfix">
-                                        <li>SEPtember 23, 2018</li>
-                                        <li>Consultant</li>
+                                        <li>{{ $newsItem->date }}</li>
+                                        <!-- <li>Consultant</li> -->
                                         {{-- <li><span class="icon fa fa-comment-o"></span> 86</li> --}}
                                     </ul>
                                 </div>
@@ -41,9 +41,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <h2>Isolate your beliefs for better future</h2>
+                            <h2>{{ $newsItem->title }}</h2>
                             <div class="text">
-                                <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
+                                {!! $newsItem->article !!}
+                                <!-- <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
                                 <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
                                 <blockquote>
@@ -51,7 +52,7 @@
                                     <div class="blockquote-text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupid deserunt mollit anim id est laborum sed ut perspiciatis.</div>
                                 </blockquote>
                                 <p>Culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                <p>Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                <p>Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore.</p> -->
                             </div>
 
                             {{-- <!--post-share-options-->
@@ -65,26 +66,26 @@
                                     </ul>
                                 </div>
                             </div> --}}
-                            
+
                         </div>
-                        
+
                         <!--New Posts-->
                         <div class="new-posts">
                             <div class="clearfix">
-                                
+
                                 <div class="pull-left prev-post">
-                                    <a href="#"> prev article</a>
+                                    <a href="#"> Artículo anterior</a>
                                     {{-- <h4>Business & Planning With <br> Task Completion</h4> --}}
                                 </div>
-                                
+
                                 <div class="pull-right next-post">
-                                    <a href="#">next article </a>
+                                    <a href="#">Siguiente artículo </a>
                                     {{-- <h4>Global Business Tracking <br> & Inventory Apps</h4> --}}
                                 </div>
-                                
+
                             </div>
                         </div>
-                        
+
                         {{-- <!--Comments Area-->
                         <div class="comments-area">
                             <div class="group-title">
@@ -116,7 +117,7 @@
 
                         </div>
                         <!--End Comments Area--> --}}
-                        
+
                         {{-- <!--Comment Form-->
                         <div class="comment-form">
                             <div class="group-title">
@@ -148,10 +149,10 @@
                         </div>
                         <!--End Comment Form--> --}}
                     </div>
-                    
+
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
