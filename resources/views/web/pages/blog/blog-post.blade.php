@@ -74,12 +74,12 @@
                             <div class="clearfix">
 
                                 <div class="pull-left prev-post">
-                                    <a href="#"> Artículo anterior</a>
+                                    <a href="{{ route('web.blog.post', ['slug' => $previousSlug]) }}"> Artículo anterior</a>
                                     {{-- <h4>Business & Planning With <br> Task Completion</h4> --}}
                                 </div>
 
                                 <div class="pull-right next-post">
-                                    <a href="#">Siguiente artículo </a>
+                                    <a href="{{ route('web.blog.post', ['slug' => $nextSlug]) }}">Siguiente artículo </a>
                                     {{-- <h4>Global Business Tracking <br> & Inventory Apps</h4> --}}
                                 </div>
 

@@ -24,8 +24,28 @@ class WebController extends Controller
 
     public function newsItem($slug)
     {
-        $news = collect(config('news.news'))->where('slug', $slug)->first();
+        // $news = collect(config('news.news'))->where('slug', $slug)->first();
+        $news           = collect(config('news.news'));
+        $newsItem       = null;
+        $previousSlug   = null;
+        $nextSlug       = null;
 
-        return view('web.pages.blog.blog-post', ['newsItem' => $news]);
+        foreach ($news as $key => $value)
+        {
+            if ($value->slug === $slug)
+            {
+                $newsItem       = $value;
+                $previousSlug   = $news[$key-1 === -1 ? count($news) - 1 : $key-1]->slug;
+                $nextSlug       = $news[$key+1 === count($news) ? 0 : $key+1]->slug;
+            }
+        }
+
+        if (!$newsItem) abort(404);
+
+        return view('web.pages.blog.blog-post', [
+            'newsItem'      => $newsItem,
+            'previousSlug'  => $previousSlug,
+            'nextSlug'      => $nextSlug,
+        ]);
     }
 }
