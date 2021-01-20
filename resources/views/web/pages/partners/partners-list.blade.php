@@ -25,10 +25,19 @@
 
                 <ul class="filter-tabs filter-btns clearfix">
                     <li class="active filter" data-role="button" data-filter="all">Todos <span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".ganaderia">Ganadería <span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".category-2">Agricultura<span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".category-3">Categoria 3 <span class="dots"></span></li>
-                    <li class="filter" data-role="button" data-filter=".category-4">Categoria 4 <span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".quesos">Quesos <span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".carnes">Carnes<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".jamones">Jamones<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".embutidos">Embutidos<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".hortalizas">Hortalizas<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".frutas">Frutas<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".pimentones">Pimentones<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".aove">Aove<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".vinagres">Vinagres<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".turrones">Turrones<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".mieles">Mieles<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".panes">Panes<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".moluscos">Moluscos<span class="dots"></span></li>
                 </ul>
 
             </div>

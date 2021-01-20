@@ -21,14 +21,14 @@ return [
                 'twitter'   => 'https://twitter.com/TerneraGallega',
                 'instagram' => 'https://www.instagram.com/terneragallega'
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'https://placehold.it/555x400',
             'detailImages'  => [
                 'https://placehold.it/570x359',
                 'https://placehold.it/570x359',
                 'https://placehold.it/570x359',
             ],
-            'categories'    => ['ganaderia'],
+            'categories'    => ['carnes'],
             'description'   =>
                 '<p>En Galicia hace más de 3.700 años que se produce carne de vacuno. Las condiciones orográficas y climáticas hacen de esta tierra una de las mejores zonas de Europa para el desarrollo de la especie bovina. Las razas y aptitudes del ganado, así como los sistemas de explotación y los cultivos, han dado lugar a un modo común y peculiar de entender la producción de carne de calidad.</p>
                 <p>Ternera Gallega nace en el año 1989 y es reconocida como Indicación Geográfica Protegida en 1996, siendo una de las primeras carnes de vacuno con control integral y certificado de garantía en Europa.</p>

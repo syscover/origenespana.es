@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="page-title" style="background-image:url({{ asset($partner->headerImage) }})">
+<section class="page-title" style="background-image:url({{ asset($partner->headerImage ? $partner->headerImage : 'images/theme/random/partner/' . rand(1, 4) . '.jpg') }})">
     <div class="auto-container">
         <h1>{{ $partner->name }}</h1>
         <ul class="page-breadcrumb">
