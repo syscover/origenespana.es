@@ -21,11 +21,10 @@ return [
                 'instagram' => 'https://www.instagram.com/terneragallega',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/ternera-gallega/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/ternera-gallega/logo.jpg',
+                // 'https://placehold.it/570x359',
             ],
             'categories'    => ['carnes'],
             'description'   =>
@@ -116,11 +115,10 @@ return [
                 'youtube'   => 'https://www.youtube.com/channel/UCGl1e7cj2wmvUzeHIt9oZjg?view_as=subscriber',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/jabugo/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/jabugo/logo.jpg',
+                // 'https://placehold.it/570x359',
             ],
             'categories'    => ['jamones'],
             'description'   =>
@@ -398,11 +396,10 @@ return [
                 'instagram'     => 'https://www.instagram.com/arzuaulloadop',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/arzua-ulloa/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/arzua-ulloa/logo.jpg',
+                //'https://placehold.it/570x359',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -672,11 +669,10 @@ return [
                'youtube'    => 'https://www.youtube.com/user/PICOTADELJERTE',
             ],
            'headerImage'   => 'https://placehold.it/1920x345',
-           'listImage'     => 'https://placehold.it/555x400',
+           'listImage'     => 'images/partners/cereza-del-jerte/logo.jpg',
            'detailImages'  => [
-               'https://placehold.it/570x359',
-               'https://placehold.it/570x359',
-               'https://placehold.it/570x359',
+               'images/partners/cereza-del-jerte/logo.jpg',
+               //'https://placehold.it/570x359',
            ],
            'categories'    => ['frutas'],
            'description'   =>
@@ -894,11 +890,10 @@ return [
                 'youtube'   => 'https://www.youtube.com/channel/UCSviY7HpdNtoKZCys2rCnVw',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/idiazabal/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/idiazabal/logo.jpg',
+                // 'https://placehold.it/570x359',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -925,10 +920,9 @@ return [
                 'youtube'   => 'https://www.youtube.com/user/CRDOJamondeTeruel',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/jamon-teruel/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/jamon-teruel/logo.jpg',
                 'https://placehold.it/570x359',
             ],
             'categories'    => ['jamones'],
@@ -1308,11 +1302,10 @@ return [
                 'instagram' => 'https://www.instagram.com/aovedoppriego/',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'listImage'     => 'images/partners/priego-cordoba/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
-                'https://placehold.it/570x359',
+                'images/partners/priego-cordoba/logo.jpg',
+                // 'https://placehold.it/570x359',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -1543,11 +1536,10 @@ return [
                'instagram'  => 'https://www.instagram.com/aceitedosierrasegura/',
             ],
            'headerImage'   => 'https://placehold.it/1920x345',
-           'listImage'     => 'https://placehold.it/555x400',
+           'listImage'     => 'images/partners/sierra-segura/logo.jpg',
            'detailImages'  => [
-               'https://placehold.it/570x359',
-               'https://placehold.it/570x359',
-               'https://placehold.it/570x359',
+               'images/partners/sierra-segura/logo.jpg',
+               // 'https://placehold.it/570x359',
            ],
            'categories'    => ['aove'],
            'description'   =>
