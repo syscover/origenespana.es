@@ -229,7 +229,7 @@
         <div class="case-block">
             <div class="inner-box">
                 <div class="image">
-                    <img src="{{ asset('https://placehold.it/555x400') }}" alt="" />
+                    <img src="{{ asset($partner->listImage) }}" alt="" />
                     <div class="overlay-box">
                         <div class="overlay-inner">
                             <div class="content">
