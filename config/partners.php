@@ -659,7 +659,7 @@ return [
         (object)[
             'name'      => 'IGP Castaña de Galicia',
             'position'  => 'Socio',
-            'slug'      => 'castaña-de-galicia',
+            'slug'      => 'castana-de-galicia',
             'email'     => 'info@castanadegalicia.org',
             'recipient' => 'Consejo Regulador IGP Castaña de Galicia',
             'address'   => 'Rúa do Progreso, 28',
@@ -674,13 +674,13 @@ return [
                 'twitter'   => 'https://twitter.com/ixpcg',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'images/partners/castaña-de-galicia/logo.jpg',
+            'listImage'     => 'images/partners/castana-de-galicia/logo.jpg',
             'detailImages'  => [
-                'images/partners/castaña-de-galicia/logo.jpg',
-                'images/partners/castaña-de-galicia/product01.jpg',
-                'images/partners/castaña-de-galicia/product02.jpg',
-                'images/partners/castaña-de-galicia/product03.jpg',
-                'images/partners/castaña-de-galicia/product04.jpg',
+                'images/partners/castana-de-galicia/logo.jpg',
+                'images/partners/castana-de-galicia/product01.jpg',
+                'images/partners/castana-de-galicia/product02.jpg',
+                'images/partners/castana-de-galicia/product03.jpg',
+                'images/partners/castana-de-galicia/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -931,7 +931,7 @@ return [
         (object)[
             'name'      => 'DOP Idiazabal',
             'position'  => 'Socio',
-            'slug'      => 'queso-idiazabal',
+            'slug'      => 'idiazabal',
             'email'     => 'info@idiazabalgazta.eus',
             'recipient' => 'Consejo Regulador DOP Idiazabal',
             'address'   => 'Granja Modelo de Arkaute, s/n',
@@ -948,13 +948,13 @@ return [
                 'youtube'   => 'https://www.youtube.com/channel/UCSviY7HpdNtoKZCys2rCnVw',
             ],
             'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'images/partners/queso-idiazabal/logo.jpg',
+            'listImage'     => 'images/partners/idiazabal/logo.jpg',
             'detailImages'  => [
-                'images/partners/queso-idiazabal/logo.jpg',
-                'images/partners/queso-idiazabal/product01.jpg',
-                'images/partners/queso-idiazabal/product02.jpg',
-                'images/partners/queso-idiazabal/product03.jpg',
-                'images/partners/queso-idiazabal/product04.jpg',
+                'images/partners/idiazabal/logo.jpg',
+                'images/partners/idiazabal/product01.jpg',
+                'images/partners/idiazabal/product02.jpg',
+                'images/partners/idiazabal/product03.jpg',
+                'images/partners/idiazabal/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -1887,6 +1887,72 @@ return [
                 <p>La explotación de las distintas razas autóctonas (Avileña-Negra Ibérica, Retinta, Blanca Cacereña, Morucha, Berrendas en Negro y Colorado), aprovechando las distintas y variadas zonas del amplio territorio extremeño y sus cruces con las razas españolas que están adaptadas al régimen extensivo, han dado un producto muy valorado por el consumidor, con unas características de obtención, elaboración y organolépticas en línea con los deseos y las tendencias de consumo actuales.</p>
                 <p>Las distintas presentaciones del producto en función de la edad de los animales son tres; TERNERA, AÑOJO y NOVILLO desde menos del año hasta los tres años. Variando la carne en su color, textura y brillo desde el rosa brillante al rojo cereza. La alimentación, raza y sistema productivo confieren unas características a la grasa en cuanto a infiltración, color, consistencia, brillo y textura que dan las características organolépticas propias al producto.</p>
                 <p>Todo esto con un estricto control desde origen hasta el etiquetado y certificado del producto hacen de la I.G.P Ternera de Extremadura cumplir su máxima DE LA DEHESA A LA MESA.</p>'
+        ],
+        (object)[
+            'name'      => 'IGP Tarta de Santiago',
+            'position'  => 'Socio',
+            'slug'      => 'tarta-de-santiago',
+            'email'     => 'info@tartadesantiago.org',
+            'recipient' => 'Consejo Regulador IGP Tarta de Santiago',
+            'address'   => 'Pazo de Quián s/n – Sergude',
+            'zip'       => '15881',
+            'province'  => 'A Coruña',
+            'locality'  => 'Boqueixón',
+            'phone'     => '981 997 279',
+            'web'       => 'tartadesantiago.org',
+            'webUrl'    => 'http://www.tartadesantiago.org/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/tartadesantiago/?ref=page_internal',
+                'twitter'   => '',
+                'instagram' => '',
+            ],
+            'headerImage'   => 'https://placehold.it/1920x345',
+            'listImage'     => 'https://placehold.it/555x400',
+            'detailImages'  => [
+                'https://placehold.it/555x400',
+                'images/partners/vinagre-de-jerez/product01.jpg',
+                'images/partners/vinagre-de-jerez/product02.jpg',
+                'images/partners/vinagre-de-jerez/product03.jpg',
+                'images/partners/vinagre-de-jerez/product04.jpg',
+            ],
+            'categories'    => ['carnes'],
+            'description'   =>
+                '<p>El producto amparado por la indicación xeográfica protexida ( IXP) Tarta de Santiago es un dulce tradicional gallego, cuyos componentes básicos son almendras, azúcar y huevo, empleados en las proporciones y según las condiciones que se definen en el pliego de condiciones del producto, y en el Reglamento. La zona de elaboración de las tartas amparadas por la IXP Tarta de Santiago abarca todo el territorio de la Comunidad Autónoma de Galicia.</p>
+                <p>Historia: Nace en las cocinas acomodadas en los siglos XVI al XVIII. La alta repostería gallega de los tiempos históricos se caracteriza por la presencia de dos ingredientes: azúcar y almendra.</p>
+                <p>Las tartas amparadas por la indicación geográfica protegida Tarta de Santiago se presentan envasadas y etiquetadas. El envasado y etiquetado deberá efectuarse en las instalaciones de elaboración que figuran inscritas en el registro de talleres del Consejo Regulador. Las tartas se presentan en envases individualizados en los que irá la contraetiqueta numerada que identifica el producto amparado por esta indicación geográfica. Sólo la auténtica Tarta de Santiago puede llamarse Tarta de Santiago y en ella siempre aparecerá el sello.</p>',
+        ],
+        (object)[
+            'name'      => 'DOP Cebolla Fuentes de Ebro',
+            'position'  => 'Socio',
+            'slug'      => 'cebolla-fuentes-ebro',
+            'email'     => 'info@cebollafuentesdeebro.com',
+            'recipient' => 'Consejo Regulador DOP Cebolla Fuentes de Ebro',
+            'address'   => 'Plaza Constitución, 4',
+            'zip'       => '50740',
+            'province'  => 'Zaragoza',
+            'locality'  => 'Fuentes de Ebro',
+            'phone'     => '976 169 100',
+            'web'       => 'cebollafuentesdeebro.com',
+            'webUrl'    => 'https://cebollafuentesdeebro.com/index.php',
+            'social'    => (object)[
+                'facebook'  => '',
+                'twitter'   => '',
+            ],
+            'headerImage'   => 'https://placehold.it/1920x345',
+            'listImage'     => 'https://placehold.it/555x400',
+            'detailImages'  => [
+                'https://placehold.it/555x400',
+                'images/partners/vinagre-de-jerez/product01.jpg',
+                'images/partners/vinagre-de-jerez/product02.jpg',
+                'images/partners/vinagre-de-jerez/product03.jpg',
+                'images/partners/vinagre-de-jerez/product04.jpg',
+            ],
+            'categories'    => ['turrones'],
+            'description'   =>
+                '<p>La Cebolla Fuentes de Ebro se caracteriza por tener un color externo blanco-paja, capas internas blancas y por su textura tierna, crocante y muy jugosa, debido a su elevado contenido en agua, pero principalmente destaca por ser una cebolla suave, digestiva, de escaso picor y con ausencia o leve retrogusto en boca.</p>
+                <p>Entre sus amplias virtudes destaca, en cocina, por ser excepcional para su disfrute en ensalada y por caramelizar sin necesidad de añadir azúcar por su dulzor natural; eso la hace ser una de las hortalizas preferidas de consumidores y cocineros, además de ser ideal para el consumo por parte de los niños y personas con intolerancia a las cebollas debido a su suavidad y digestividad.</p>
+                <h3>Estacionalidad e identificación de producto</h3>
+                <p>Esta hortaliza todavía mantiene su carácter estacional. Se puede encontrar en los mercados desde el mes de junio hasta diciembre.  La etiqueta con el logotipo de la Denominación de Origen Protegida garantiza que está consumiendo la auténtica Cebolla Fuentes de Ebro, producida en la zona geográfica delimitada y que cumple con los máximos parámetros de calidad, pasando unos estrictos controles tanto en el campo como en las empresas comercializadoras.</p>',
         ],
     ]
 ];
