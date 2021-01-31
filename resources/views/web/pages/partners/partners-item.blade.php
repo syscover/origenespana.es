@@ -95,9 +95,11 @@
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
                     @foreach($partner->detailImages as $image)
+                    @if(File::exists(public_path($image)))
                     <div class="image">
                         <img src="{{ asset($image) }}" alt="" />
                     </div>
+                    @endif
                     @endforeach
                 </div>
             </div>
@@ -149,7 +151,7 @@
 <!--End Related Projects-->
 
 <!--File Modal-->
-<div class="modal fade" id="fileModal" tabindex="-1" role="dialog" aria-labelledby="fileModal" aria-hidden="true">
+<!-- <div class="modal fade" id="fileModal" tabindex="-1" role="dialog" aria-labelledby="fileModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -164,7 +166,7 @@
             <div class="modal-footer"></div>
         </div>
     </div>
-</div>
+</div> -->
 <!--End File Modal-->
 
 

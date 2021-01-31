@@ -24,7 +24,10 @@ return [
             'listImage'     => 'images/partners/ternera-gallega/logo.jpg',
             'detailImages'  => [
                 'images/partners/ternera-gallega/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/ternera-gallega/product01.jpg',
+                'images/partners/ternera-gallega/product02.jpg',
+                'images/partners/ternera-gallega/product03.jpg',
+                'images/partners/ternera-gallega/product04.jpg',
             ],
             'categories'    => ['carnes'],
             'description'   =>
@@ -54,7 +57,10 @@ return [
             'listImage'     => 'images/partners/jijona-y-turron-de-alicante/logo.jpg',
             'detailImages'  => [
                 'images/partners/jijona-y-turron-de-alicante/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/jijona-y-turron-de-alicante/product01.jpg',
+                'images/partners/jijona-y-turron-de-alicante/product02.jpg',
+                'images/partners/jijona-y-turron-de-alicante/product03.jpg',
+                'images/partners/jijona-y-turron-de-alicante/product04.jpg',
             ],
             'categories'    => ['turrones'],
             'description'   =>
@@ -85,7 +91,10 @@ return [
             'listImage'     => 'images/partners/queso-manchego/logo.jpg',
             'detailImages'  => [
                 'images/partners/queso-manchego/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/queso-manchego/product01.jpg',
+                'images/partners/queso-manchego/product02.jpg',
+                'images/partners/queso-manchego/product03.jpg',
+                'images/partners/queso-manchego/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -116,7 +125,10 @@ return [
             'listImage'     => 'images/partners/jabugo/logo.jpg',
             'detailImages'  => [
                 'images/partners/jabugo/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/jabugo/product01.jpg',
+                'images/partners/jabugo/product02.jpg',
+                'images/partners/jabugo/product03.jpg',
+                'images/partners/jabugo/product04.jpg',
             ],
             'categories'    => ['jamones'],
             'description'   =>
@@ -148,7 +160,10 @@ return [
             'listImage'     => 'images/partners/pimenton-de-la-vera/logo.jpg',
             'detailImages'  => [
                 'images/partners/pimenton-de-la-vera/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/pimenton-de-la-vera/product01.jpg',
+                'images/partners/pimenton-de-la-vera/product02.jpg',
+                'images/partners/pimenton-de-la-vera/product03.jpg',
+                'images/partners/pimenton-de-la-vera/product04.jpg',
             ],
             'categories'    => ['pimentones'],
             'description'   =>
@@ -177,7 +192,10 @@ return [
             'listImage'     => 'images/partners/torta-del-casar/logo.jpg',
             'detailImages'  => [
                 'images/partners/torta-del-casar/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/torta-del-casar/product01.jpg',
+                'images/partners/torta-del-casar/product02.jpg',
+                'images/partners/torta-del-casar/product03.jpg',
+                'images/partners/torta-del-casar/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -207,7 +225,10 @@ return [
             'listImage'     => 'images/partners/los-pedroches/logo.jpg',
             'detailImages'  => [
                 'images/partners/los-pedroches/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/los-pedroches/product01.jpg',
+                'images/partners/los-pedroches/product02.jpg',
+                'images/partners/los-pedroches/product03.jpg',
+                'images/partners/los-pedroches/product04.jpg',
             ],
             'categories'    => ['jamones'],
             'description'   =>
@@ -242,7 +263,10 @@ return [
             'listImage'     => 'images/partners/uva-de-mesa-embolsada-del-vinalopo/logo.jpg',
             'detailImages'  => [
                 'images/partners/uva-de-mesa-embolsada-del-vinalopo/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/uva-de-mesa-embolsada-del-vinalopo/product01.jpg',
+                'images/partners/uva-de-mesa-embolsada-del-vinalopo/product02.jpg',
+                'images/partners/uva-de-mesa-embolsada-del-vinalopo/product03.jpg',
+                'images/partners/uva-de-mesa-embolsada-del-vinalopo/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -274,7 +298,10 @@ return [
             'listImage'     => 'images/partners/sierra-magina/logo.jpg',
             'detailImages'  => [
                 'images/partners/sierra-magina/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/sierra-magina/product01.jpg',
+                'images/partners/sierra-magina/product02.jpg',
+                'images/partners/sierra-magina/product03.jpg',
+                'images/partners/sierra-magina/product04.jpg',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -303,7 +330,10 @@ return [
             'listImage'     => 'images/partners/pimenton-de-murcia/logo.jpg',
             'detailImages'  => [
                 'images/partners/pimenton-de-murcia/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/pimenton-de-murcia/product01.jpg',
+                'images/partners/pimenton-de-murcia/product02.jpg',
+                'images/partners/pimenton-de-murcia/product03.jpg',
+                'images/partners/pimenton-de-murcia/product04.jpg',
             ],
             'categories'    => ['pimentones'],
             'description'   =>
@@ -331,8 +361,11 @@ return [
             'headerImage'   => 'https://placehold.it/1920x345',
             'listImage'     => 'https://placehold.it/555x400',
             'detailImages'  => [
-                'https://placehold.it/555x400',
-                // 'https://placehold.it/555x400',
+                'images/partners/aceite-del-bajo-aragon/logo.jpg',
+                'images/partners/aceite-del-bajo-aragon/product01.jpg',
+                'images/partners/aceite-del-bajo-aragon/product02.jpg',
+                'images/partners/aceite-del-bajo-aragon/product03.jpg',
+                'images/partners/aceite-del-bajo-aragon/product04.jpg',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -361,7 +394,10 @@ return [
             'listImage'     => 'images/partners/ajo-morado-pedroneras/logo.jpg',
             'detailImages'  => [
                 'images/partners/ajo-morado-pedroneras/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/ajo-morado-pedroneras/product01.jpg',
+                'images/partners/ajo-morado-pedroneras/product02.jpg',
+                'images/partners/ajo-morado-pedroneras/product03.jpg',
+                'images/partners/ajo-morado-pedroneras/product04.jpg',
             ],
             'categories'    => ['hortalizas'],
             'description'   =>
@@ -389,7 +425,10 @@ return [
             'listImage'     => 'images/partners/arzua-ulloa/logo.jpg',
             'detailImages'  => [
                 'images/partners/arzua-ulloa/logo.jpg',
-                //'https://placehold.it/555x400',
+                'images/partners/arzua-ulloa/product01.jpg',
+                'images/partners/arzua-ulloa/product02.jpg',
+                'images/partners/arzua-ulloa/product03.jpg',
+                'images/partners/arzua-ulloa/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -425,7 +464,10 @@ return [
            'listImage'     => 'images/partners/azafran-de-la-mancha/logo.jpg',
            'detailImages'  => [
                'images/partners/azafran-de-la-mancha/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/azafran-de-la-mancha/product01.jpg',
+               'images/partners/azafran-de-la-mancha/product02.jpg',
+               'images/partners/azafran-de-la-mancha/product03.jpg',
+               'images/partners/azafran-de-la-mancha/product04.jpg',
            ],
            'categories'    => ['especias'],
            'description'   =>
@@ -461,7 +503,10 @@ return [
             'listImage'     => 'images/partners/baena/logo.jpg',
             'detailImages'  => [
                 'images/partners/baena/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/baena/product01.jpg',
+                'images/partners/baena/product02.jpg',
+                'images/partners/baena/product03.jpg',
+                'images/partners/baena/product04.jpg',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -491,7 +536,10 @@ return [
             'listImage'     => 'images/partners/cabrales/logo.jpg',
             'detailImages'  => [
                 'images/partners/cabrales/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/cabrales/product01.jpg',
+                'images/partners/cabrales/product02.jpg',
+                'images/partners/cabrales/product03.jpg',
+                'images/partners/cabrales/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -519,7 +567,10 @@ return [
             'listImage'     => 'images/partners/calasparra/logo.jpg',
             'detailImages'  => [
                 'images/partners/calasparra/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/calasparra/product01.jpg',
+                'images/partners/calasparra/product02.jpg',
+                'images/partners/calasparra/product03.jpg',
+                'images/partners/calasparra/product04.jpg',
             ],
             'categories'    => ['arroces'],
             'description'   =>
@@ -550,8 +601,10 @@ return [
                 'listImage'     => 'images/partners/carne-de-avila/logo.jpg',
                 'detailImages'  => [
                     'images/partners/carne-de-avila/logo.jpg',
-                    'https://placehold.it/555x400',
-                    'https://placehold.it/555x400',
+                    'images/partners/carne-de-avila/product01.jpg',
+                    'images/partners/carne-de-avila/product02.jpg',
+                    'images/partners/carne-de-avila/product03.jpg',
+                    'images/partners/carne-de-avila/product04.jpg',
             ],
             'categories'    => ['carnes'],
             'description'   =>
@@ -585,7 +638,10 @@ return [
             'listImage'     => 'images/partners/carne-sierra-guadarrama/logo.jpg',
             'detailImages'  => [
                 'images/partners/carne-sierra-guadarrama/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/carne-sierra-guadarrama/product01.jpg',
+                'images/partners/carne-sierra-guadarrama/product02.jpg',
+                'images/partners/carne-sierra-guadarrama/product03.jpg',
+                'images/partners/carne-sierra-guadarrama/product04.jpg',
             ],
             'categories'    => ['carnes'],
             'description'   =>
@@ -621,7 +677,10 @@ return [
             'listImage'     => 'images/partners/castaña-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/castaña-de-galicia/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/castaña-de-galicia/product01.jpg',
+                'images/partners/castaña-de-galicia/product02.jpg',
+                'images/partners/castaña-de-galicia/product03.jpg',
+                'images/partners/castaña-de-galicia/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -656,7 +715,10 @@ return [
            'listImage'     => 'images/partners/cereza-del-jerte/logo.jpg',
            'detailImages'  => [
                'images/partners/cereza-del-jerte/logo.jpg',
-               //'https://placehold.it/555x400',
+               'images/partners/cereza-del-jerte/product01.jpg',
+               'images/partners/cereza-del-jerte/product02.jpg',
+               'images/partners/cereza-del-jerte/product03.jpg',
+               'images/partners/cereza-del-jerte/product04.jpg',
            ],
            'categories'    => ['frutas'],
            'description'   =>
@@ -685,7 +747,10 @@ return [
                 'listImage'     => 'images/partners/citricos-valencianos/logo.jpg',
                 'detailImages'  => [
                     'images/partners/citricos-valencianos/logo.jpg',
-                    // 'https://placehold.it/555x400',
+                    'images/partners/citricos-valencianos/product01.jpg',
+                    'images/partners/citricos-valencianos/product02.jpg',
+                    'images/partners/citricos-valencianos/product03.jpg',
+                    'images/partners/citricos-valencianos/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -717,8 +782,11 @@ return [
             'headerImage'   => 'https://placehold.it/1920x345',
             'listImage'     => 'https://placehold.it/555x400',
             'detailImages'  => [
-                'https://placehold.it/555x400',
-                // 'https://placehold.it/555x400',
+                'images/partners/cordero-de-extremadura-corderex/logo.jpg',
+                'images/partners/cordero-de-extremadura-corderex/product01.jpg',
+                'images/partners/cordero-de-extremadura-corderex/product02.jpg',
+                'images/partners/cordero-de-extremadura-corderex/product03.jpg',
+                'images/partners/cordero-de-extremadura-corderex/product04.jpg',
             ],
             'categories'    => ['carnes'],
             'description'   =>
@@ -747,7 +815,10 @@ return [
             'listImage'     => 'images/partners/dehesa-de-extremadura/logo.jpg',
             'detailImages'  => [
                 'images/partners/dehesa-de-extremadura/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/dehesa-de-extremadura/product01.jpg',
+                'images/partners/dehesa-de-extremadura/product02.jpg',
+                'images/partners/dehesa-de-extremadura/product03.jpg',
+                'images/partners/dehesa-de-extremadura/product04.jpg',
             ],
             'categories'    => ['jamones'],
             'description'   =>
@@ -777,7 +848,10 @@ return [
             'listImage'     => 'images/partners/esparrago-de-navarra/logo.jpg',
             'detailImages'  => [
                 'images/partners/esparrago-de-navarra/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/esparrago-de-navarra/product01.jpg',
+                'images/partners/esparrago-de-navarra/product02.jpg',
+                'images/partners/esparrago-de-navarra/product03.jpg',
+                'images/partners/esparrago-de-navarra/product04.jpg',
             ],
             'categories'    => ['hortalizas'],
             'description'   =>
@@ -807,7 +881,10 @@ return [
             'listImage'     => 'images/partners/estepa/logo.jpg',
             'detailImages'  => [
                 'images/partners/estepa/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/estepa/product01.jpg',
+                'images/partners/estepa/product02.jpg',
+                'images/partners/estepa/product03.jpg',
+                'images/partners/estepa/product04.jpg',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -838,7 +915,10 @@ return [
             'listImage'     => 'images/partners/granada-mollar-elche/logo.jpg',
             'detailImages'  => [
                 'images/partners/granada-mollar-elche/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/granada-mollar-elche/product01.jpg',
+                'images/partners/granada-mollar-elche/product02.jpg',
+                'images/partners/granada-mollar-elche/product03.jpg',
+                'images/partners/granada-mollar-elche/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -871,7 +951,10 @@ return [
             'listImage'     => 'images/partners/queso-idiazabal/logo.jpg',
             'detailImages'  => [
                 'images/partners/queso-idiazabal/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/queso-idiazabal/product01.jpg',
+                'images/partners/queso-idiazabal/product02.jpg',
+                'images/partners/queso-idiazabal/product03.jpg',
+                'images/partners/queso-idiazabal/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -901,7 +984,10 @@ return [
             'listImage'     => 'images/partners/jamon-de-teruel/logo.jpg',
             'detailImages'  => [
                 'images/partners/jamon-de-teruel/logo.jpg',
-                'https://placehold.it/555x400',
+                'images/partners/jamon-de-teruel/product01.jpg',
+                'images/partners/jamon-de-teruel/product02.jpg',
+                'images/partners/jamon-de-teruel/product03.jpg',
+                'images/partners/jamon-de-teruel/product04.jpg',
             ],
             'categories'    => ['jamones'],
             'description'   =>
@@ -930,7 +1016,10 @@ return [
             'listImage'     => 'images/partners/kaki-ribera-xuquer/logo.jpg',
             'detailImages'  => [
                 'images/partners/kaki-ribera-xuquer/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/kaki-ribera-xuquer/product01.jpg',
+                'images/partners/kaki-ribera-xuquer/product02.jpg',
+                'images/partners/kaki-ribera-xuquer/product03.jpg',
+                'images/partners/kaki-ribera-xuquer/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -961,7 +1050,10 @@ return [
             'listImage'     => 'images/partners/mahon-menorca/logo.jpg',
             'detailImages'  => [
                 'images/partners/mahon-menorca/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/mahon-menorca/product01.jpg',
+                'images/partners/mahon-menorca/product02.jpg',
+                'images/partners/mahon-menorca/product03.jpg',
+                'images/partners/mahon-menorca/product04.jpg',
             ],
             'categories'    => ['quesos'],
             'description'   =>
@@ -991,7 +1083,10 @@ return [
             'listImage'     => 'images/partners/mexillon-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/mexillon-de-galicia/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/mexillon-de-galicia/product01.jpg',
+                'images/partners/mexillon-de-galicia/product02.jpg',
+                'images/partners/mexillon-de-galicia/product03.jpg',
+                'images/partners/mexillon-de-galicia/product04.jpg',
             ],
             'categories'    => ['moluscos'],
             'description'   =>
@@ -1021,7 +1116,10 @@ return [
             'listImage'     => 'images/partners/melocoton-de-calanda/logo.jpg',
             'detailImages'  => [
                 'images/partners/melocoton-de-calanda/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/melocoton-de-calanda/product01.jpg',
+                'images/partners/melocoton-de-calanda/product02.jpg',
+                'images/partners/melocoton-de-calanda/product03.jpg',
+                'images/partners/melocoton-de-calanda/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1050,7 +1148,10 @@ return [
             'listImage'     => 'images/partners/miel-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/miel-de-galicia/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/miel-de-galicia/product01.jpg',
+                'images/partners/miel-de-galicia/product02.jpg',
+                'images/partners/miel-de-galicia/product03.jpg',
+                'images/partners/miel-de-galicia/product04.jpg',
             ],
             'categories'    => ['mieles'],
             'description'   =>
@@ -1082,7 +1183,10 @@ return [
             'listImage'     => 'images/partners/nisperos-de-callosa-den-sarria/logo.jpg',
             'detailImages'  => [
                 'images/partners/nisperos-de-callosa-den-sarria/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/nisperos-de-callosa-den-sarria/product01.jpg',
+                'images/partners/nisperos-de-callosa-den-sarria/product02.jpg',
+                'images/partners/nisperos-de-callosa-den-sarria/product03.jpg',
+                'images/partners/nisperos-de-callosa-den-sarria/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1112,7 +1216,10 @@ return [
             'listImage'     => 'images/partners/pasas-de-malaga/logo.jpg',
             'detailImages'  => [
                 'images/partners/pasas-de-malaga/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/pasas-de-malaga/product01.jpg',
+                'images/partners/pasas-de-malaga/product02.jpg',
+                'images/partners/pasas-de-malaga/product03.jpg',
+                'images/partners/pasas-de-malaga/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1145,7 +1252,10 @@ return [
             'listImage'     => 'images/partners/pataca-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/pataca-galicia/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/pataca-galicia/product01.jpg',
+                'images/partners/pataca-galicia/product02.jpg',
+                'images/partners/pataca-galicia/product03.jpg',
+                'images/partners/pataca-galicia/product04.jpg',
             ],
             'categories'    => ['hortalizas'],
             'description'   =>
@@ -1176,7 +1286,10 @@ return [
             'listImage'     => 'images/partners/pera-de-jumilla/logo.jpg',
             'detailImages'  => [
                 'images/partners/pera-de-jumilla/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/pera-de-jumilla/product01.jpg',
+                'images/partners/pera-de-jumilla/product02.jpg',
+                'images/partners/pera-de-jumilla/product03.jpg',
+                'images/partners/pera-de-jumilla/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1208,7 +1321,10 @@ return [
             'listImage'     => 'images/partners/peras-de-rincon-de-soto/logo.jpg',
             'detailImages'  => [
                 'images/partners/peras-de-rincon-de-soto/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/peras-de-rincon-de-soto/product01.jpg',
+                'images/partners/peras-de-rincon-de-soto/product02.jpg',
+                'images/partners/peras-de-rincon-de-soto/product03.jpg',
+                'images/partners/peras-de-rincon-de-soto/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1242,7 +1358,10 @@ return [
             'listImage'     => 'images/partners/platano-canarias/logo.jpg',
             'detailImages'  => [
                 'images/partners/platano-canarias/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/platano-canarias/product01.jpg',
+                'images/partners/platano-canarias/product02.jpg',
+                'images/partners/platano-canarias/product03.jpg',
+                'images/partners/platano-canarias/product04.jpg',
             ],
             'categories'    => ['frutas'],
             'description'   =>
@@ -1272,7 +1391,10 @@ return [
             'listImage'     => 'images/partners/priego-de-cordoba/logo.jpg',
             'detailImages'  => [
                 'images/partners/priego-de-cordoba/logo.jpg',
-                // 'https://placehold.it/555x400',
+                'images/partners/priego-de-cordoba/product01.jpg',
+                'images/partners/priego-de-cordoba/product02.jpg',
+                'images/partners/priego-de-cordoba/product03.jpg',
+                'images/partners/priego-de-cordoba/product04.jpg',
             ],
             'categories'    => ['aove'],
             'description'   =>
@@ -1308,7 +1430,10 @@ return [
            'listImage'     => 'images/partners/queixo-tetilla/logo.jpg',
            'detailImages'  => [
                'images/partners/queixo-tetilla/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/queixo-tetilla/product01.jpg',
+               'images/partners/queixo-tetilla/product02.jpg',
+               'images/partners/queixo-tetilla/product03.jpg',
+               'images/partners/queixo-tetilla/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1346,7 +1471,10 @@ return [
            'listImage'     => 'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/product01.jpg',
+               'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/product02.jpg',
+               'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/product03.jpg',
+               'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1376,7 +1504,10 @@ return [
            'listImage'     => 'images/partners/queso-majorero/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-majorero/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/queso-majorero/product01.jpg',
+               'images/partners/queso-majorero/product02.jpg',
+               'images/partners/queso-majorero/product03.jpg',
+               'images/partners/queso-majorero/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1408,7 +1539,10 @@ return [
            'listImage'     => 'images/partners/queso-zamorano/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-zamorano/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/queso-zamorano/product01.jpg',
+               'images/partners/queso-zamorano/product02.jpg',
+               'images/partners/queso-zamorano/product03.jpg',
+               'images/partners/queso-zamorano/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1437,7 +1571,10 @@ return [
            'listImage'     => 'images/partners/queso-camerano/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-camerano/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/queso-camerano/product01.jpg',
+               'images/partners/queso-camerano/product02.jpg',
+               'images/partners/queso-camerano/product03.jpg',
+               'images/partners/queso-camerano/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1467,7 +1604,10 @@ return [
            'listImage'     => 'images/partners/san-simon-da-costa/logo.jpg',
            'detailImages'  => [
                'images/partners/san-simon-da-costa/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/san-simon-da-costa/product01.jpg',
+               'images/partners/san-simon-da-costa/product02.jpg',
+               'images/partners/san-simon-da-costa/product03.jpg',
+               'images/partners/san-simon-da-costa/product04.jpg',
            ],
            'categories'    => ['quesos'],
            'description'   =>
@@ -1500,7 +1640,10 @@ return [
            'listImage'     => 'images/partners/sierra-de-segura/logo.jpg',
            'detailImages'  => [
                'images/partners/sierra-de-segura/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/sierra-de-segura/product01.jpg',
+               'images/partners/sierra-de-segura/product02.jpg',
+               'images/partners/sierra-de-segura/product03.jpg',
+               'images/partners/sierra-de-segura/product04.jpg',
            ],
            'categories'    => ['aove'],
            'description'   =>
@@ -1529,7 +1672,10 @@ return [
            'listImage'     => 'images/partners/sobrasada-de-mallorca/logo.jpg',
            'detailImages'  => [
                'images/partners/sobrasada-de-mallorca/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/sobrasada-de-mallorca/product01.jpg',
+               'images/partners/sobrasada-de-mallorca/product02.jpg',
+               'images/partners/sobrasada-de-mallorca/product03.jpg',
+               'images/partners/sobrasada-de-mallorca/product04.jpg',
            ],
            'categories'    => ['embutidos'],
            'description'   =>
@@ -1561,7 +1707,10 @@ return [
            'listImage'     => 'images/partners/ternasco-de-aragon/logo.jpg',
            'detailImages'  => [
                'images/partners/ternasco-de-aragon/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/ternasco-de-aragon/product01.jpg',
+               'images/partners/ternasco-de-aragon/product02.jpg',
+               'images/partners/ternasco-de-aragon/product03.jpg',
+               'images/partners/ternasco-de-aragon/product04.jpg',
            ],
            'categories'    => ['carnes'],
            'description'   =>
@@ -1593,7 +1742,10 @@ return [
            'listImage'     => 'images/partners/ternera-de-extremadura/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-de-extremadura/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/ternera-de-extremadura/product01.jpg',
+               'images/partners/ternera-de-extremadura/product02.jpg',
+               'images/partners/ternera-de-extremadura/product03.jpg',
+               'images/partners/ternera-de-extremadura/product04.jpg',
            ],
            'categories'    => ['carnes'],
            'description'   =>
@@ -1623,7 +1775,10 @@ return [
            'listImage'     => 'images/partners/ternera-de-navarra/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-de-navarra/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/ternera-de-navarra/product01.jpg',
+               'images/partners/ternera-de-navarra/product02.jpg',
+               'images/partners/ternera-de-navarra/product03.jpg',
+               'images/partners/ternera-de-navarra/product04.jpg',
            ],
            'categories'    => ['carnes'],
            'description'   =>
@@ -1655,7 +1810,10 @@ return [
            'listImage'     => 'images/partners/ternera-asturiana/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-asturiana/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/ternera-asturiana/product01.jpg',
+               'images/partners/ternera-asturiana/product02.jpg',
+               'images/partners/ternera-asturiana/product03.jpg',
+               'images/partners/ternera-asturiana/product04.jpg',
            ],
            'categories'    => ['carnes'],
            'description'   =>
@@ -1683,7 +1841,10 @@ return [
            'listImage'     => 'images/partners/ternera-aliste/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-aliste/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/ternera-aliste/product01.jpg',
+               'images/partners/ternera-aliste/product02.jpg',
+               'images/partners/ternera-aliste/product03.jpg',
+               'images/partners/ternera-aliste/product04.jpg',
            ],
            'categories'    => ['carnes'],
            'description'   =>
@@ -1715,7 +1876,10 @@ return [
            'listImage'     => 'images/partners/vinagre-de-jerez/logo.jpg',
            'detailImages'  => [
                'images/partners/vinagre-de-jerez/logo.jpg',
-               // 'https://placehold.it/555x400',
+               'images/partners/vinagre-de-jerez/product01.jpg',
+               'images/partners/vinagre-de-jerez/product02.jpg',
+               'images/partners/vinagre-de-jerez/product03.jpg',
+               'images/partners/vinagre-de-jerez/product04.jpg',
            ],
            'categories'    => ['vinagres'],
            'description'   =>
