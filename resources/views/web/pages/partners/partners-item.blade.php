@@ -131,8 +131,8 @@
                 <a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="{{ $partner->listImage }}" alt="" class="image image--normal">
-                            <img src="{{ $partner->listImage }}" alt="" class="image image--hover">
+                            <img src="{{ asset($partner->listImage) }}" alt="" class="image image--normal">
+                            <img src="{{ asset($partner->listImage) }}" alt="" class="image image--hover">
                         </figure>
                     </div>
                     <div class="text-box">
