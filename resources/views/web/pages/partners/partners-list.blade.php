@@ -38,6 +38,7 @@
                     <li class="filter" data-role="button" data-filter=".mieles">Mieles<span class="dots"></span></li>
                     <li class="filter" data-role="button" data-filter=".panes">Panes<span class="dots"></span></li>
                     <li class="filter" data-role="button" data-filter=".moluscos">Moluscos<span class="dots"></span></li>
+                    <li class="filter" data-role="button" data-filter=".reposteria">Repostería<span class="dots"></span></li>
                 </ul>
 
             </div>
@@ -75,11 +76,14 @@
 <!--End Portfolio Page Section-->
 
 <!--Call To Action Section-->
-<section class="call-to-action-two" style="background-image: url(https://placehold.it/1920x1080)">
+<section class="call-to-action-two" style="background-image: url({{ asset('images/bgs/partners/partner_footer.jpg')}})">
     <div class="auto-container">
         <h2>¿Quieres formar parte de Origen España?</h2>
-        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero praesentium, quibusdam, repudiandae provident molestiae nam dolores impedit quam, sequi ipsum perspiciatis vitae facere dignissimos voluptatem ipsam voluptatum repellendus velit.</div>
-        <a href="" class="theme-btn btn-style-five">Hazte Socio</a>
+        <div class="text">
+            La Asociación Española de Denominaciones de Origen – ORIGEN ESPAÑA – permite a sus socios compartir experiencias para establecer, desarrollar y proteger las denominaciones de origen agroalimentarias, además de facilitar el intercambio de información entre productores españoles de DOP e IGP.
+        </div>
+        <a href="#" class="theme-btn btn-style-five" data-toggle="modal" data-target="#partnerModal">Hazte Socio</a>,
+
     </div>
 </section>
 <!--End Call To Action Section-->

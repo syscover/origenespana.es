@@ -4,11 +4,11 @@
         <!--Widgets Section-->
         <div class="widgets-section">
             {{-- <div class="row clearfix">
-                
+
                 <!--Column-->
                 <div class="big-column col-lg-6 col-md-12 col-sm-12">
                     <div class="row clearfix">
-                    
+
                         <!--Footer Column-->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
@@ -31,7 +31,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <!--Footer Column-->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
@@ -47,19 +47,19 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
                 <!--Column-->
                 <div class="big-column col-lg-6 col-md-12 col-sm-12">
                     <div class="row clearfix">
-                        
+
                         <!--Footer Column-->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget posts-widget">
                                 <h2>Recent Posts</h2>
-                                
+
                                 <article class="post">
                                     <div class="text"><a href="blog-single.html">Isolate & Reframe Your Beliefs</a></div>
                                     <ul class="post-date">
@@ -67,7 +67,7 @@
                                         <li>Sep 25 2018</li>
                                     </ul>
                                 </article>
-                                
+
                                 <article class="post">
                                     <div class="text"><a href="blog-single.html">Take Action For Your Business</a></div>
                                     <ul class="post-date">
@@ -75,7 +75,7 @@
                                         <li>Sep 25 2018</li>
                                     </ul>
                                 </article>
-                                
+
                                 <article class="post">
                                     <div class="text"><a href="blog-single.html">Improve Your Business Ideas</a></div>
                                     <ul class="post-date">
@@ -83,10 +83,10 @@
                                         <li>Sep 25 2018</li>
                                     </ul>
                                 </article>
-                                
+
                             </div>
                         </div>
-                        
+
                         <!--Footer Column-->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget newsletter-widget">
@@ -104,10 +104,10 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div> --}}
         </div>
     </div>
@@ -118,14 +118,14 @@
                 <div class="column col-md-6 col-sm-12 col-xs-12">
                     <ul class="footer-nav">
                         <li><a data-toggle="modal" data-target="#partnerModal">Hazte socio</a></li>
-                        <li><a href="{{ route('web.relations') }}">Convocatorias</a></li>
+                        <li><a href="{{ route('web.blog.list') }}">Convocatorias</a></li>
                         <li><a href="{{ route('web.contact') }}">Contacto</a></li>
                         <li><a href="">Aviso legal</a></li>
                     </ul>
                 </div>
                 <div class="column col-md-6 col-sm-12 col-xs-12">
                     <div class="copyright">Copyright &copy; {{ date('Y') }} - Origen España. Todos los derechos reservados. </div>
-                </div>    
+                </div>
             </div>
         </div>
     </div>

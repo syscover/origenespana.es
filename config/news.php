@@ -7,7 +7,7 @@ return [
             'excerpt'   => 'ORIGEN ESPAÑA y la Comisión Europea invitan a los consumidores a abrir los ojos a los productos con sellos de calidad diferenciada',
             'slug'      => 'nueva-campana-de-promocion-origen-espana',
             'date'      => 'noviembre 2020',
-            'image'     => '',
+            'image'     => 'images/news/nueva-campana-de-promocion-origen-espana.jpg',
             'article'   => 'Arranca la campaña <b>“Abre los ojos ¡Disfruta!”</b> con la que ORIGEN ESPAÑA busca acercar a los consumidores los sellos de calidad diferenciada DOP e IGP en los productos agroalimentarios europeos, no sólo para que los conozcan y puedan reconocerlos, sino para que entiendan su significado y valor. Una iniciativa de promoción de tres años de duración, cofinanciada por la Unión Europea.'
         ],
         (object)[
@@ -23,7 +23,7 @@ return [
             'excerpt'   => 'ORIGEN ESPAÑA y la Oficina Española de Patentes y Marcas firman un convenio de colaboración',
             'slug'      => 'origen-espana-y-la-oficina-espanola-de-patentes-y-marcas-firman-un-convenio-de-colaboracion',
             'date'      => 'enero 2020',
-            'image'     => '',
+            'image'     => 'images/news/oficina-espanola-de-patentes-y-marcas.jpg',
             'article'   => 'La Oficina Española de Patentes y Marcas, O.A. (OEPM) y la Asociación Española de Denominaciones de Origen (ORIGEN ESPAÑA) firman un convenio con el fin de facilitar, impulsar y estimular el conocimiento y la utilización de los derechos de Propiedad Industrial dentro del sector de las denominaciones de origen agroalimentarias.'
         ],
     ]

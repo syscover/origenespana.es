@@ -25,7 +25,7 @@
     <body>
         <!--Start pagewrapper-->
         <div class="page-wrapper">
-            
+
             <!-- Start Preloader -->
             <div class="preloader"></div>
             <!-- End Preloader -->
@@ -35,9 +35,9 @@
             <main>
                 @yield('content')
             </main>
-            
+
             @include('web.shared.footer')
-            
+
         </div>
         <!--End pagewrapper-->
 

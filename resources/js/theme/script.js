@@ -1,16 +1,13 @@
 (function($) {
-	
 	"use strict";
-	
-	
-	//Hide Loading Box (Preloader)
+
+    //Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
 			$('.preloader').delay(200).fadeOut(500);
 		}
 	}
-	
-	
+
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		if($('.main-header').length){
@@ -26,36 +23,35 @@
 			}
 		}
 	}
-	
+
 	headerStyle();
-	
-	
+
 	//Submenu Dropdown Toggle
-	if($('.main-header li.dropdown ul').length){
+    if ($('.main-header li.dropdown ul').length)
+    {
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-		
+
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
 		});
-		
+
 		//Disable dropdown parent link
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 			e.preventDefault();
 		});
 	}
-	
-	
+
 	//Progress Bar
-	if($('.progress-line').length){
-		$('.progress-line').appear(function(){
+    if ($('.progress-line').length)
+    {
+		$('.progress-line').appear(function() {
 			var el = $(this);
 			var percent = el.data('width');
 			$(el).css('width',percent+'%');
 		},{accY: 0});
 	}
-	
-	
+
 	//Make Content Sticky
 	if($('.sticky-box').length){
 		var a = new StickySidebar('.sidebar-page-container .sidebar-side .sidebar .inner', {
@@ -65,26 +61,24 @@
 			innerWrapperSelector: '.sticky-box'
 		});
 	}
-	
-	
+
 	//Custom Seclect Box
 	if($('.custom-select-box').length){
 		$('.custom-select-box').selectmenu().selectmenu('menuWidget').addClass('overflow');
 	}
-	
-	
+
 	//Gallery Filters
 	if($('.filter-list').length){
 		$('.filter-list').mixItUp({});
 	}
-	
-	
+
 	//Tabs Box
-	if($('.tabs-box').length){
+    if ($('.tabs-box').length)
+    {
 		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
 			e.preventDefault();
 			var target = $($(this).attr('data-tab'));
-			
+
 			if ($(target).is(':visible')){
 				return false;
 			}else{
@@ -97,17 +91,16 @@
 			}
 		});
 	}
-	
-	
-	
+
 	//Fact Counter + Text Count
-	if($('.count-box').length){
-		$('.count-box').appear(function(){
-	
+    if($('.count-box').length)
+    {
+		$('.count-box').appear(function() {
+
 			var $t = $(this),
 				n = $t.find(".count-text").attr("data-stop"),
 				r = parseInt($t.find(".count-text").attr("data-speed"), 10);
-				
+
 			if (!$t.hasClass("counted")) {
 				$t.addClass("counted");
 				$({
@@ -125,11 +118,9 @@
 					}
 				});
 			}
-			
 		},{accY: 0});
 	}
-	
-	
+
 	//Main Slider Carousel
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
@@ -161,10 +152,9 @@
 					items:1
 				}
 			}
-		});    		
+		});
 	}
-	
-	
+
 	// Single Item Carousel
 	if ($('.single-item-carousel').length) {
 		$('.single-item-carousel').owlCarousel({
@@ -193,11 +183,9 @@
 					items:1
 				}
 			}
-		});  		
+		});
 	}
-	
-	
-	
+
 	// Two Item Carousel
 	if ($('.two-item-carousel').length) {
 		$('.two-item-carousel').owlCarousel({
@@ -227,11 +215,9 @@
 					items:2
 				}
 			}
-		});    		
+		});
 	}
-	
-	
-	
+
 	// Four Item Carousel
 	if ($('.four-item-carousel').length) {
 		$('.four-item-carousel').owlCarousel({
@@ -261,10 +247,9 @@
 					items:4
 				}
 			}
-		});    		
+		});
 	}
-	
-	
+
 	//Three Item Carousel
 	if ($('.three-item-carousel').length) {
 		$('.three-item-carousel').owlCarousel({
@@ -293,11 +278,11 @@
 					items:3
 				}
 			}
-		});    		
+		});
 	}
-	
-	
-	//Experts Carousel
+
+
+	// experts Carousel
 	if ($('.experts-carousel').length) {
 		$('.experts-carousel').owlCarousel({
 			loop:true,
@@ -325,19 +310,17 @@
 					items:4
 				}
 			}
-		});    		
+		});
 	}
-	
-	
-	
-	//Masonary
+
+	// masonary
 	function enableMasonry() {
 		if($('.masonry-items-container').length){
-	
+
 			var winDow = $(window);
 			// Needed variables
 			var $container=$('.masonry-items-container');
-	
+
 			$container.isotope({
 				itemSelector: '.masonry-item',
 				 masonry: {
@@ -348,10 +331,10 @@
 					easing:'linear'
 				}
 			});
-	
+
 			winDow.bind('resize', function(){
 
-				$container.isotope({ 
+				$container.isotope({
 					itemSelector: '.masonry-item',
 					animationOptions: {
 						duration: 500,
@@ -362,11 +345,10 @@
 			});
 		}
 	}
-	
+
 	enableMasonry();
-	
-	
-	//LightBox / Fancybox
+
+	// lightBox / Fancybox
 	if($('.lightbox-image').length) {
 		$('.lightbox-image').fancybox({
 			openEffect  : 'fade',
@@ -376,10 +358,10 @@
 			}
 		});
 	}
-	
-	
-	//Contact Form Validation
-	if($('#contact-form').length){
+
+	// contact form validation
+    if ($('#contact-form').length)
+    {
 		$('#contact-form').validate({
 			rules: {
 				dopigp: {
@@ -422,54 +404,81 @@
 				message: {
 					required: 'Por favor escriba un mensaje.'
 				}
-			}
+            },
+            submitHandler: function() {
+                console.log('ENVIADO!!', $('#contact-form').serialize());
+
+                $.ajax({
+                    dataType: 'json',
+                    type: 'POST',
+                    url: '/mail/contact',
+                    data: $('#contact-form').serialize(),
+                    success: function (data) {
+                        if(data.status == 'success')
+                        {
+                            $('.oe_fade-submit')
+                                .fadeOut(300, function(){
+                                    $(this)
+                                        .html('<p class="sys_aligncenter">Formulario enviado con exito. En breve nos pondremos en contacto contigo. Gracias.</p>')
+                                        .fadeIn(300);
+                                });
+                        }
+                        else
+                        {
+                            $('.oe_fade-submit')
+                                .fadeOut(300, function(){
+                                    $(this)
+                                        .html('<p class="sys_aligncenter">Fallo al enviar el formulario. Por favor recargue la página y pruebe de nuevo. Si el problema persiste por favor escribanos un email a info@roomandrevenue.com o llame al 675 96 70 06. Sentimos las molestias.</p>')
+                                        .fadeIn(300);
+                                });
+                        }
+                    }
+                });
+            }
 		});
 	}
-	
-	
-	// Scroll to a Specific Div
-	if($('.scroll-to-target').length){
+
+	// scroll to a Specific Div
+    if ($('.scroll-to-target').length)
+    {
 		$(".scroll-to-target").on('click', function() {
 			var target = $(this).attr('data-target');
 		   // animate
 		   $('html, body').animate({
 			   scrollTop: $(target).offset().top
 			 }, 1500);
-	
 		});
 	}
-	
-	
-	// Elements Animation
-	if($('.wow').length){
+
+	// elements Animation
+    if ($('.wow').length)
+    {
 		var wow = new WOW(
 		  {
-			boxClass:     'wow',      // animated element css class (default is wow)
-			animateClass: 'animated', // animation css class (default is animated)
-			offset:       0,          // distance to the element when triggering the animation (default is 0)
-			mobile:       true,       // trigger animations on mobile devices (default is true)
-			live:         true       // act on asynchronously loaded content (default is true)
+			boxClass:     'wow',        // animated element css class (default is wow)
+			animateClass: 'animated',   // animation css class (default is animated)
+			offset:       0,            // distance to the element when triggering the animation (default is 0)
+			mobile:       true,         // trigger animations on mobile devices (default is true)
+			live:         true          // act on asynchronously loaded content (default is true)
 		  }
 		);
 		wow.init();
 	}
 
 
-/* ==========================================================================
-   When document is Scrollig, do
-   ========================================================================== */
-	
+    /* ==========================================================================
+    When document is Scrollig, do
+    ========================================================================== */
 	$(window).on('scroll', function() {
 		headerStyle();
 	});
-	
-/* ==========================================================================
-   When document is loading, do
-   ========================================================================== */
-	
+
+    /* ==========================================================================
+    When document is loading, do
+    ========================================================================== */
 	$(window).on('load', function() {
 		handlePreloader();
 		enableMasonry();
-	});	
+	});
 
 })(window.jQuery);

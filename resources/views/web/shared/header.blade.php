@@ -1,6 +1,6 @@
 <!-- Main Header-->
 <header class="main-header custom-header">
-    
+
     <!--Header Top-->
     <div class="header-top">
         <div class="auto-container">
@@ -29,12 +29,12 @@
             </div>
         </div>
     </div>
-    
+
     <!--Header-Upper-->
     <div class="header-upper">
         <div class="auto-container">
             <div class="clearfix">
-                
+
                 <div class="pull-left logo-box">
                     <div class="logo">
                         <a href="{{ route('web.home') }}">
@@ -42,9 +42,9 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="nav-outer clearfix">
-                
+
                     <!-- Main Menu -->
                     <nav class="main-menu navbar-expand-md">
                         <div class="navbar-header">
@@ -100,7 +100,7 @@
         </div>
     </div>
     <!--End Header Upper-->
-    
+
     <!--Sticky Header-->
     <div class="sticky-header">
         <div class="auto-container clearfix">
@@ -110,7 +110,7 @@
                     <img src="{{ asset('/images/origen-logo-desc.png') }}" alt="" title="">
                 </a>
             </div>
-            
+
             <!--Right Col-->
             <div class="right-col pull-right">
                 <!-- Main Menu -->
@@ -120,7 +120,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    
+
                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                         <ul class="navigation clearfix">
                             <li class="@if(strpos(request()->route()->getName(), 'web.home') !== false){{ 'current' }}@endif">
@@ -157,10 +157,11 @@
                             </li>
                         </ul>
                         <a class="theme-btn btn-style-two" data-toggle="modal" data-target="#partnerModal">hazte socio</a>
+                        <div class="oe_fade-submit"></div>
                     </div>
                 </nav><!-- Main Menu End-->
             </div>
-            
+
         </div>
     </div>
     <!--End Sticky Header-->
@@ -200,10 +201,13 @@
                     </div>
                     <div class="row sec-lower">
                         <div class="col-12">
-                            <!-- Contact Form -->
+
+                            <!-- contact form -->
                             <div class="contact-form ">
-                                <form method="post" id="contact-form">
-                                    
+                                <form id="contact-form">
+
+                                    {{ csrf_field() }}
+
                                     <div class="form-group">
                                         <input type="text" name="dopigp" placeholder="Nombre de la DOP / IGP" required>
                                     </div>
@@ -211,23 +215,25 @@
                                     <div class="form-group">
                                         <input type="text" name="name" placeholder="Persona de contacto" required>
                                     </div>
-    
+
                                     <div class="form-group">
                                         <input type="email" name="email" placeholder="Correo electrónico" required>
                                     </div>
-    
+
                                     <div class="form-group">
                                         <input type="text" name="phone" placeholder="Número de teléfono" required>
                                     </div>
-    
+
                                     <div class="form-group">
                                         <textarea name="message" placeholder="Mensaje" required onfocus="this.innerHTML = ''">Por favor, contactad con nosotros para asociarnos. Gracias.</textarea>
                                     </div>
-    
+
                                     <div class="form-group">
                                         <button class="theme-btn message-btn" type="submit" name="submit-form">Enviar mensaje</button>
                                     </div>
-    
+
+                                    <div class="oe_fade-submit"></div>
+
                                 </form>
                             </div>
                             <!--End Contact Form -->
@@ -241,4 +247,3 @@
     </div>
 </div>
 <!--End Hazte Socio Modal -->
-

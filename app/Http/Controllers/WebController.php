@@ -1,5 +1,9 @@
 <?php namespace App\Http\Controllers;
 
+use App\Mail\Contact;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 class WebController extends Controller
 {
     public function home()
@@ -46,6 +50,31 @@ class WebController extends Controller
             'newsItem'      => $newsItem,
             'previousSlug'  => $previousSlug,
             'nextSlug'      => $nextSlug,
+        ]);
+    }
+
+    public function sendForm(Request $request)
+    {
+        /* $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $secret = env('GOOGLE_RECAPTCHA_SECRET_KEY');
+        $recaptchaHidden = $request->input('recaptchaHidden');
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $rResponse = file_get_contents($url . '?secret=' . $secret . '&response=' . $recaptchaHidden . '&remoteIp=' . $ip);
+
+        $response = json_decode($rResponse, true);
+        if (!$response['success'])
+        {
+            return response()->json([
+                'status'    => 'error'
+            ]);
+        } */
+
+        Mail::to($request->input('email'))
+            ->bcc([config('mail.from.address')])
+            ->send(new Contact($request->all()));
+
+        return response()->json([
+            'status'    => 'success'
         ]);
     }
 }

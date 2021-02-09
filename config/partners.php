@@ -20,7 +20,7 @@ return [
                 'twitter'   => 'https://twitter.com/TerneraGallega',
                 'instagram' => 'https://www.instagram.com/terneragallega',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/ternera-gallega/logo.jpg',
             'detailImages'  => [
                 'images/partners/ternera-gallega/logo.jpg',
@@ -53,7 +53,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/TurronesJijona',
                 'twitter'   => 'https://twitter.com/TurronesJijona',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/jijona-y-turron-de-alicante/logo.jpg',
             'detailImages'  => [
                 'images/partners/jijona-y-turron-de-alicante/logo.jpg',
@@ -87,7 +87,7 @@ return [
                 'twitter'   => 'https://twitter.com/QuesoManchegod',
                 'youtube'   => 'https://www.youtube.com/channel/UCXYmnFfIZLDraztN4UG-RNA',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/queso-manchego/logo.jpg',
             'detailImages'  => [
                 'images/partners/queso-manchego/logo.jpg',
@@ -121,7 +121,7 @@ return [
                 'instagram' => 'https://www.instagram.com/_tierradeculto/',
                 'youtube'   => 'https://www.youtube.com/channel/UCGl1e7cj2wmvUzeHIt9oZjg?view_as=subscriber',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/jabugo/logo.jpg',
             'detailImages'  => [
                 'images/partners/jabugo/logo.jpg',
@@ -156,7 +156,7 @@ return [
                 'twitter'   => 'https://twitter.com/pimenton_vera',
                 'instagram' => 'https://www.instagram.com/pimentondelaveradop/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/pimenton-de-la-vera/logo.jpg',
             'detailImages'  => [
                 'images/partners/pimenton-de-la-vera/logo.jpg',
@@ -188,7 +188,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/tortadelcasar/',
                 'twitter'   => 'https://twitter.com/tortacasar'
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/torta-del-casar/logo.jpg',
             'detailImages'  => [
                 'images/partners/torta-del-casar/logo.jpg',
@@ -221,7 +221,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/DOlospedroches/',
                 'twitter'   => 'https://twitter.com/dolospedroches'
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/los-pedroches/logo.jpg',
             'detailImages'  => [
                 'images/partners/los-pedroches/logo.jpg',
@@ -259,7 +259,7 @@ return [
                 'twitter'   => 'https://twitter.com/UvaVinalopo',
                 'instagram' => 'https://www.instagram.com/crdopuvavinalopo',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/uva-de-mesa-embolsada-del-vinalopo/logo.jpg',
             'detailImages'  => [
                 'images/partners/uva-de-mesa-embolsada-del-vinalopo/logo.jpg',
@@ -294,7 +294,7 @@ return [
                 'twitter'   => 'https://twitter.com/dosierramagina?lang=es',
                 'instagram' => 'https://www.instagram.com/dosierramagina/?hl=es',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/sierra-magina/logo.jpg',
             'detailImages'  => [
                 'images/partners/sierra-magina/logo.jpg',
@@ -326,7 +326,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/pimentondemurcia/',
                 'twitter'   => 'https://twitter.com/pimentondmurcia',
                             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/pimenton-de-murcia/logo.jpg',
             'detailImages'  => [
                 'images/partners/pimenton-de-murcia/logo.jpg',
@@ -358,8 +358,8 @@ return [
                 'twitter'   => 'https://twitter.com/DOPAceiteBA',
                 'youtube'   => 'https://www.youtube.com/user/aceitedelbajoaragon',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/aceite-del-bajo-aragon/logo.jpg',
             'detailImages'  => [
                 'images/partners/aceite-del-bajo-aragon/logo.jpg',
                 'images/partners/aceite-del-bajo-aragon/product01.jpg',
@@ -390,7 +390,7 @@ return [
                 'twitter'   => 'https://twitter.com/igp_ajomorado',
                 'instagram' => 'https://www.instagram.com/igpajomorado/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/ajo-morado-pedroneras/logo.jpg',
             'detailImages'  => [
                 'images/partners/ajo-morado-pedroneras/logo.jpg',
@@ -421,7 +421,7 @@ return [
                 'twitter'       => 'https://twitter.com/ArzuaUlloaDOP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
                 'instagram'     => 'https://www.instagram.com/arzuaulloadop',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/arzua-ulloa/logo.jpg',
             'detailImages'  => [
                 'images/partners/arzua-ulloa/logo.jpg',
@@ -460,7 +460,7 @@ return [
                'instagram'  => 'https://www.instagram.com/dopazafran/',
                'youtube'    => 'https://www.youtube.com/channel/UCKWjjG457xdUCkYFSGL5dFQ/videos?view_as=subscriber',
             ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/azafran-de-la-mancha/logo.jpg',
            'detailImages'  => [
                'images/partners/azafran-de-la-mancha/logo.jpg',
@@ -499,7 +499,7 @@ return [
                 'twitter'   => 'https://twitter.com/AceiteDOBaena',
                 'instagram' => 'https://es.pinterest.com/origenespana/crdop-baena/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/baena/logo.jpg',
             'detailImages'  => [
                 'images/partners/baena/logo.jpg',
@@ -532,7 +532,7 @@ return [
                 'twitter'   => 'https://twitter.com/cabrales_dop',
                 'instagram' => 'https://www.instagram.com/dopcabrales/?hl=es',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/cabrales/logo.jpg',
             'detailImages'  => [
                 'images/partners/cabrales/logo.jpg',
@@ -563,7 +563,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/arrozdecalasparra',
                 'twitter'   => 'https://twitter.com/ARROZ_CALAS_DOP',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/calasparra/logo.jpg',
             'detailImages'  => [
                 'images/partners/calasparra/logo.jpg',
@@ -597,7 +597,7 @@ return [
                 'youtube'   => 'https://www.youtube.com/channel/UC0qBPvMhj_37SQ7_EbUEPhQ',
                 'instagram' => 'https://www.instagram.com/igpcarnedeavila/',
             ],
-                'headerImage'   => 'https://placehold.it/1920x345',
+                'headerImage'   => null,
                 'listImage'     => 'images/partners/carne-de-avila/logo.jpg',
                 'detailImages'  => [
                     'images/partners/carne-de-avila/logo.jpg',
@@ -634,7 +634,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/Carne-de-la-Sierra-de-Guadarrama-IGP-661053587409064/',
                 'twitter'   => 'https://twitter.com/carneguadarram',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/carne-sierra-guadarrama/logo.jpg',
             'detailImages'  => [
                 'images/partners/carne-sierra-guadarrama/logo.jpg',
@@ -673,7 +673,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/CASTANADEGALICIA',
                 'twitter'   => 'https://twitter.com/ixpcg',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/castana-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/castana-de-galicia/logo.jpg',
@@ -711,7 +711,7 @@ return [
                'instagram'  => 'https://instagram.com/picotadeljerte/',
                'youtube'    => 'https://www.youtube.com/user/PICOTADELJERTE',
             ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/cereza-del-jerte/logo.jpg',
            'detailImages'  => [
                'images/partners/cereza-del-jerte/logo.jpg',
@@ -743,7 +743,7 @@ return [
                 'twitter'       => 'https://twitter.com/cvalencianos?lang=es',
                 'instagram'     => 'https://www.instagram.com/citricosvalencianosigp/?hl=es',
             ],
-                'headerImage'   => 'https://placehold.it/1920x345',
+                'headerImage'   => null,
                 'listImage'     => 'images/partners/citricos-valencianos/logo.jpg',
                 'detailImages'  => [
                     'images/partners/citricos-valencianos/logo.jpg',
@@ -779,8 +779,8 @@ return [
                 'twitter'   => 'https://twitter.com/igpcorderex',
                 'instagram' => 'https://www.instagram.com/igpcorderex/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/cordero-de-extremadura-corderex/logo.jpg',
             'detailImages'  => [
                 'images/partners/cordero-de-extremadura-corderex/logo.jpg',
                 'images/partners/cordero-de-extremadura-corderex/product01.jpg',
@@ -811,7 +811,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/Jamon.D.O.Dehesa.Extremadura/',
                 'twitter'   => 'hhttps://twitter.com/jamondo_extrema',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/dehesa-de-extremadura/logo.jpg',
             'detailImages'  => [
                 'images/partners/dehesa-de-extremadura/logo.jpg',
@@ -844,7 +844,7 @@ return [
                 'twitter'   => 'https://twitter.com/esparrago_RG',
                 'instagram' => 'https://www.instagram.com/esparragodenavarra/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/esparrago-de-navarra/logo.jpg',
             'detailImages'  => [
                 'images/partners/esparrago-de-navarra/logo.jpg',
@@ -877,7 +877,7 @@ return [
                 'instagram' => 'https://www.instagram.com/doestepa/?hl=es',
                 'youtube'   => 'https://www.youtube.com/channel/UC45CPAN-Z6-uYIdabDLcpSA',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/estepa/logo.jpg',
             'detailImages'  => [
                 'images/partners/estepa/logo.jpg',
@@ -911,7 +911,7 @@ return [
                 'instagram' => 'https://www.instagram.com/granadaselche/',
                 'youtube'   => 'https://www.youtube.com/user/AsoGranadasDeElche',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/granada-mollar-elche/logo.jpg',
             'detailImages'  => [
                 'images/partners/granada-mollar-elche/logo.jpg',
@@ -947,7 +947,7 @@ return [
                 'instagram' => 'https://www.instagram.com/idiazabal_gazta/',
                 'youtube'   => 'https://www.youtube.com/channel/UCSviY7HpdNtoKZCys2rCnVw',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/idiazabal/logo.jpg',
             'detailImages'  => [
                 'images/partners/idiazabal/logo.jpg',
@@ -980,7 +980,7 @@ return [
                 'twitter'   => 'https://twitter.com/JamondeTeruelDO',
                 'youtube'   => 'https://www.youtube.com/user/CRDOJamondeTeruel',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/jamon-de-teruel/logo.jpg',
             'detailImages'  => [
                 'images/partners/jamon-de-teruel/logo.jpg',
@@ -1012,7 +1012,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/kakipersimonDOP/',
                 'instagram' => 'https://www.instagram.com/kakipersimon_/?hl=es',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/kaki-ribera-xuquer/logo.jpg',
             'detailImages'  => [
                 'images/partners/kaki-ribera-xuquer/logo.jpg',
@@ -1046,7 +1046,7 @@ return [
                 'instagram' => 'http://www.instagram.com/quesomahonmenorca',
                 'youtube'   => 'https://www.youtube.com/user/quesomahonmenorca',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/mahon-menorca/logo.jpg',
             'detailImages'  => [
                 'images/partners/mahon-menorca/logo.jpg',
@@ -1079,7 +1079,7 @@ return [
                 'youtube'   => 'https://www.youtube.com/channel/UCK8_d5ziH9rx2kp4NIGmmCw',
                 'instagram' => 'https://www.instagram.com/mexillondegaliciadop/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/mexillon-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/mexillon-de-galicia/logo.jpg',
@@ -1112,7 +1112,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/d.o.p.melocotondecalanda/',
                 'instagram' => 'https://www.instagram.com/d.o.p.melocotondecalanda/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/melocoton-de-calanda/logo.jpg',
             'detailImages'  => [
                 'images/partners/melocoton-de-calanda/logo.jpg',
@@ -1144,7 +1144,7 @@ return [
                 'facebook'  => 'http://www.facebook.com/MeldeGalicia#!/MeldeGalicia/app_154581087931912',
                 'twitter' => 'http://twitter.com/meldegalicia?lang=es'
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/miel-de-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/miel-de-galicia/logo.jpg',
@@ -1179,7 +1179,7 @@ return [
                 'twitter'   => 'https://twitter.com/nispero_callosa',
                 'instagram' => 'https://www.instagram.com/nisperosdecallosa/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/nisperos-de-callosa-den-sarria/logo.jpg',
             'detailImages'  => [
                 'images/partners/nisperos-de-callosa-den-sarria/logo.jpg',
@@ -1212,7 +1212,7 @@ return [
                 'twitter'   => 'https://twitter.com/vinos_malaga',
                 'instagram' => 'https://www.instagram.com/vinos_malaga/?hl=es',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/pasas-de-malaga/logo.jpg',
             'detailImages'  => [
                 'images/partners/pasas-de-malaga/logo.jpg',
@@ -1248,7 +1248,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/patacadegalicia/',
                 'twitter' => 'https://twitter.com/patacadegalicia?lang=es'
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/pataca-galicia/logo.jpg',
             'detailImages'  => [
                 'images/partners/pataca-galicia/logo.jpg',
@@ -1282,7 +1282,7 @@ return [
                 'facebook'  => 'https://www.facebook.com/peradejumilla',
                 'instagram' => 'https://www.instagram.com/peradejumilla',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/pera-de-jumilla/logo.jpg',
             'detailImages'  => [
                 'images/partners/pera-de-jumilla/logo.jpg',
@@ -1317,7 +1317,7 @@ return [
                 'pinterest' => 'https://www.pinterest.es/perasderincon/',
                 'youtube'   => 'https://www.youtube.com/user/PerasDeRinconDeSoto/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/peras-de-rincon-de-soto/logo.jpg',
             'detailImages'  => [
                 'images/partners/peras-de-rincon-de-soto/logo.jpg',
@@ -1354,7 +1354,7 @@ return [
                 'instagram' => 'https://www.instagram.com/platano_decanarias/',
                 'youtube'   => 'https://www.youtube.com/user/momentoplatano',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/platano-canarias/logo.jpg',
             'detailImages'  => [
                 'images/partners/platano-canarias/logo.jpg',
@@ -1365,9 +1365,9 @@ return [
             ],
             'categories'    => ['frutas'],
             'description'   =>
-                '<p></p>
-                <p></p>
-                <p></p>'
+                '<p>Los plátanos de la Indicación Geográfica Protegida Plátano de Canarias, proceden de la variedad Cavendish de la especie Musa Acuminata Colla destinados al consumo en estado fresco después de su acondicionamiento y envasado. Esta variedad es la que se ha cultivado históricamente en las islas y la que le ha proporcionado la identidad al  Plátano de Canarias.  </p>
+                <p>El Plátano de Canarias se ve influenciado por las suaves temperaturas y los vientos húmedos  que llegan a las islas que marcan el lento desarrollo de la planta.  Este incremento del tiempo de cultivo y por tanto del tiempo de maduración del fruto en la planta define las características diferenciadoras del Plátano de Canarias. </p>
+                <p>El Plátano de Canarias es de forma oblonga, con una marcada curvatura estrechándose en su parte de unión con el raquis. La coloración  de la piel  del plátano varía desde el verde en el momento del la recolección hasta el amarillo intenso en el momento de  consumo.  La presencia de las motitas en la piel de los Plátanos de Canarias debida a la actividad de las enzimas polifenoloxidasa y peroxidasa, se ha convertido en una señal de identidad.  Las tonalidades de la pulpa van del blanco marfil  al amarillo pasando por el crema. El Plátano de Canarias se caracteriza además por su bajo contenido en almidón y alto contenido en azucares totales.  Todas estas características confieren al Plátano de Canarias sus tres elementos diferenciadores: su sabor dulce intenso, su intenso aroma denominado “Impacto plátano” y sus “Motitas” oscuras tan características de la piel del Plátano de Canarias.</p>'
         ],
         (object)[
             'name'      => 'DOP Priego de Córdoba',
@@ -1387,7 +1387,7 @@ return [
                 'twitter'   => 'https://twitter.com/AoveDopPriego',
                 'instagram' => 'https://www.instagram.com/aovedoppriego/',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
+            'headerImage'   => null,
             'listImage'     => 'images/partners/priego-de-cordoba/logo.jpg',
             'detailImages'  => [
                 'images/partners/priego-de-cordoba/logo.jpg',
@@ -1426,7 +1426,7 @@ return [
                'twitter'    => 'https://twitter.com/dopquesotetilla',
                'instagram'  => 'https://www.instagram.com/queixotetilla/',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/queixo-tetilla/logo.jpg',
            'detailImages'  => [
                'images/partners/queixo-tetilla/logo.jpg',
@@ -1467,7 +1467,7 @@ return [
                'twitter'    => 'https://twitter.com/QUESOMURCIA_DOP',
                'instagram'  => 'https://www.instagram.com/quesodemurcia/',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-de-murcia-y-queso-de-murcia-al-vino/logo.jpg',
@@ -1500,7 +1500,7 @@ return [
                'facebook'  => 'http://www.facebook.com/pages/Queso-Majorero/135311006520336',
                'twitter' => 'http://twitter.com/quesomajorero'
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/queso-majorero/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-majorero/logo.jpg',
@@ -1535,7 +1535,7 @@ return [
                'twitter'    => 'https://twitter.com/TemplateMonster',
                'youtube'    => 'https://www.youtube.com/user/TemplateMonsterCo',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/queso-zamorano/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-zamorano/logo.jpg',
@@ -1567,7 +1567,7 @@ return [
            'webUrl'    => 'http://www.quesocamerano.com/es/',
            'social'    => (object)[
                          ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/queso-camerano/logo.jpg',
            'detailImages'  => [
                'images/partners/queso-camerano/logo.jpg',
@@ -1600,7 +1600,7 @@ return [
                'twitter'    => 'https://twitter.com/sansimondacosta?lang=es',
                'instagram'  => 'https://www.instagram.com/sansimondacosta/?hl=es',
             ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/san-simon-da-costa/logo.jpg',
            'detailImages'  => [
                'images/partners/san-simon-da-costa/logo.jpg',
@@ -1636,7 +1636,7 @@ return [
                'twitter'    => 'https://twitter.com/aceitedesegura',
                'instagram'  => 'https://www.instagram.com/aceitedosierrasegura/',
             ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/sierra-de-segura/logo.jpg',
            'detailImages'  => [
                'images/partners/sierra-de-segura/logo.jpg',
@@ -1668,7 +1668,7 @@ return [
                'facebook'  => 'https://www.facebook.com/sobrasadademallorcaIGP?ref=hl',
                'instagram' => 'http://sobrasadademallorca.org/www.instagram.com/sobrasadademallorca',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/sobrasada-de-mallorca/logo.jpg',
            'detailImages'  => [
                'images/partners/sobrasada-de-mallorca/logo.jpg',
@@ -1703,7 +1703,7 @@ return [
                'instagram'  => 'https://www.instagram.com/ternascodearagonigp/',
                'youtube'    => 'https://www.youtube.com/channel/UCI5uFV8DRczY2cFjUdyVQWA',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/ternasco-de-aragon/logo.jpg',
            'detailImages'  => [
                'images/partners/ternasco-de-aragon/logo.jpg',
@@ -1738,7 +1738,7 @@ return [
                'instagram'  => 'https://www.instagram.com/terneradeex/',
                'youtube'    => 'https://www.youtube.com/channel/UCgq8b1AhxJGdrFXuxYwdZhg',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/ternera-de-extremadura/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-de-extremadura/logo.jpg',
@@ -1771,7 +1771,7 @@ return [
                'facebook'  => 'https://www.facebook.com/terneradenavarra',
                'twitter' => 'https://twitter.com/terneranavarra'
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/ternera-de-navarra/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-de-navarra/logo.jpg',
@@ -1806,7 +1806,7 @@ return [
                'instagram'  => 'https://www.instagram.com/terneraastur/',
                'youtube'    => 'https://www.youtube.com/channel/UCNP48Gq_Fbc_g0465vu70DA',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/ternera-asturiana/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-asturiana/logo.jpg',
@@ -1837,7 +1837,7 @@ return [
            'social'    => (object)[
                'facebook'  => 'https://www.facebook.com/Ternera-de-Aliste-190134841811/',
            ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/ternera-aliste/logo.jpg',
            'detailImages'  => [
                'images/partners/ternera-aliste/logo.jpg',
@@ -1872,7 +1872,7 @@ return [
                'facebook'  => 'https://www.facebook.com/vinosjerez/',
                'instagram' => 'https://www.instagram.com/vinagredejerezdo/',
             ],
-           'headerImage'   => 'https://placehold.it/1920x345',
+           'headerImage'   => null,
            'listImage'     => 'images/partners/vinagre-de-jerez/logo.jpg',
            'detailImages'  => [
                'images/partners/vinagre-de-jerez/logo.jpg',
@@ -1906,16 +1906,16 @@ return [
                 'twitter'   => '',
                 'instagram' => '',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/tarta-de-santiago/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/555x400',
-                'images/partners/vinagre-de-jerez/product01.jpg',
-                'images/partners/vinagre-de-jerez/product02.jpg',
-                'images/partners/vinagre-de-jerez/product03.jpg',
-                'images/partners/vinagre-de-jerez/product04.jpg',
+                'images/partners/tarta-de-santiago/logo.jpg',
+                'images/partners/tarta-de-santiago/product01.jpg',
+                'images/partners/tarta-de-santiago/product02.jpg',
+                'images/partners/tarta-de-santiago/product03.jpg',
+                'images/partners/tarta-de-santiago/product04.jpg',
             ],
-            'categories'    => ['carnes'],
+            'categories'    => ['reposteria'],
             'description'   =>
                 '<p>El producto amparado por la indicación xeográfica protexida ( IXP) Tarta de Santiago es un dulce tradicional gallego, cuyos componentes básicos son almendras, azúcar y huevo, empleados en las proporciones y según las condiciones que se definen en el pliego de condiciones del producto, y en el Reglamento. La zona de elaboración de las tartas amparadas por la IXP Tarta de Santiago abarca todo el territorio de la Comunidad Autónoma de Galicia.</p>
                 <p>Historia: Nace en las cocinas acomodadas en los siglos XVI al XVIII. La alta repostería gallega de los tiempos históricos se caracteriza por la presencia de dos ingredientes: azúcar y almendra.</p>
@@ -1938,21 +1938,56 @@ return [
                 'facebook'  => '',
                 'twitter'   => '',
             ],
-            'headerImage'   => 'https://placehold.it/1920x345',
-            'listImage'     => 'https://placehold.it/555x400',
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/cebolla-fuentes-ebro/logo.jpg',
             'detailImages'  => [
-                'https://placehold.it/555x400',
-                'images/partners/vinagre-de-jerez/product01.jpg',
-                'images/partners/vinagre-de-jerez/product02.jpg',
-                'images/partners/vinagre-de-jerez/product03.jpg',
-                'images/partners/vinagre-de-jerez/product04.jpg',
+                'images/partners/cebolla-fuentes-ebro/logo.jpg',
+                'images/partners/cebolla-fuentes-ebro/product01.jpg',
+                'images/partners/cebolla-fuentes-ebro/product02.jpg',
+                'images/partners/cebolla-fuentes-ebro/product03.jpg',
+                'images/partners/cebolla-fuentes-ebro/product04.jpg',
             ],
-            'categories'    => ['turrones'],
+            'categories'    => ['hortalizas'],
             'description'   =>
                 '<p>La Cebolla Fuentes de Ebro se caracteriza por tener un color externo blanco-paja, capas internas blancas y por su textura tierna, crocante y muy jugosa, debido a su elevado contenido en agua, pero principalmente destaca por ser una cebolla suave, digestiva, de escaso picor y con ausencia o leve retrogusto en boca.</p>
                 <p>Entre sus amplias virtudes destaca, en cocina, por ser excepcional para su disfrute en ensalada y por caramelizar sin necesidad de añadir azúcar por su dulzor natural; eso la hace ser una de las hortalizas preferidas de consumidores y cocineros, además de ser ideal para el consumo por parte de los niños y personas con intolerancia a las cebollas debido a su suavidad y digestividad.</p>
                 <h3>Estacionalidad e identificación de producto</h3>
                 <p>Esta hortaliza todavía mantiene su carácter estacional. Se puede encontrar en los mercados desde el mes de junio hasta diciembre.  La etiqueta con el logotipo de la Denominación de Origen Protegida garantiza que está consumiendo la auténtica Cebolla Fuentes de Ebro, producida en la zona geográfica delimitada y que cumple con los máximos parámetros de calidad, pasando unos estrictos controles tanto en el campo como en las empresas comercializadoras.</p>',
+        ],
+        (object)[
+            'name'      => 'IGP Pan de Cea',
+            'position'  => 'Socio',
+            'slug'      => 'pan-de-cea',
+            'email'     => 'info@pandecea.org',
+            'recipient' => 'Consejo Regulador IGP Pan de Cea',
+            'address'   => 'Praza Maior, 1',
+            'zip'       => '32130',
+            'province'  => 'Ourense',
+            'locality'  => 'Cea',
+            'phone'     => '618 265 307',
+            'web'       => 'pandecea.org',
+            'webUrl'    => 'http://www.pandecea.org/web/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/conselloregulador.pandecea/',
+                'instagram'   => 'https://www.instagram.com/pandecea/',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/pan-de-cea/logo.jpg',
+            'detailImages'  => [
+                'images/partners/pan-de-cea/logo.jpg',
+                'images/partners/pan-de-cea/product01.jpg',
+                'images/partners/pan-de-cea/product02.jpg',
+                'images/partners/pan-de-cea/product03.jpg',
+                'images/partners/pan-de-cea/product04.jpg',
+            ],
+            'categories'    => ['panes'],
+            'description'   =>
+                '<p>El producto amparado por la Indicación Geográfica Protegida (I.G.P.) “Pan de Cea” se define como el pan que se elabora con harina de trigo, con adición de agua potable y sal comestible, a lo que se añade, para su fermentación, masa madre procedente de una elaboración anterior. El amasado se realiza en varias etapas, según las técnicas ancestrales de la zona, mediante un laborioso proceso artesanal. Por último, la masa se cuece en hornos de piedra granítica de diseño característico de la zona que son previamente calentados con leña.</p>
+                <h3>Características</h3>
+                <p>Forma de las piezas de pan: alargada y redondeada en sus extremos, con una hendidura transversal en el centro de su parte superior, denominada “fenda”, que otorga a la pieza un aspecto característico, quedando dividida en dos partes iguales abombadas y ensambladas entre sí.</p>,
+                <p>Presentaciones: Existen dos tipos de presentación que se diferencian por su peso y dimensiones: Pieza o “Poia -Peso entre 1 y 1,2 kg-. Media pieza o “Molete”: -Peso entre 0,5 y 0,6 kg-</p>,
+                <p>Corteza: Gruesa, de espesor variable, incluso en una misma pieza, oscilando aproximadamente entre 0.5 y 1 cm. Consistencia dura y rígida, con rotura crujiente y con tendencia a hacer láminas. Color desde dorado hasta castaño oscuro. Sabor a tostado. </p>,
+                <p>Miga: Textura esponjosa, fibrosa y firme. Alveolado no muy abundante, distribuido de forma irregular y de tamaño muy variable. Color apergaminado, que recuerda al del grano de trigo entero. o Sabor intenso a trigo.</p>',
         ],
     ]
 ];

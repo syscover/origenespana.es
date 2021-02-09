@@ -1,5 +1,80 @@
 @extends('web.layout.default')
 
+@section('scripts')
+<script>
+    // contact form validation
+    $('#contact2-form').validate({
+        rules: {
+            name: {
+                required: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            phone: {
+                required: true
+            },
+            subject: {
+                required: true
+            },
+            message: {
+                required: true
+            }
+        },
+        messages: {
+            name: {
+                required: 'Por favor introduzca un nombre.'
+            },
+            email: {
+                required: 'Por favor introduzca un correo electrónico.',
+                email: 'Por favor introduzca un correo electrónico válido.'
+            },
+            phone: {
+                required: 'Por favor introduzca un número de teléfono.'
+            },
+            subject: {
+                required: 'Por favor introduzca un asunto.'
+            },
+            message: {
+                required: 'Por favor escriba un mensaje.'
+            }
+        },
+        submitHandler: function() {
+            console.log('ENVIADO!!', $('#contact-form').serialize());
+
+            $.ajax({
+                dataType: 'json',
+                type: 'POST',
+                url: '/mail/contact',
+                data: $('#contact2-form').serialize(),
+                success: function (data) {
+                    if(data.status == 'success')
+                    {
+                        $('.oe_fade-submit')
+                            .fadeOut(300, function(){
+                                $(this)
+                                    .html('<p class="sys_aligncenter">Formulario enviado con exito. En breve nos pondremos en contacto contigo. Gracias.</p>')
+                                    .fadeIn(300);
+                            });
+                    }
+                    else
+                    {
+                        $('.oe_fade-submit')
+                            .fadeOut(300, function(){
+                                $(this)
+                                    .html('<p class="sys_aligncenter">Fallo al enviar el formulario. Por favor recargue la página y pruebe de nuevo. Si el problema persiste por favor escribanos un email a info@roomandrevenue.com o llame al 675 96 70 06. Sentimos las molestias.</p>')
+                                    .fadeIn(300);
+                            });
+                    }
+                }
+            });
+        }
+    });
+</script>
+@endsection
+
+
 @section('content')
 
 <!--Page Title-->
@@ -18,7 +93,7 @@
 <section class="contact-section">
     <div class="auto-container">
         <div class="row clearfix">
-            
+
             <!--Info Column-->
             <div class="info-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -40,16 +115,18 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Form Column-->
             <div class="form-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
                     <h2>Envíenos un mensaje</h2>
                     <div class="title">Por favor, escríbenos y nos pondremos en contacto contigo a la mayor brevedad posible.</div>
                     <!-- Contact Form -->
-                    <div class="contact-form ">
-                        <form method="post" id="contact-form">
-                            
+                    <div class="contact-form">
+                        <form method="post" id="contact2-form">
+
+                            {{ csrf_field() }}
+
                             <div class="form-group">
                                 <input type="text" name="name" placeholder="Nombre completo" required>
                             </div>
@@ -74,15 +151,17 @@
                                 <button class="theme-btn message-btn" type="submit" name="submit-form">Enviar mensaje</button>
                             </div>
 
+                            <div class="oe_fade-submit"></div>
+
                         </form>
                     </div>
                     <!--End Contact Form -->
                 </div>
             </div>
-            
+
         </div>
     </div>
-</section>	
+</section>
 <!--End Contact Section-->
 
 @endsection

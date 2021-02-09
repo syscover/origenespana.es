@@ -23,9 +23,11 @@
             <div class="content-side col-md-12 col-sm-12">
                 <div class="blog-single">
                     <div class="inner-box">
-                        <div class="image">
+
+                        <!-- <div class="image">
                             <img src="{{ asset('images/theme/resource/news-9.jpg') }}" alt="" />
-                        </div>
+                        </div> -->
+
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">

@@ -22,7 +22,7 @@
         <div class="news-block-eight">
             <div class="inner-box">
                 <div class="image">
-                    <a href="{{ route('web.blog.post', ['slug' => $newsItem->slug]) }}"><img src="{{ asset('images/theme/resource/news-13.jpg') }}" alt="" /></a>
+                    <a href="{{ route('web.blog.post', ['slug' => $newsItem->slug]) }}"><img src="{{ asset($newsItem->image) }}" alt="" /></a>
                 </div>
                 <div class="content">
                     <div class="clearfix">
