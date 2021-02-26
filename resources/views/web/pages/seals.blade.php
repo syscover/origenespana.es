@@ -29,9 +29,9 @@
 <!--Offer Section-->
 <section class="offer-section">
     <div class="auto-container">
-        
+
         <div class="row clearfix">
-            
+
             <!--Offer Block-->
             <div class="offer-block col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Offer Block-->
             <div class="offer-block col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
@@ -62,9 +62,9 @@
                     </div>
                 </div>
             </div>
-                        
+
         </div>
-        
+
     </div>
 </section>
 <!--End Offer Section-->
@@ -74,7 +74,7 @@
     <div class="auto-container">
         <div class="inner-container">
             <div class="row clearfix">
-                
+
                 <!--Services Block-->
                 <div class="services-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!--Services Block-->
                 <div class="services-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!--Services Block-->
                 <div class="services-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -133,7 +133,7 @@
 <section class="about-section">
     <div class="auto-container">
         <div class="row clearfix">
-            
+
             <!--Title Column-->
             <div class="title-column col-lg-5 col-md-12 col-sm-12">
                 <div class="inner-column">
@@ -148,11 +148,11 @@
                     {{-- <a href="#" class="theme-btn btn-style-five">Who We Are</a> --}}
                 </div>
             </div>
-            
+
             <!--Video Column-->
             <div class="video-column col-lg-7 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    
+
                     <!--Video Box-->
                     <div class="video-box">
                         <figure class="image">
@@ -160,10 +160,10 @@
                         </figure>
                         <a href="https://www.youtube.com/watch?v=zoZNf0XXOJg" class="lightbox-image overlay-box"><span class="flaticon-arrow"></span></a>
                     </div>
-                    
+
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

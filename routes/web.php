@@ -29,3 +29,4 @@ Route::get('noticias',                              '\App\Http\Controllers\WebCo
 Route::get('noticias/{slug}',                       '\App\Http\Controllers\WebController@newsItem')->name('web.blog.post');
 
 Route::get('contacto',                              function () { return view('web.pages.contact');                       })->name('web.contact');
+Route::get('aviso-legal',                           function () { return view('web.pages.legal-advice');                  })->name('web.legalAdvice');

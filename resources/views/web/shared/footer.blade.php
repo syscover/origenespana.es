@@ -120,7 +120,7 @@
                         <li><a data-toggle="modal" data-target="#partnerModal">Hazte socio</a></li>
                         <li><a href="{{ route('web.blog.list') }}">Convocatorias</a></li>
                         <li><a href="{{ route('web.contact') }}">Contacto</a></li>
-                        <li><a href="">Aviso legal</a></li>
+                        <li><a href="{{ route('web.legalAdvice') }}">Aviso legal</a></li>
                     </ul>
                 </div>
                 <div class="column col-md-6 col-sm-12 col-xs-12">
