@@ -219,7 +219,7 @@
         <!--Sec Title-->
         <div class="sec-title centered">
             <h2>Nuestros Socios</h2>
-            <div class="title-text">Asociación Española de Denominación de Origen</div>
+            <div class="title-text">Asociación Española de Denominaciones de Origen</div>
         </div>
     </div>
     <div class="four-item-carousel owl-carousel owl-theme">
@@ -242,7 +242,7 @@
                     </div>
                 </div>
                 <div class="lower-box">
-                    <div class="category">case study - strategies</div>
+                    <!-- <div class="category"></div> -->
                     <h3><a href="{{ route('web.partners.item', ['slug' => $partner->slug]) }}">{{ $partner->name }}</a></h3>
                 </div>
             </div>
