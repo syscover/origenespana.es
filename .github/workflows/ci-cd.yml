@@ -69,7 +69,7 @@ jobs:
         run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
 
       - name: Copy dotenv file
-        run: php -r "file_exists('.env') || copy('.env.ci', '.env');"
+        run: php -r "file_put_contents(__DIR__ . '/.env', '${{ secrets.DOT_ENV }}');"
 
       - name: Deploy
         uses: AEnterprise/rsync-deploy@v1.0
