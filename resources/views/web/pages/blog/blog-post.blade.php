@@ -2,7 +2,7 @@
 
 @section('content')
 <!--Page Title-->
-<section class="page-title" style="background-image:url({{ asset('images/theme/background/6.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset('images/bkg-origen.png') }});background-size: auto; background-repeat: repeat; background-position-x: 120px;">
     <div class="auto-container">
         <h1>{{ $newsItem->title }}</h1>
         <ul class="page-breadcrumb">
@@ -24,9 +24,9 @@
                 <div class="blog-single">
                     <div class="inner-box">
 
-                        <!-- <div class="image">
-                            <img src="{{ asset('images/theme/resource/news-9.jpg') }}" alt="" />
-                        </div> -->
+                        <div class="image">
+                            <img src="{{ asset($newsItem->image) }}" alt="" style="width:750px;"/>
+                        </div>
 
                         <div class="lower-content">
                             <div class="clearfix">
@@ -44,17 +44,12 @@
                                 </div>
                             </div>
                             <h2>{{ $newsItem->title }}</h2>
-                            <div class="text">
+                            <div class="text post-text">
                                 {!! $newsItem->article !!}
-                                <!-- <p>Duis aute irure dolor reprehenderit in voluptate velit essl cillum dolore eud fugiat nulla pariatur. Excepteur sint ocaec atus cupdatat proident suntin culpa qui officia deserunt mol anim. Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-                                <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                <blockquote>
-                                    <div class="quote-icon flaticon-two-quotes"></div>
-                                    <div class="blockquote-text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupid deserunt mollit anim id est laborum sed ut perspiciatis.</div>
-                                </blockquote>
-                                <p>Culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                <p>Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore.</p> -->
+                                {{-- <blockquote>
+                                    <div class="quote-icon flaticon-two-quotes">&nbsp;</div>
+                                    <div class="blockquote-text">Utilizar estos elementos HTML para destacar una cita literal.</div>
+                                </blockquote> --}}
                             </div>
 
                             {{-- <!--post-share-options-->

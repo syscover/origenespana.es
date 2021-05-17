@@ -9,7 +9,7 @@
         display: block;
         text-align: center;
     }
-    
+
     &.btn-style-one,
     &.btn-style-two,
     &.btn-style-five {
@@ -39,7 +39,8 @@ main {
 
     .page-breadcrumb {
         li {
-            color: $origen-red;
+            color: #dddddd;
+            font-weight: bold !important;
 
             a {
                 color: $white;
@@ -71,7 +72,7 @@ main {
         .owl-carousel.owl-theme {
             .owl-dots {
                 .owl-dot {
-                    &:hover, 
+                    &:hover,
                     &.active {
                         background-color: $origen-red;
                     }

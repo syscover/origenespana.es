@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <h2><a href="{{ route('web.blog.post', ['slug' => $newsItem->slug]) }}">{{ $newsItem->title }}</a></h2>
-                    <div class="text">{!! $newsItem->article !!}</div>
+                    <div class="text">{!! $newsItem->summary !!}</div>
                     <a class="read-more" href="{{ route('web.blog.post', ['slug' => $newsItem->slug]) }}">Leer más</a>
                 </div>
             </div>

@@ -14,7 +14,7 @@
                         <img src="{{ asset('images/dop.png') }}" alt="DOP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Denominación de Origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
@@ -31,7 +31,7 @@
                         <img src="{{ asset('images/igp.png') }}" alt="IGP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con denominación de origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Indicación Geográfica hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>

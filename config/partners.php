@@ -373,6 +373,36 @@ return [
                 <p>Los procedimientos de extracción serán exclusivamente mecánicos. Por procedimientos mecánicos se entiende el molido, batido, prensado, centrifugado, decantación y filtrado, sin que el producto sufra ningún tipo de transformación que altere sus características naturales. Las características diferenciales del Aceite del Bajo Aragón se pueden definir en tres puntos: aspecto (limpio, sin indicios de turbiedad o suciedad), color (amarillo con matices desde el amarillo dorado al oro viejo, característicos de la variedad Empeltre) y sabor (aceite suave, fluido y muy agradable en boca, con sabores que recuerdan a la fragancia del olivo).</p>',
         ],
         (object)[
+            'name'      => 'IGP Aceite de Jaén',
+            'position'  => 'Socio',
+            'slug'      => 'aceite-jaen',
+            'email'     => '',
+            'recipient' => 'Consejo Regulador IGP Aceite de Jaén',
+            'address'   => 'Museo Terra Oleum, Calle Sierra Morena Numero 13',
+            'zip'       => '23620',
+            'province'  => 'Jaén',
+            'locality'  => 'Mengíbar',
+            'phone'     => '616 377 312',
+            'web'       => '',
+            'webUrl'    => '',
+            'social'    => (object)[
+                'facebook'  => '',
+                'twitter'   => '',
+                'instagram'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/aceite-de-jaen/logo.jpg',
+            'detailImages'  => [
+                'images/partners/aceite-de-jaen/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['aove'],
+            'description'   =>
+                '<p>El «Aceite de Jaén» es un aceite de oliva virgen extra, obtenido directamente del fruto del olivo (Olea europaea L.), exclusivamente por procedimientos mecánicos. Procederá obligatoriamente de las siguientes variedades, presentes, de forma aislada o combinada, en los olivares de la zona geográfica. Variedad principal: Picual, variedad autóctona que representa más del 90% de la superficie oleícola de la zona geográfica. Variedades secundarias: autóctonas Manzanilla de Jaén, Royal de Cazorla y Carrasqueño de Alcaudete, y no autóctonas Hojiblanca, Arbequina y Picudo. Al menos el 85% del aceite procederá de las variedades autóctonas.</p>
+                    <p>Las características organolépticas de los aceites de la IGP “Aceite de Jaén” están definidas por aromas a aceituna limpia, sana y fresca, recolectada antes del 31 de diciembre, donde los atributos amargo y picante están marcados.</p>',
+        ],
+        (object)[
             'name'      => 'IGP Ajo Morado de las Pedroñeras',
             'position'  => 'Socio',
             'slug'      => 'ajo-morado-pedroneras',
@@ -512,7 +542,7 @@ return [
             'description'   =>
                 '<p>Un aceite virgen de calidad debe mantener viva la gama de sabores que procede del fruto, y el aceite de oliva virgen de la denominación de origen de Baena los mantiene. Nuestras almazaras trabajan en frío, y así se separan rigurosamente los aceites de primera extracción, evitando que el calor altere los complejos vitamínicos y aromáticos del producto final. Nuestro aceite es afrutado, dependiendo la intensidad de esta característica del grado de madurez de la aceituna.</p>
                 <h3>Insustituible por su garantía</h3>
-                <p>Fruto en sazón, técnicas correctas de extracción y, después, el severo control del laboratorio y del panel de cata lo atestiguan. La contraetiqueta de Origen avala la garantía de que el aceite virgen extra expedido por nuestros envasadores, responde a la calidad y origen de la D.O. Baena.</p>' 
+                <p>Fruto en sazón, técnicas correctas de extracción y, después, el severo control del laboratorio y del panel de cata lo atestiguan. La contraetiqueta de Origen avala la garantía de que el aceite virgen extra expedido por nuestros envasadores, responde a la calidad y origen de la D.O. Baena.</p>'
         ],
         (object)[
             'name'      => 'DOP Cabrales',
@@ -544,7 +574,7 @@ return [
             'categories'    => ['quesos'],
             'description'   =>
                     '<p>El «Queso Cabrales» está amparado por la Denominación de Origen Protegida desde 1.981. La zona de elaboración de este producto comprende el Concejo de Cabrales y algunos pueblos del Concejo de Peñamellera Alta, ambos en Asturias.</p>
-                    <p>La leche empleada para su elaboración, se obtiene exclusivamente de los rebaños de vacas, ovejas y cabras registrados en la Denominación de Origen protegida. El ganado del que se obtiene la leche se alimenta en pastos de montaña. La maduración del queso de Cabrales se realiza en cuevas naturales.</p>' 
+                    <p>La leche empleada para su elaboración, se obtiene exclusivamente de los rebaños de vacas, ovejas y cabras registrados en la Denominación de Origen protegida. El ganado del que se obtiene la leche se alimenta en pastos de montaña. La maduración del queso de Cabrales se realiza en cuevas naturales.</p>'
         ],
         (object)[
             'name'      => 'DOP Calasparra',
@@ -577,7 +607,7 @@ return [
                     '<p>La concesión de la Denominación de Origen «Calasparra» fue aprobado de forma provisional en 1982 y definitiva en 1986 por Orden del Ministerio de Agricultura, Pesca y Alimentación de 19 de febrero de 1986. Siendo el primer Arroz de Europa con Denominación de Origen.</p>
                     <p>Se encuentra enclavada en el sureste de la Península Ibérica y está constituida por tierras de cultivo ubicadas en los términos municipales de Calasparra y Moratalla, en la Región de Murcia, y de Hellín en la provincia de Albacete, en la Comunidad de Castilla-La Mancha.</p>
                     <p>Esta zona se extiende por los márgenes de los ríos Segura y su afluente el Mundo, en pequeñas áreas de aluvión perfectamente delimitadas por estos ríos y las acequias madres de riego, que conforman el denominado Coto Arrocero.</p>
-                    <p>Se puede considerar un cultivo de montaña, ya que todas las parcelas están a una altitud de entre 350 y 500 m sobre el nivel del mar. Característica única de nuestro “Coto Arrocero” ya que todos los arroces Españoles están en deltas, albuferas y cursos bajos de los ríos. Las aguas que lo riegan son limpias y frías. Lo que le proporciona unos altos niveles de calidad al grano.</p>' 
+                    <p>Se puede considerar un cultivo de montaña, ya que todas las parcelas están a una altitud de entre 350 y 500 m sobre el nivel del mar. Característica única de nuestro “Coto Arrocero” ya que todos los arroces Españoles están en deltas, albuferas y cursos bajos de los ríos. Las aguas que lo riegan son limpias y frías. Lo que le proporciona unos altos niveles de calidad al grano.</p>'
         ],
         (object)[
             'name'      => 'IGP Carne de Ávila',
@@ -615,7 +645,7 @@ return [
                 <h3>Características del producto </h3>
                 <p>El ganado apto para suministrar carne con destino a la I.G.P. Carne de Ávila procede de la Raza Avileña-Negra Ibérica.</p>
                 <p>Son animales que están durante todo al año en el campo, salvo los terneros destetados y destinados a cebo, para cuya alimentación se utilizan exclusivamente piensos autorizados por el Consejo Regulador, cuyas materias primas son de origen vegetal y mineral.</p>
-                <p>Dependiendo de la edad de los animales y de su alimentación, se distinguen varios tipos de animales, aunque el que más se comercializa es el Añojo: animal que permanece con la madre y es destetado con una edad mínima de 5 meses, alimentado con recursos autorizados por el C. R. y sacrificado entre los 12 y 24 meses. Las características de la carne, después del sacrificio y faenado son el color rojo claro a púrpura, grasa cremosa y textura fina.</p>' 
+                <p>Dependiendo de la edad de los animales y de su alimentación, se distinguen varios tipos de animales, aunque el que más se comercializa es el Añojo: animal que permanece con la madre y es destetado con una edad mínima de 5 meses, alimentado con recursos autorizados por el C. R. y sacrificado entre los 12 y 24 meses. Las características de la carne, después del sacrificio y faenado son el color rojo claro a púrpura, grasa cremosa y textura fina.</p>'
         ],
         (object)[
             'name'      => 'IGP Carne de la Sierra de Guadarrama',
@@ -654,7 +684,7 @@ return [
                     <p>Las características de la carne, después del sacrificio y faenado son:</p>
                     <p>-	Ternera: La carne presentará un color rojo claro o rosado, con grasa de color blanco y distribución homogénea, músculo de consistencia firme y ligeramente húmeda.</p>
                     <p>-	Añojo: La carne presentará un color entre rojo claro y rojo púrpura brillante, con grasa de color blanco a crema, músculo de consistencia firme al tacto, ligeramente húmeda y textura fina.</p>
-                    <p>-	Cebón: La carne de estos animales presentará una grasa deun color cremoso, músculo de consistencia firme, ligeramente húmeda e infiltrada de grasa, pero sin cúmulos excesivos.</p>' 
+                    <p>-	Cebón: La carne de estos animales presentará una grasa deun color cremoso, músculo de consistencia firme, ligeramente húmeda e infiltrada de grasa, pero sin cúmulos excesivos.</p>'
         ],
         (object)[
             'name'      => 'IGP Castaña de Galicia',
@@ -690,7 +720,40 @@ return [
                     <p>-  Membrana fina que penetra ligeramente en la semilla y que se separa fácilmente al pelar la castaña. </p>
                     <p>-  Sabor dulce y textura firme no harinosa</p>
                     <p>-  Porcentaje medio de carbohidratos 59,5%</p>
-                    <p>La castaña representa uno de los alimentos esenciales de la gastronomía gallega, un fruto consumido desde hace siglos asado, cocido, en caldo con leche… y confitado siempre fue considerado un extraordinario manjar.</p>' 
+                    <p>La castaña representa uno de los alimentos esenciales de la gastronomía gallega, un fruto consumido desde hace siglos asado, cocido, en caldo con leche… y confitado siempre fue considerado un extraordinario manjar.</p>'
+        ],
+        (object)[
+            'name'      => 'DOP Cebolla Fuentes de Ebro',
+            'position'  => 'Socio',
+            'slug'      => 'cebolla-fuentes-ebro',
+            'email'     => 'info@cebollafuentesdeebro.com',
+            'recipient' => 'Consejo Regulador DOP Cebolla Fuentes de Ebro',
+            'address'   => 'Plaza Constitución, 4',
+            'zip'       => '50740',
+            'province'  => 'Zaragoza',
+            'locality'  => 'Fuentes de Ebro',
+            'phone'     => '976 169 100',
+            'web'       => 'cebollafuentesdeebro.com',
+            'webUrl'    => 'https://cebollafuentesdeebro.com/index.php',
+            'social'    => (object)[
+                'facebook'  => '',
+                'twitter'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/cebolla-fuentes-ebro/logo.jpg',
+            'detailImages'  => [
+                'images/partners/cebolla-fuentes-ebro/logo.jpg',
+                'images/partners/cebolla-fuentes-ebro/product01.jpg',
+                'images/partners/cebolla-fuentes-ebro/product02.jpg',
+                'images/partners/cebolla-fuentes-ebro/product03.jpg',
+                'images/partners/cebolla-fuentes-ebro/product04.jpg',
+            ],
+            'categories'    => ['hortalizas'],
+            'description'   =>
+                '<p>La Cebolla Fuentes de Ebro se caracteriza por tener un color externo blanco-paja, capas internas blancas y por su textura tierna, crocante y muy jugosa, debido a su elevado contenido en agua, pero principalmente destaca por ser una cebolla suave, digestiva, de escaso picor y con ausencia o leve retrogusto en boca.</p>
+                <p>Entre sus amplias virtudes destaca, en cocina, por ser excepcional para su disfrute en ensalada y por caramelizar sin necesidad de añadir azúcar por su dulzor natural; eso la hace ser una de las hortalizas preferidas de consumidores y cocineros, además de ser ideal para el consumo por parte de los niños y personas con intolerancia a las cebollas debido a su suavidad y digestividad.</p>
+                <h3>Estacionalidad e identificación de producto</h3>
+                <p>Esta hortaliza todavía mantiene su carácter estacional. Se puede encontrar en los mercados desde el mes de junio hasta diciembre.  La etiqueta con el logotipo de la Denominación de Origen Protegida garantiza que está consumiendo la auténtica Cebolla Fuentes de Ebro, producida en la zona geográfica delimitada y que cumple con los máximos parámetros de calidad, pasando unos estrictos controles tanto en el campo como en las empresas comercializadoras.</p>',
         ],
         (object)[
            'name'      => 'DOP Cereza del Jerte',
@@ -759,7 +822,7 @@ return [
                 <h3>Tradición</h3>
                 <p>De todas las zonas citrícolas del mundo, es la Comunidad Valenciana la tierra donde el cultivo de estos frutos está mas arraigada.</p>
                 <h3>Calidad</h3>
-                <p>La marca IGP Cítricos Valencianos ofrece un valor añadido a los cítricos que certifica el Consejo Regulador, que se encarga de realizar rigurosos controles tanto en campo como en almacenes de acondicionamiento y envasado.</p>' 
+                <p>La marca IGP Cítricos Valencianos ofrece un valor añadido a los cítricos que certifica el Consejo Regulador, que se encarga de realizar rigurosos controles tanto en campo como en almacenes de acondicionamiento y envasado.</p>'
         ],
         (object)[
             'name'      => 'IGP Cordero de Extremadura - CORDEREX',
@@ -893,6 +956,37 @@ return [
                 <p>La Denominación de Origen Estepa ha conseguido además que el 100% de su territorio trabaje bajo el método de producción integrada, un conjunto de técnicas que garantizan el cuidado del medio ambiente y la seguridad alimentaria.</p>'
         ],
         (object)[
+            'name'      => 'IGP Garbanzo de Escacena',
+            'position'  => 'Socio',
+            'slug'      => 'garbanzo-escacena',
+            'email'     => 'info@igpgarbanzodeescacena.com',
+            'recipient' => 'Consejo Regulador IGp Garbanzo de Escacena',
+            'address'   => 'Calle Mesón, 3',
+            'zip'       => '21870',
+            'province'  => 'Huelva',
+            'locality'  => 'Escacena del Campo',
+            'phone'     => '959 423 211',
+            'web'       => 'igpgarbanzodeescacena.com',
+            'webUrl'    => 'https://igpgarbanzodeescacena.com/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/IGPGarbanzoEscacena/',
+                'twitter'   => 'https://twitter.com/igp_deescacena?lang=es',
+                'instagram'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/garbanzo-de-escacena/logo.jpg',
+            'detailImages'  => [
+                'images/partners/garbanzo-de-escacena/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['legumbres'],
+            'description'   =>
+                '<p>La zona de producción de los productos amparados por la Indicación Geográfica Protegida «Garbanzo de Escacena» se encuentra en la antigua comarca histórica conocida como «El Campo de Tejada». Son suelos muy profundos, de alto contenido arcilloso (montmorillonitas principalmente) y que debido a la poca ondulación del terreno, tienen problemas de drenaje, presentando una gran capacidad de retención de humedad y una alta riqueza en bases. </h3>
+                 <p>El vínculo entre el garbanzo y la zona geográfica se basa en la reputación, derivada de la gran calidad del ecotipo local y de la larga tradición del cultivo en ella, de modo que los agricultores de la zona son perfectos conocedores de las mejores técnicas y de la selección de las tierras más adecuadas.</h3>
+                <p>Características organolépticas: albumen mantecoso y poco granuloso; piel blanda y fina, adherida al grano; gran finura al paladar; el sabor será siempre agradable, con ausencia de sabores extraños.</p>',
+        ],
+        (object)[
             'name'      => 'DOP Granada Mollar de Elche',
             'position'  => 'Socio',
             'slug'      => 'granada-mollar-elche',
@@ -994,6 +1088,36 @@ return [
                 '<p>La serranía de Teruel, seca y con vientos helados, representa un clima ideal para el secado perfecto de nuestro jamón de Denominación de Origen. Un jamón con poca sal, lleno de proteínas y vitaminas, y con bajo nivel de colesterol. Para saborearlo con toda su intensidad, se debe cortar a cuchillo, en virutas muy finas y a temperatura ambiente, nunca frío. Una vez abierto, lo aconsejable es taparlo con un paño para que conserve todo su sabor.</p>
                 <p>La Denominación de Origen Jamón de Teruel nació en 1984 y es la primera que se creó en España para amparar, controlar y garantizar la producción de jamones. Toda la elaboración del jamón de Teruel se realiza en la provincia. No sólo el curado y secado de las piezas, sino todas las granjas de producción de lechones y las de cebo de cerdo deben estar enclavadas en Teruel.</p>
                 <p>Nuestra Denominación de Origen selecciona el ganado del que proceden nuestros jamones. Pertenece al cruce entre las razas Landrace y Large White, en lo que respecta a la línea madre; y Duroc para la línea padre. Su alimentación es especialmente cuidada con piensos de los campos de Teruel.</p>'
+        ],
+        (object)[
+            'name'      => 'IGP Jamón de Trevélez',
+            'position'  => 'Socio',
+            'slug'      => 'jamon-de-trevelez',
+            'email'     => 'info@jamondetrevelez.es',
+            'recipient' => 'Consejo Regulador IGP Jamón de Trevélez',
+            'address'   => 'Pista de la Iglesia, 23',
+            'zip'       => '18417 ',
+            'province'  => 'Granada',
+            'locality'  => 'Trevélez ',
+            'phone'     => '958 858 582',
+            'web'       => 'jamondetrevelez.es',
+            'webUrl'    => 'http://www.jamondetrevelez.es/',
+            'social'    => (object)[
+                'facebook'  => '',
+                'twitter'   => 'https://twitter.com/jamondetrevelez',
+                'instagram' => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/jamon-de-trevelez/logo.jpg',
+            'detailImages'  => [
+                'images/partners/jamon-de-trevelez/logo.jpg',
+                // 'https://placehold.it/570x359',
+            ],
+            'categories'    => ['jamones'],
+            'description'   =>
+                '<p>Jamón de Trevélez es un jamón de cerdo blanco elaborado de manera tradicional, su proceso de elaboración se ha mantenido desde hace siglos transmitido de generación en generación.</p>
+                <p>Es un producto ligado al ámbito geográfico en el que se elabora, donde se dan unas condiciones climáticas en la que los factores de altitud, temperatura y humedad dan al producto unas cualidades propias que tradicionalmente le han caracterizado. La zona de elaboración de la IGP es una zona con una altitud superior a 1.200 metros de los municipios de Trevélez, Juviles, Busquístar, Pórtugos, La Tahá, Bubión, Capileira y Bérchules, todos en la provincia de Granada. Esta zona de elaboración se encuentra situada en la cara sur de Sierra Nevada, en la parte alta de la Alpujarra y dentro del Parque Natural de Sierra Nevada. Procede del cruce de cerdos de las razas Landrace, Large-White y Duroc-Jersey que se alimentan de piensos vegetales.</p>
+                <p>Este jamón reúne una serie de requisitos que lo diferencian. Es un producto elaborado bajo métodos tradicionales, se utiliza solo sal marina, sin conservantes ni nitrificantes, y el proceso de secado y curado se realiza de forma natural en un entorno geográfico delimitado que le confiere unas las características y cualidades que lo hacen único. Está identificado con un precinto de garantía, que puede ser de color azul, rojo o negro, en función del tamaño y curación de la pieza, y en la vitola lleva el logo de la IGP Jamón de Trevélez, así como el logo europeo y el logo de la empresa certificadora acreditada por ENAC.</p>',
         ],
         (object)[
             'name'      => 'DOP Kaki Ribera Xúquer',
@@ -1195,6 +1319,41 @@ return [
                 <p>La zona de producción amparada por la Denominación de Origen se halla situada en la parte nordeste de la provincia de Alicante, el eje se sitúa en Callosa d´En Sarriá, extendiéndose a varias localidades de la Marina Baixa, en esta zona del interior se dan unas condiciones naturales muy aptas para el cultivo del níspero , como son el clima propicio y unas aguas de calida excelente, también señalamos aquí que las condiciones sociológicas y humanas han sido altamente significativas y favorecedoras para que el Níspero progrese en Callosa d´En Sarriá hasta convertir el pueblo en el principal productor de España.</p>'
         ],
         (object)[
+            'name'      => 'IGP Pan de Cea',
+            'position'  => 'Socio',
+            'slug'      => 'pan-de-cea',
+            'email'     => 'info@pandecea.org',
+            'recipient' => 'Consejo Regulador IGP Pan de Cea',
+            'address'   => 'Praza Maior, 1',
+            'zip'       => '32130',
+            'province'  => 'Ourense',
+            'locality'  => 'Cea',
+            'phone'     => '618 265 307',
+            'web'       => 'pandecea.org',
+            'webUrl'    => 'http://www.pandecea.org/web/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/conselloregulador.pandecea/',
+                'instagram'   => 'https://www.instagram.com/pandecea/',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/pan-de-cea/logo.jpg',
+            'detailImages'  => [
+                'images/partners/pan-de-cea/logo.jpg',
+                'images/partners/pan-de-cea/product01.jpg',
+                'images/partners/pan-de-cea/product02.jpg',
+                'images/partners/pan-de-cea/product03.jpg',
+                'images/partners/pan-de-cea/product04.jpg',
+            ],
+            'categories'    => ['panes'],
+            'description'   =>
+                '<p>El producto amparado por la Indicación Geográfica Protegida (I.G.P.) “Pan de Cea” se define como el pan que se elabora con harina de trigo, con adición de agua potable y sal comestible, a lo que se añade, para su fermentación, masa madre procedente de una elaboración anterior. El amasado se realiza en varias etapas, según las técnicas ancestrales de la zona, mediante un laborioso proceso artesanal. Por último, la masa se cuece en hornos de piedra granítica de diseño característico de la zona que son previamente calentados con leña.</p>
+                <h3>Características</h3>
+                <p>Forma de las piezas de pan: alargada y redondeada en sus extremos, con una hendidura transversal en el centro de su parte superior, denominada “fenda”, que otorga a la pieza un aspecto característico, quedando dividida en dos partes iguales abombadas y ensambladas entre sí.</p>,
+                <p>Presentaciones: Existen dos tipos de presentación que se diferencian por su peso y dimensiones: Pieza o “Poia -Peso entre 1 y 1,2 kg-. Media pieza o “Molete”: -Peso entre 0,5 y 0,6 kg-</p>,
+                <p>Corteza: Gruesa, de espesor variable, incluso en una misma pieza, oscilando aproximadamente entre 0.5 y 1 cm. Consistencia dura y rígida, con rotura crujiente y con tendencia a hacer láminas. Color desde dorado hasta castaño oscuro. Sabor a tostado. </p>,
+                <p>Miga: Textura esponjosa, fibrosa y firme. Alveolado no muy abundante, distribuido de forma irregular y de tamaño muy variable. Color apergaminado, que recuerda al del grano de trigo entero. o Sabor intenso a trigo.</p>',
+        ],
+        (object)[
             'name'      => 'DOP Pasas de Málaga',
             'position'  => 'Socio',
             'slug'      => 'pasas-de-malaga',
@@ -1264,6 +1423,37 @@ return [
                 <p>Forma de los tubérculos: redonda a oval; presencia de ojos muy superficiales; piel de apariencia lisa y fina; color de la piel: amarillo claro; color de la carne: blanco; textura firme al tacto y cremosa al ser cocida, consistente en boca; calidad para consumo: excelente, destacando por su contenido en materia seca y por mantener sus cualidades de color, aroma y sabor después de ser cocinadas.</p>
                 <p>En el apartado referente a sus características analíticas, éstas deben cumplir:</p>
                 <p>contenido en materia seca superior al 18% y contenido en azúcares reductores inferior al 0,4%.</p>'
+        ],
+        (object)[
+            'name'      => 'DOP Pemento de Herbón / Pimiento de Herbón',
+            'position'  => 'Socio',
+            'slug'      => 'pemento-herbon',
+            'email'     => 'info@pementodeherbon.com',
+            'recipient' => 'Consejo Regulador DOP Pemento de Herbón',
+            'address'   => 'Calle Dolores s/n',
+            'zip'       => '15900',
+            'province'  => 'A Coruña',
+            'locality'  => 'Padrón',
+            'phone'     => '',
+            'web'       => 'pementodeherbon.com',
+            'webUrl'    => 'https://pementodeherbon.com/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/conselloreguladorpementoherbon/',
+                'twitter'   => '',
+                'instagram'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/pemento-de-herbon/logo.jpg',
+            'detailImages'  => [
+                'images/partners/pemento-de-herbon/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['hortalizas'],
+            'description'   =>
+                '<p>Los pimientos amparados por la Denominación de Origen Protegida (D.O.P.) «Pemento de Herbón», son los frutos de la especie Capsicum annuun, L, procedentes de los ecotipos locales de la variedad «Padrón», siempre que procedan de parcelas inscritas en el correspondiente registro, gestionado por el órgano de control. En la etiqueta comercial debe figurar obligatoriamente la mención Denominación de Origen Protegida «Pemento de Herbón». Así como la variedad de la planta «variedad Padrón». Actualmente figuran inscritas en el Consejo Regulador siete plantas de envasado.</p>
+                <p>El fruto es recolectado en estado inmaduro precoz para su comercialización en fresco. Presentando un color verde ligeramente claro, una longitud de entre 3,5 y 5,5 cm y un diámetro máximo entre 1,5 y 2 cm.</h3>
+                <p>Una de las características organolépticas más destacadas del «Pemento de Herbón» se refiere a que no todos los frutos presentan sabor picante, sino que éste ocasionalmente aparece («uns pican e outros non», de acuerdo con la conocida frase popular referida a este producto) y que es un picor ligero, ya que los productores se esmeran en seleccionar el producto eliminando aquellas plantas y frutos con sabor picante más intenso. La forma en la que se ha llegado a conseguir esto, partiendo de una variedad originalmente picante, es quizás el elemento de prueba más importante referente al vínculo con el «saber hacer» de los productores de la zona.</p>',
         ],
         (object)[
             'name'      => 'DOP Pera de Jumilla',
@@ -1583,6 +1773,67 @@ return [
                <p>Una característica importante del queso camerano son sus marcas exteriores, generadas por la “cilla”, que es un molde para la formación del queso, el cual al ser de mimbre trenzado, deja sus marcas en el exterior del queso.</p>'
         ],
         (object)[
+            'name'      => 'DOP Queso Palmero',
+            'position'  => 'Socio',
+            'slug'      => 'queso-palmero',
+            'email'     => 'quesopalmero@quesopalmero.es',
+            'recipient' => 'Consejo Regulador DOP Queso Palmero',
+            'address'   => 'Agencia de Extensión Agraria de Breña Alta. C/ Europa, nº 6',
+            'zip'       => '38710',
+            'province'  => 'Isla de La Palma. Canarias',
+            'locality'  => 'Breña Alta',
+            'phone'     => '922 417 060',
+            'web'       => 'quesopalmero.es',
+            'webUrl'    => 'https://www.quesopalmero.es/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/crdopquesopalmero/',
+                'twitter'   => '',
+                'instagram'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/queso-palmero/logo.jpg',
+            'detailImages'  => [
+                'images/partners/queso-palmero/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['quesos'],
+            'description'   =>
+                '<p>El Queso Palmero es un producto de calidad, que ha venido siendo elaborado durante generaciones de forma artesanal. El Consejo Regulador certifica la calidad de los quesos con una contraetiqueta de numeración individual. Su presencia es una garantía de autenticidad, avalada por los estrictos controles de la Denominación de Origen.</p>
+                <p>Queso Palmero no hay más que uno, pero imitadores hay muchos. Para estar seguro de lo que compras, busca siempre las contraetiquetas que garantizan su autenticidad.</p>',
+        ],
+        (object)[
+            'name'      => 'DOP Queso de la Serena',
+            'position'  => 'Socio',
+            'slug'      => 'queso-serena',
+            'email'     => 'info@quesoserena.com',
+            'recipient' => 'Consejo Regulador DOP Queso de la Serena',
+            'address'   => 'Institución Ferial de La Serena  –  Ctra. Ex-104 s/n. Apdo. correos 32',
+            'zip'       => '06420',
+            'province'  => 'Badajoz',
+            'locality'  => 'Castuera',
+            'phone'     => '610 464 346',
+            'web'       => 'quesoserena.com',
+            'webUrl'    => 'https://quesoserena.com/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/dopquesoserena/',
+                'twitter'   => 'https://twitter.com/dopquesoserena?lang=es',
+                'instagram'   => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/queso-de-la-serena/logo.jpg',
+            'detailImages'  => [
+                'images/partners/queso-de-la-serena/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['quesos'],
+            'description'   =>
+                '<p>El Queso de la Serena es el único que se elabora con leche cruda de oveja merina y cuajo vegetal siguiendo un proceso de elaboración totalmente artesanal y según la tradición heredada de padres a hijos</p>
+                <p>Se trata de un producto tan exquisito que para la fabricación de un kilogramo de Queso de la Serena se necesita la producción de 15 ovejas, ya que de esta raza sólo se extraen 0.350 litros de leche diarios. La leche de oveja merina tiene un contenido mínimo de un 5% en proteínas y un 7% en materia grasa.</h3>
+                <p>Con el propósito de evitar imitaciones y otorgar un elemento diferenciador, cada pieza de Queso de la Serena va identificada en su parte inferior por un sello de “marcado a fuego”. Este sello alimentario representa el logotipo de la Denominación de Origen Protegida y sólo lo llevan las piezas que han superado los controles del consejo regulador. Este sello, unido a la etiqueta numerada del consejo regulador, garantiza al consumidor que el producto es un auténtico Queso de la Serena.</p>',
+        ],
+        (object)[
            'name'      => 'DOP San Simón da Costa',
            'position'  => 'Socio',
            'slug'      => 'san-simon-da-costa',
@@ -1617,6 +1868,37 @@ return [
                 <p>La elaboración del queso San Simón da Costa aúna una receta tradicional con las mejores materias primas y el máximo control higiénico-sanitario. Dos características especiales destacan en el proceso de elaboración, otorgándole su particular sabor y aroma. En primer lugar, su materia prima fundamental: la leche de vaca y, en segundo lugar, para otorgarle su característica más significativa, la fase de AHUMADO, en la que se emplea la madera de un árbol típico de la zona: el ABEDUL.</p>
                 <p>La corteza es ahumada, dura e inelástica, de 1 a 3 mm de grosor, color amarillo-ocre y algo grasienta. La pasta tiene textura fina, grasa, semidura y semielástica, color entre blanca y amarilla, suave al corte, con aroma y sabor característicos.</p>
                 <p>En cuanto a los ojos no habrá muchos, de forma redondeada o irregular y tamaño variable inferior a medio guisante.</p>'
+        ],
+        (object)[
+            'name'      => 'DOP Sierra de Cazorla',
+            'position'  => 'Socio',
+            'slug'      => 'sierra-de-cazorla',
+            'email'     => 'denominacion@dosierracazorla.com',
+            'recipient' => 'Consejo Regulador DOP Sierra de Cazorla',
+            'address'   => 'Ctra. Peal de Becerro-CazorlaK 10.5',
+            'zip'       => '23470',
+            'province'  => 'Jaén',
+            'locality'  => 'Cazorla',
+            'phone'     => '953 722 121',
+            'web'       => 'dosierracazorla.com',
+            'webUrl'    => 'https://www.desierracazorla.es/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.desierracazorla.es/contacto/#',
+                'twitter'   => 'https://www.desierracazorla.es/contacto/#',
+                'instagram'   => 'https://www.desierracazorla.es/contacto/#',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/sierra-de-cazorla/logo.jpg',
+            'detailImages'  => [
+                'images/partners/sierra-de-cazorla/logo.jpg',
+                'https://placehold.it/555x400',
+                'https://placehold.it/555x400',
+            ],
+            'categories'    => ['aove'],
+            'description'   =>
+                '<p>La Sierra de Cazorla ofrece a su olivar unas connotaciones diferenciales que se manifiestan en sus aceites de oliva virgen extra, esos que arropa su Denominación de Origen. El entorno geográfico, las singularidades de la zona, y las características del propio cultivo en esta región aportan unas variables de calidad únicas y exclusivas que son las que definen a los aceites de la Denominación de Origen Sierra de Cazorla. Es objetivo del Consejo Regulador proteger que los aceites con su sello salvaguarden y potencien esas notas sobresalientes de calidad en su recolección, producción y envasado, y a la vez promocionarlos incidiendo en esas mismas cualidades.</p>
+                <p>Nuestros olivares discurren entre esta sierra sin igual, corazón del Parque Natural de Cazorla, Segura y Las Villas. Y como a cualquier fruto único arropado por un territorio, en este caso nuestros aceites están regados con todos los matices de esta singular Reserva de la Biosfera. Olivares de Cazorla, Chilluévar, Hinojares, Huesa, La Iruela, Peal de Becerro, Pozo Alcón, Quesada y Santo Tomé clavan sus raíces en ese tesoro verde. Precisamente esa identidad de territorio único, donde la campiña se entremezcla con la sierra, es el principal argumento para obtener estos aceites de oliva de magnitud sensorial incomparable.</h3>
+                <p>Por todo ello,  nuestros olivos, los de la Denominación de Origen Sierra de Cazorla, no pueden más que destilar recuerdos sensoriales de lo que esta tierra les ha dado. </p>',
         ],
         (object)[
            'name'      => 'DOP Sierra de Segura',
@@ -1683,6 +1965,39 @@ return [
                 <p>La Sobrasada de Mallorca es el símbolo más claro de la cultura gastronómica mallorquina, tan mediterránea. La IGP protege dos tipos de sobrasada, que se comercializa en variedad de presentaciones; la Sobrasada de Mallorca de Cerdo Negro: elaborada con carnes de cerdo de raza autóctona mallorquina y la Sobrasada de Mallorca elaborada con carnes seleccionadas de ganado porcino.</p>
                 <p>Además de untada sobre pan, a temperatura ambiente o bien con un poco de calor, la Sobrasada de Mallorca es muy versátil en la cocina; personaliza platos de verduras, realza y da un toque de color en caldos y cocidos, a arroces caldosos y secos, enriquece el sabor de salsas, e incluso se utiliza en postres.</p>
                 <p>Se certifica la calidad y el origen de la Sobrasada de Mallorca mediante la etiqueta de la IGP, que es la garantia de autenticidad, esta etiqueta es otorgada por el Consejo Regulador, un organismo acreditado por ENAC.</p>'
+        ],
+        (object)[
+            'name'      => 'IGP Tarta de Santiago',
+            'position'  => 'Socio',
+            'slug'      => 'tarta-de-santiago',
+            'email'     => 'info@tartadesantiago.org',
+            'recipient' => 'Consejo Regulador IGP Tarta de Santiago',
+            'address'   => 'Pazo de Quián s/n – Sergude',
+            'zip'       => '15881',
+            'province'  => 'A Coruña',
+            'locality'  => 'Boqueixón',
+            'phone'     => '981 997 279',
+            'web'       => 'tartadesantiago.org',
+            'webUrl'    => 'http://www.tartadesantiago.org/',
+            'social'    => (object)[
+                'facebook'  => 'https://www.facebook.com/tartadesantiago/?ref=page_internal',
+                'twitter'   => '',
+                'instagram' => '',
+            ],
+            'headerImage'   => null,
+            'listImage'     => 'images/partners/tarta-de-santiago/logo.jpg',
+            'detailImages'  => [
+                'images/partners/tarta-de-santiago/logo.jpg',
+                'images/partners/tarta-de-santiago/product01.jpg',
+                'images/partners/tarta-de-santiago/product02.jpg',
+                'images/partners/tarta-de-santiago/product03.jpg',
+                'images/partners/tarta-de-santiago/product04.jpg',
+            ],
+            'categories'    => ['reposteria'],
+            'description'   =>
+                '<p>El producto amparado por la indicación xeográfica protexida ( IXP) Tarta de Santiago es un dulce tradicional gallego, cuyos componentes básicos son almendras, azúcar y huevo, empleados en las proporciones y según las condiciones que se definen en el pliego de condiciones del producto, y en el Reglamento. La zona de elaboración de las tartas amparadas por la IXP Tarta de Santiago abarca todo el territorio de la Comunidad Autónoma de Galicia.</p>
+                <p>Historia: Nace en las cocinas acomodadas en los siglos XVI al XVIII. La alta repostería gallega de los tiempos históricos se caracteriza por la presencia de dos ingredientes: azúcar y almendra.</p>
+                <p>Las tartas amparadas por la indicación geográfica protegida Tarta de Santiago se presentan envasadas y etiquetadas. El envasado y etiquetado deberá efectuarse en las instalaciones de elaboración que figuran inscritas en el registro de talleres del Consejo Regulador. Las tartas se presentan en envases individualizados en los que irá la contraetiqueta numerada que identifica el producto amparado por esta indicación geográfica. Sólo la auténtica Tarta de Santiago puede llamarse Tarta de Santiago y en ella siempre aparecerá el sello.</p>',
         ],
         (object)[
            'name'      => 'IGP Ternasco de Aragón',
@@ -1856,138 +2171,37 @@ return [
                <p>La distinción de la carne de vacuno con IGP Ternera de Aliste se debe, en gran medida, al medio físico. El producto en sí tiene unas cualidades específicas propias debido a los particulares métodos de cría, basados en gran medida en la cría del ternero a partir de la lactancia materna, unidos a su sacrificio a edades tempranas, que dan como resultado una carne con características propias y distintivas, que destacan por su color característico rosa claro a rosa (L*=41,2-43,1; a*=12,1-12,9; b*=11,5-12,4), un suave sabor y una apreciada jugosidad (12,2% p.p.c. a 100ºC) y terneza (3,31-3,71 kg/cm2, sonda de Warner-Bratzler), con una grasa blanca y nacarada, de consistencia firme.</p>'
         ],
         (object)[
-           'name'      => 'DOP Vinagre de Jerez',
-           'position'  => 'Socio',
-           'slug'      => 'vinagre-de-jerez',
-           'email'     => 'vinjerez@sherry.org',
-           'recipient' => 'Consejo Regulador DOP Vinagre de Jerez',
-           'address'   => 'Avda. Alcalde Álvaro Domecq, nº 2',
-           'zip'       => '11402',
-           'province'  => 'Cádiz',
-           'locality'  => 'Jerez de la Frontera',
-           'phone'     => '956 332 050',
-           'web'       => 'vinagredejerez.org',
-           'webUrl'    => 'https://www.vinagredejerez.org/',
-           'social'    => (object)[
-               'facebook'  => 'https://www.facebook.com/vinosjerez/',
-               'instagram' => 'https://www.instagram.com/vinagredejerezdo/',
-            ],
-           'headerImage'   => null,
-           'listImage'     => 'images/partners/vinagre-de-jerez/logo.jpg',
-           'detailImages'  => [
-               'images/partners/vinagre-de-jerez/logo.jpg',
-               'images/partners/vinagre-de-jerez/product01.jpg',
-               'images/partners/vinagre-de-jerez/product02.jpg',
-               'images/partners/vinagre-de-jerez/product03.jpg',
-               'images/partners/vinagre-de-jerez/product04.jpg',
-           ],
-           'categories'    => ['vinagres'],
-           'description'   =>
-               '<p>La carne amparada por la I.G.P “Ternera de Extremadura” se corresponde con las producciones de vacuno en extensivo que durante siglos ha sido practicada en el ecosistema de la Dehesa en la Comunidad de Extremadura, las características de convivencia con las ganaderías de ovejas merinas y cerdo ibérico, así como con la fauna silvestre, han hecho de este sistema de explotación de la Dehesa el mejor aliado de relación hombre-ecosistema, en un momento en que la sostenibilidad, respeto y conservación del medio ambiente es tan necesariamente reconocido.</p>
-                <p>La explotación de las distintas razas autóctonas (Avileña-Negra Ibérica, Retinta, Blanca Cacereña, Morucha, Berrendas en Negro y Colorado), aprovechando las distintas y variadas zonas del amplio territorio extremeño y sus cruces con las razas españolas que están adaptadas al régimen extensivo, han dado un producto muy valorado por el consumidor, con unas características de obtención, elaboración y organolépticas en línea con los deseos y las tendencias de consumo actuales.</p>
-                <p>Las distintas presentaciones del producto en función de la edad de los animales son tres; TERNERA, AÑOJO y NOVILLO desde menos del año hasta los tres años. Variando la carne en su color, textura y brillo desde el rosa brillante al rojo cereza. La alimentación, raza y sistema productivo confieren unas características a la grasa en cuanto a infiltración, color, consistencia, brillo y textura que dan las características organolépticas propias al producto.</p>
-                <p>Todo esto con un estricto control desde origen hasta el etiquetado y certificado del producto hacen de la I.G.P Ternera de Extremadura cumplir su máxima DE LA DEHESA A LA MESA.</p>'
-        ],
-        (object)[
-            'name'      => 'IGP Tarta de Santiago',
+            'name'      => 'DOP Vinagre de Jerez',
             'position'  => 'Socio',
-            'slug'      => 'tarta-de-santiago',
-            'email'     => 'info@tartadesantiago.org',
-            'recipient' => 'Consejo Regulador IGP Tarta de Santiago',
-            'address'   => 'Pazo de Quián s/n – Sergude',
-            'zip'       => '15881',
-            'province'  => 'A Coruña',
-            'locality'  => 'Boqueixón',
-            'phone'     => '981 997 279',
-            'web'       => 'tartadesantiago.org',
-            'webUrl'    => 'http://www.tartadesantiago.org/',
+            'slug'      => 'vinagre-de-jerez',
+            'email'     => 'vinjerez@sherry.org',
+            'recipient' => 'Consejo Regulador DOP Vinagre de Jerez',
+            'address'   => 'Avda. Alcalde Álvaro Domecq, nº 2',
+            'zip'       => '11402',
+            'province'  => 'Cádiz',
+            'locality'  => 'Jerez de la Frontera',
+            'phone'     => '956 332 050',
+            'web'       => 'vinagredejerez.org',
+            'webUrl'    => 'https://www.vinagredejerez.org/',
             'social'    => (object)[
-                'facebook'  => 'https://www.facebook.com/tartadesantiago/?ref=page_internal',
-                'twitter'   => '',
-                'instagram' => '',
-            ],
+                'facebook'  => 'https://www.facebook.com/vinosjerez/',
+                'instagram' => 'https://www.instagram.com/vinagredejerezdo/',
+                'twitter' => 'https://twitter.com/vinosjerez',
+                'youtube' => 'https://www.youtube.com/user/vinosdejereztv?feature=results%20main',
+             ],
             'headerImage'   => null,
-            'listImage'     => 'images/partners/tarta-de-santiago/logo.jpg',
+            'listImage'     => 'images/partners/vinagre-de-jerez/logo.jpg',
             'detailImages'  => [
-                'images/partners/tarta-de-santiago/logo.jpg',
-                'images/partners/tarta-de-santiago/product01.jpg',
-                'images/partners/tarta-de-santiago/product02.jpg',
-                'images/partners/tarta-de-santiago/product03.jpg',
-                'images/partners/tarta-de-santiago/product04.jpg',
+                'images/partners/vinagre-de-jerez/logo.jpg',
+                'https://placehold.it/570x359',
+                'https://placehold.it/570x359',
             ],
-            'categories'    => ['reposteria'],
+            'categories'    => ['vinagres'],
             'description'   =>
-                '<p>El producto amparado por la indicación xeográfica protexida ( IXP) Tarta de Santiago es un dulce tradicional gallego, cuyos componentes básicos son almendras, azúcar y huevo, empleados en las proporciones y según las condiciones que se definen en el pliego de condiciones del producto, y en el Reglamento. La zona de elaboración de las tartas amparadas por la IXP Tarta de Santiago abarca todo el territorio de la Comunidad Autónoma de Galicia.</p>
-                <p>Historia: Nace en las cocinas acomodadas en los siglos XVI al XVIII. La alta repostería gallega de los tiempos históricos se caracteriza por la presencia de dos ingredientes: azúcar y almendra.</p>
-                <p>Las tartas amparadas por la indicación geográfica protegida Tarta de Santiago se presentan envasadas y etiquetadas. El envasado y etiquetado deberá efectuarse en las instalaciones de elaboración que figuran inscritas en el registro de talleres del Consejo Regulador. Las tartas se presentan en envases individualizados en los que irá la contraetiqueta numerada que identifica el producto amparado por esta indicación geográfica. Sólo la auténtica Tarta de Santiago puede llamarse Tarta de Santiago y en ella siempre aparecerá el sello.</p>',
-        ],
-        (object)[
-            'name'      => 'DOP Cebolla Fuentes de Ebro',
-            'position'  => 'Socio',
-            'slug'      => 'cebolla-fuentes-ebro',
-            'email'     => 'info@cebollafuentesdeebro.com',
-            'recipient' => 'Consejo Regulador DOP Cebolla Fuentes de Ebro',
-            'address'   => 'Plaza Constitución, 4',
-            'zip'       => '50740',
-            'province'  => 'Zaragoza',
-            'locality'  => 'Fuentes de Ebro',
-            'phone'     => '976 169 100',
-            'web'       => 'cebollafuentesdeebro.com',
-            'webUrl'    => 'https://cebollafuentesdeebro.com/index.php',
-            'social'    => (object)[
-                'facebook'  => '',
-                'twitter'   => '',
-            ],
-            'headerImage'   => null,
-            'listImage'     => 'images/partners/cebolla-fuentes-ebro/logo.jpg',
-            'detailImages'  => [
-                'images/partners/cebolla-fuentes-ebro/logo.jpg',
-                'images/partners/cebolla-fuentes-ebro/product01.jpg',
-                'images/partners/cebolla-fuentes-ebro/product02.jpg',
-                'images/partners/cebolla-fuentes-ebro/product03.jpg',
-                'images/partners/cebolla-fuentes-ebro/product04.jpg',
-            ],
-            'categories'    => ['hortalizas'],
-            'description'   =>
-                '<p>La Cebolla Fuentes de Ebro se caracteriza por tener un color externo blanco-paja, capas internas blancas y por su textura tierna, crocante y muy jugosa, debido a su elevado contenido en agua, pero principalmente destaca por ser una cebolla suave, digestiva, de escaso picor y con ausencia o leve retrogusto en boca.</p>
-                <p>Entre sus amplias virtudes destaca, en cocina, por ser excepcional para su disfrute en ensalada y por caramelizar sin necesidad de añadir azúcar por su dulzor natural; eso la hace ser una de las hortalizas preferidas de consumidores y cocineros, además de ser ideal para el consumo por parte de los niños y personas con intolerancia a las cebollas debido a su suavidad y digestividad.</p>
-                <h3>Estacionalidad e identificación de producto</h3>
-                <p>Esta hortaliza todavía mantiene su carácter estacional. Se puede encontrar en los mercados desde el mes de junio hasta diciembre.  La etiqueta con el logotipo de la Denominación de Origen Protegida garantiza que está consumiendo la auténtica Cebolla Fuentes de Ebro, producida en la zona geográfica delimitada y que cumple con los máximos parámetros de calidad, pasando unos estrictos controles tanto en el campo como en las empresas comercializadoras.</p>',
-        ],
-        (object)[
-            'name'      => 'IGP Pan de Cea',
-            'position'  => 'Socio',
-            'slug'      => 'pan-de-cea',
-            'email'     => 'info@pandecea.org',
-            'recipient' => 'Consejo Regulador IGP Pan de Cea',
-            'address'   => 'Praza Maior, 1',
-            'zip'       => '32130',
-            'province'  => 'Ourense',
-            'locality'  => 'Cea',
-            'phone'     => '618 265 307',
-            'web'       => 'pandecea.org',
-            'webUrl'    => 'http://www.pandecea.org/web/',
-            'social'    => (object)[
-                'facebook'  => 'https://www.facebook.com/conselloregulador.pandecea/',
-                'instagram'   => 'https://www.instagram.com/pandecea/',
-            ],
-            'headerImage'   => null,
-            'listImage'     => 'images/partners/pan-de-cea/logo.jpg',
-            'detailImages'  => [
-                'images/partners/pan-de-cea/logo.jpg',
-                'images/partners/pan-de-cea/product01.jpg',
-                'images/partners/pan-de-cea/product02.jpg',
-                'images/partners/pan-de-cea/product03.jpg',
-                'images/partners/pan-de-cea/product04.jpg',
-            ],
-            'categories'    => ['panes'],
-            'description'   =>
-                '<p>El producto amparado por la Indicación Geográfica Protegida (I.G.P.) “Pan de Cea” se define como el pan que se elabora con harina de trigo, con adición de agua potable y sal comestible, a lo que se añade, para su fermentación, masa madre procedente de una elaboración anterior. El amasado se realiza en varias etapas, según las técnicas ancestrales de la zona, mediante un laborioso proceso artesanal. Por último, la masa se cuece en hornos de piedra granítica de diseño característico de la zona que son previamente calentados con leña.</p>
-                <h3>Características</h3>
-                <p>Forma de las piezas de pan: alargada y redondeada en sus extremos, con una hendidura transversal en el centro de su parte superior, denominada “fenda”, que otorga a la pieza un aspecto característico, quedando dividida en dos partes iguales abombadas y ensambladas entre sí.</p>,
-                <p>Presentaciones: Existen dos tipos de presentación que se diferencian por su peso y dimensiones: Pieza o “Poia -Peso entre 1 y 1,2 kg-. Media pieza o “Molete”: -Peso entre 0,5 y 0,6 kg-</p>,
-                <p>Corteza: Gruesa, de espesor variable, incluso en una misma pieza, oscilando aproximadamente entre 0.5 y 1 cm. Consistencia dura y rígida, con rotura crujiente y con tendencia a hacer láminas. Color desde dorado hasta castaño oscuro. Sabor a tostado. </p>,
-                <p>Miga: Textura esponjosa, fibrosa y firme. Alveolado no muy abundante, distribuido de forma irregular y de tamaño muy variable. Color apergaminado, que recuerda al del grano de trigo entero. o Sabor intenso a trigo.</p>',
+                '<p>El carácter único y la extraordinaria calidad del vinagre de Jerez reside en su distinguido origen. El Vinagre de Jerez recibe su exclusiva personalidad de los Vinos de Jerez, vinos nobles por excelencia, de los que hereda insuperables cualidades y matices. Es, por tanto, la comarca conocida como Marco de Jerez, en el sur de Andalucía, donde se elaboran estos singulares vinos, el lugar de procedencia del Vinagre de Jerez.</p>
+                <p>El vinagre de Jerez es uno de los condimentos gastronómicos más apreciado del mundo. Es un producto obtenido mediante la acción de la bacteria acética sobre vinos de Jerez, bien del año sin fortificar o bien en crianza. El vinagre se envejece siguiendo un proceso de crianza exclusivo: el tradicional sistema de soleras y criaderas. Un genuino sistema de envejecimiento en barricas de roble americano especialmente prolongado que explica la elevada complejidad y la extraordinaria concentración de este condimento.</p>
+                <p>De profundo color caoba y brillantes reflejos ambarinos. Destaca por su inconfundible y potente aroma, cargado de matices que nos recuerdan a la vainilla, los frutos secos y la madera envinada. A ello se une un sabor al paladar ácido y secante que nos recuerda su procedencia jerezana.</p>
+                <p>Según el periodo de envejecimiento en madera se distinguen tres tipos: Vinagre de Jerez, vinagre de Jerez reserva, y vinagre de Jerez Gran Reserva. Según los vinos utilizados: Vinagre de Jerez, vinagre de Jerez al Pedro Ximénez y vinagre de Jerez al Moscatel.</p>'
         ],
     ]
 ];
