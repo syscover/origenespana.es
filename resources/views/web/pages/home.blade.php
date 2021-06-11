@@ -14,7 +14,7 @@
                         <img src="{{ asset('images/dop.png') }}" alt="DOP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Denominación de Origen hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Denominación de Origen Protegida hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
@@ -31,7 +31,7 @@
                         <img src="{{ asset('images/igp.png') }}" alt="IGP">
                     </h2>
                     <div class="text">
-                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Indicación Geográfica hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
+                        Estos sellos no son una etiqueta más, son la garantía de que tras cada producto con Indicación Geográfica Protegida hay una historia de esfuerzo, tradición y calidad. Un producto con origen único garantizado que llega a nosotros cada vez que los disfrutamos.
                     </div>
                     <div class="link-box">
                         <a href="{{ route('web.seals') }}" class="theme-btn btn-style-two">Más información</a>
@@ -117,7 +117,7 @@
                             <div class="inner-column">
                                 <p class="title">Asamblea 2019 <small>(5 al 7 de junio)</small></p>
                                 <div class="text">
-                                    Jerez de la Frontera se convirtió en la capital española de las DOP e IGP del 5 al 7 de junio de 2019. Allí celebró la asociación la undécima edición de las jornadas técnicas y asamblea general anual, organizadas por la <strong>DOP Vinagre de Jerez</strong> como parte de los actos conmemorativos del 25 aniversario de su creación.     
+                                    Jerez de la Frontera se convirtió en la capital española de las DOP e IGP del 5 al 7 de junio de 2019. Allí celebró la asociación la undécima edición de las jornadas técnicas y asamblea general anual, organizadas por la <strong>DOP Vinagre de Jerez</strong> como parte de los actos conmemorativos del 25 aniversario de su creación.
                                 </div>
                                 {{-- <div class="author">Camron White</div> --}}
                             </div>
